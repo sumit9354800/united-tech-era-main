@@ -1,0 +1,2349 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+
+.animation-effact {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+/* Learn From Microsoft Certified Expert apply start */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px 25px;
+    background-color: #eee;
+    gap: 330px;
+}
+
+.dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+.blue {
+    background-color: #2196f3;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+.btns {
+    background-color: #1e88e5;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btns:hover {
+    background-color: #1565c0;
+    color: white;
+}
+
+/* Learn From Microsoft Certified Expert apply END END END */
+
+
+/* main carousle start */
+
+.bg-container {
+    background-color: rgb(15, 15, 151);
+    padding: 1.25rem 2rem;
+}
+
+.lg-navbar {
+    background-image: url("../assest/home-assets/website images/Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.button:hover {
+    box-shadow: 2px 5px black;
+}
+
+.united-border {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px;
+    transition: all 0.3s ease;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.heading-text {
+    font-size: 1.8em;
+}
+
+.bi-bar-chart-steps {
+    font-size: 30px;
+}
+
+.section-one-text {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+.explore-margin {
+    margin-top: 50px;
+}
+
+.explore-button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.explore-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.united-p-5 {
+    padding: 50px;
+}
+
+/* main carousle END END END */
+
+
+/* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
+.bg-skills {
+    background-image: url("../assest/home-assets/backgrounds/background\ 2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.skills-img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.skills-width {
+    width: 60%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.gray-color {
+    color: #3B3B3B;
+}
+
+.skill-gap {
+    gap: 1em;
+}
+
+/* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
+
+
+
+/* Explore the master course start */
+.bg-explore {
+    background-image: url("../assest/home-assets/backgrounds/background\ 1.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.master-Course-p {
+    padding: 50px;
+}
+
+.marter-courser-w {
+    width: 100%;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.4s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.master-course-button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.master-course-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.explore-more {
+    font-size: 1em;
+}
+
+.master-course-text-size {
+    font-size: 1rem;
+}
+
+.marter-courser-heading-size {
+    font-size: 1.5em;
+}
+
+/* Explore the master course END END END */
+
+
+/* Start your journey form start */
+
+.bg-form {
+    background-color: #FFFAEA;
+    /* background-color: rgb(103, 103, 103); */
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.form-section {
+    margin: 50px 0;
+}
+
+.form-margin {
+    margin: 30px 0;
+}
+
+.form-card {
+    background-color: #B9DDFC;
+    padding: 10px;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: rgb(62, 62, 62) 1px 1px 8px 0px inset, rgb(62, 62, 62)1px 1px 8px 0px inset;
+}
+
+.person-img {
+    border-radius: 40px 0 0 40px;
+}
+
+/* Start your journey form END END END */
+
+
+/* Explore Our Diploma Courses start */
+
+.diploma-img-width{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.diploma-button {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.js-eAccountingBtn{
+    background-color: #1e88e5;
+    color: white;
+}
+.js-webDevlopmentBtn{
+    background-color: #1e88e5;
+    color: white;
+}
+.js-graphicBtn{
+    background-color: #1e88e5;
+    color: white;
+}
+.js-animationBtn{
+    background-color: #1e88e5;
+    color: white;
+}
+.js-uiUxBtn{
+    background-color: #1e88e5;
+    color: white;
+}
+
+.diploma-on-Off-course-button {
+    background-color: #2277F2;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+
+.diploma-on-Off-course-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+
+
+.courser-syllabus-content {
+    font-size: 1em;
+}
+
+.diploma-icon {
+    font-size: 2em;
+    color: #2196f3;
+}
+
+.diploma-margin {
+    margin: 50px 0 0 0;
+}
+
+.classes-button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.classes-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+
+.download-syllabus-button {
+    background-color: #52B3FE;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 70%;
+    padding: 10px 0;
+}
+
+.download-syllabus-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.diploma-gap {
+    gap: 1em;
+}
+
+.diploma-button:hover {
+    color: white;
+    background: #1e88e5;
+    box-shadow: 2px 5px black;
+}
+
+.syllabus-margin {
+    margin-top: 50px;
+
+}
+
+.main-diploma-padding {
+    padding: 0px 50px;
+
+
+}
+
+.diploma-content-shadow:hover {
+    box-shadow: 10px 10px black;
+}
+
+.diploma-radius {
+    border-radius: 30px 30px 0 0;
+}
+
+.diploma-img-h-1 {
+    height: 250px;
+}
+
+.diploma-img-h-2 {
+    height: 300px;
+}
+
+.diploma-img-h-3 {
+    height: 350px;
+}
+
+.leaderboard-flex {
+    align-items: end;
+}
+
+.std-name {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.std-content-padding {
+    padding: 10px;
+}
+
+.diploma-text-h {
+    font-size: 1.3em;
+}
+
+
+
+.company-img {
+    width: 100px;
+    height: 50px;
+}
+
+
+.course-syllabus-padding {
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+
+.diploma-content-gap {
+    gap: 10px;
+}
+
+.bg-color {
+    background-color: rgb(255, 249, 233);
+    border-radius: 15px;
+}
+
+.diploma-radius-other {
+    border-radius: 15px 15px 0 0;
+}
+
+.std-name-other {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(68, 68, 68);
+}
+
+.std-name-text {
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+    margin: 10px 0;
+}
+
+/* Explore Our Diploma Courses END END END */
+
+
+/* Course Benefit start */
+
+.bg-benefit {
+    background-color: #FFFAEA;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.course-benefit>li {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #3f3f3f;
+
+}
+
+.benefit-width {
+    width: 80%;
+}
+
+.course-benefit {
+    list-style-type: none;
+    padding: 0 20px 0 0;
+}
+
+.course-benefit li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #2196f3;
+}
+
+.benefit-button {
+    margin: 20px 0 0 0;
+    background-color: #2196f3;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.benefit-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+/* Course Benefit END END END */
+
+
+/* about us start */
+
+.about-us-bg {
+    background-color: #042F73;
+    color: white;
+    padding: 70px;
+}
+
+.about-us-text {
+    text-align: justify;
+}
+
+.about-us-img {
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px white, 8px 8px black;
+}
+
+
+.about-us-img:hover {
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+/* about us END END END */
+
+/* OUE STORY IN STATS START */
+
+.our-story-bg {
+    background: url("../assest/home-assets/backgrounds/background\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.our-story-border-img {
+    box-shadow: 10px 10px black;
+    border-radius: 30px;
+}
+
+.our-red {
+    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats-red.png");
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: black 10px 10px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin: 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-text {
+    padding: 0 50px;
+    font-size: 1.4em;
+    margin: 30px 0;
+}
+
+.our-green {
+    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats-green.png");
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: black 10px 10px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.our-blue {
+    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats.png");
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: black 10px 10px;
+    width: 100%;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.our-gap {
+    gap: 50px;
+}
+
+.our-red:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+.our-green:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+.our-blue:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+.our-content-text {
+    padding: 0 50px;
+    font-size: 1.4em;
+    margin: 30px 0;
+}
+
+
+/* OUE STORY IN STATS END END */
+
+
+/* Diploma Certification start */
+
+.crt-img-width{
+    width: 75%;
+}
+
+/* Diploma Certification END END END */
+
+/* feedback start */
+
+.feedback-bg {
+    background: #EBECEF;
+    border-radius: 35px;
+    height: 100%;
+}
+
+.feedback-img-margin {
+    margin: auto auto 0 0;
+}
+
+
+
+
+/* feedback END END END */
+
+/* FAQs START */
+
+.accordion {
+    max-width: 100%;
+    background: linear-gradient(to bottom right, #FFF, #f7f7f7);
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.heading {
+    color: #FFF;
+    font-size: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    letter-spacing: 0.8px;
+    padding: 15px;
+    background: #042F73;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.heading:hover {
+    background: #042F73;
+}
+
+
+.heading::before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    border-top: 7px solid #f5f5f5;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    float: right;
+    transform: rotate(0);
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+.active.heading::before {
+    transform: rotate(-180deg);
+}
+
+.not-active.heading::before {
+    transform: rotate(0deg);
+}
+
+.contents {
+    display: none;
+    background: #FFFAFA;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: #000;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #000;
+    font-weight: normal;
+    margin: 50px 0;
+}
+
+/* FAQs END END END */
+
+
+/* FOOTER START */
+
+
+.footer-bg {
+    background: #042F73;
+    height: 100%;
+    margin: 15vh 0 0 0;
+}
+
+.footer-logo {
+    width: 10em;
+}
+
+.bi-geo-alt-fill {
+    font-size: 30px;
+}
+
+.bi-envelope {
+    font-size: 30px;
+}
+
+.bi-telephone-fill {
+    font-size: 30px;
+}
+
+.footer-gap {
+    gap: 10px;
+}
+
+.footer-icon-size {
+    width: 50px;
+    height: 50px;
+}
+
+
+.interview-footer {
+    margin: 30px 0;
+}
+
+.map-margin {
+    margin: 50px 0;
+}
+
+.made-orange {
+    color: rgb(255, 102, 47);
+}
+
+.india-green {
+    color: green;
+}
+
+.footer-h {
+    font-size: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+/* FOOTER END END END */
+
+
+/* Common styles */
+.p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.paragraph-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+}
+
+.apply-button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.microsoft-logo {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.explore-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 75%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.gap {
+    gap: 20em;
+}
+
+@media (min-width: 1200px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+
+    .banner {
+        flex-direction: row;
+        gap: 460px;
+        text-align: center;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+
+    .paragraph-text {
+        font-size: 1.0625rem;
+    }
+
+
+
+    /* main carousle END END END */
+
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
+    .skill-gap {
+        gap: 2em;
+    }
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
+
+
+
+    /* Explore the master course start */
+
+    .master-row {
+        justify-content: end;
+    }
+
+    /* Explore the master course END END END */
+
+    /* Start your journey form start */
+
+    .form-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    /* Start your journey form END END END */
+
+    /* Explore Our Diploma Courses start */
+
+    .download-syllabus-button {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .course-syllabus-p{
+     padding: 20px;
+    }
+
+    /* Explore Our Diploma Courses END END END */
+    
+    /* about us start */
+
+
+
+    /* about us END END END */
+
+
+ /* OUE STORY IN STATS START */
+
+ .our-blue {
+    height: 310px;
+}
+
+/* OUE STORY IN STATS END END */
+
+    /* Diploma Certification start */
+
+
+    /* Diploma Certification END END END */
+
+    /* feedback start */
+
+    /* feedback END END END  */
+
+
+    /* FOOTER START */
+    /* FOOTER END END END */
+
+
+}
+
+
+@media (max-width: 1200px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        gap: 200px;
+    }
+
+    .certified-expert {
+        font-size: 2.50vh;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .heading-text {
+        font-size: 1.5em;
+    }
+
+    .section-one-text {
+        font-size: 1em;
+    }
+
+    .paragraph-text {
+        font-size: 1.125rem;
+    }
+
+    /* main carousle END END END */
+
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
+    .skills-width {
+        width: 70%;
+        height: 150px;
+    }
+
+    .skill-gap {
+        gap: 1em;
+    }
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
+
+
+
+    /* Explore the master course start */
+    .marter-courser-w {
+        width: 100%;
+    }
+
+    /* Explore the master course END END END */
+
+    /* Start your journey form start */
+
+    .person-img {
+        border-radius: 10px;
+    }
+
+    .person-img-col {
+        margin-bottom: 20px;
+    }
+
+    .form-margin {
+        margin-top: 0px;
+
+    }
+
+
+    .form-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .bg-form {
+        padding: 5px;
+    }
+
+    /* Start your journey form END END END */
+
+    
+    /* Explore Our Diploma Courses start */
+
+
+    .course-syllabus {
+        font-size: 0.8em;
+    }
+
+    .course-syllabus-padding {
+        font-size: 1.1em;
+    }
+
+
+    .download-syllabus-button {
+        font-size: 1em;
+        padding: 5px 10px;
+    }
+
+    .diploma-margin {
+        margin: 10px 0 0 0;
+    }
+
+
+    .syllabus-margin {
+        margin-top: 20px;
+
+    }
+
+    .diploma-button {
+        font-size: 0.8em;
+        padding: 10px 5px;
+    }
+
+    .download-syllabus-button {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .diploma-img-h-1 {
+        height: 150px;
+    }
+
+    .diploma-img-h-2 {
+        height: 200px;
+    }
+
+    .diploma-img-h-3 {
+        height: 250px;
+    }
+
+    .leaderboard-flex {
+        align-items: end;
+    }
+
+    .std-name {
+        font-size: 1em;
+        font-weight: 600;
+        margin: 0 0 10px 0;
+    }
+
+
+
+    .diploma-text-h {
+        font-size: 1.2em;
+    }
+
+
+    .diploma-text-p {
+        font-size: 0.9em;
+    }
+
+
+
+    .company-img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .course-syllabus-padding {
+        font-size: 1em;
+        margin: 10px 0 0 0;
+        padding: 10px 0 0 0;
+    }
+
+    .std-name-other {
+        font-size: 1em;
+    }
+
+    .std-name-text {
+        font-size: 0.7em;
+    }
+
+    .project-text {
+        font-size: 0.8em;
+    }
+
+    /* Explore Our Diploma Courses END END END */
+
+
+    /* Course Benefit start */
+
+
+    /* Course Benefit END END END */
+
+    /* about us start */
+
+    .about-us-bg {
+        padding: 70px;
+    }
+
+    .about-us-text {
+        font-size: 0.9em;
+    }
+
+    .about-us-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* about us END END END */
+
+
+    /* OUE STORY IN STATS START */
+
+
+    .our-text {
+        padding: 0 50px;
+        font-size: 1.2em;
+    }
+
+
+    .our-blue {
+        height: 310px;
+    }
+
+    .our-content-text {
+        padding: 0 50px;
+        font-size: 1em;
+        margin: 30px 0;
+    }
+
+    /* OUE STORY IN STATS END END */
+
+    /* Diploma Certification start */
+
+
+    /* Diploma Certification END END END */
+
+    /* feedback start */
+
+    /* feedback END END END  */
+
+    /* FOOTER START */
+
+    .footer-p {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    .footer-h {
+        font-size: 1.5em;
+    }
+
+    /* FOOTER END END END */
+
+
+    /* Common styles */
+
+    .buttons {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        gap: 150px;
+    }
+
+    .certified-expert {
+        font-size: 1em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .heading-text {
+        font-size: 1.5rem;
+    }
+
+    .paragraph-text {
+        font-size: 1rem;
+    }
+
+    .microsoft-logo {
+        text-align: center;
+    }
+
+    .explore-button {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    /* main carousle END END END */
+
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
+    .skills-width {
+        width: 250px;
+        height: 250px;
+    }
+
+    .skill-gap {
+        gap: 0;
+    }
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
+
+
+
+    /* Explore the master course start */
+    .master-course-text-size {
+        font-size: 1rem;
+    }
+
+    .marter-courser-w {
+        width: 90%;
+    }
+
+    .explore-more {
+        font-size: 0.8em;
+    }
+
+    .master-row {
+        justify-content: start;
+    }
+
+    .diploma-img-h-1 {
+        height: 100%;
+    }
+
+    .diploma-img-h-2 {
+        height: 100%;
+    }
+
+    .diploma-img-h-3 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .leaderboard-flex {
+        align-items: end;
+    }
+
+    .std-name {
+        font-size: 1em;
+        font-weight: 300;
+        margin: 0 0 10px 0;
+    }
+
+    /* Explore the master course END END END */
+
+    /* Start your journey form start */
+
+    .person-img {
+        border-radius: 10px;
+    }
+
+    .person-img-col {
+        margin-bottom: 20px;
+    }
+
+    .form-margin {
+        margin-top: 0px;
+
+    }
+
+    .form-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .bg-form {
+        padding: 5px;
+    }
+
+    /* Start your journey form END END END */
+
+  /* Explore Our Diploma Courses start */
+
+  .course-syllabus {
+    font-size: 0.7em;
+}
+
+.course-syllabus-padding {
+    font-size: 0.8em;
+    margin: 5px 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+
+.diploma-icon {
+    font-size: 1.5em;
+    color: #2196f3;
+}
+
+.download-syllabus-button {
+    font-size: 0.5em;
+    padding: 5px 10px;
+}
+
+.diploma-margin {
+    margin: 10px 0 0 0;
+}
+
+.diploma-on-Off-course-button {
+    font-size: 0.8em;
+    padding: 5px 15px;
+}
+
+
+.download-syllabus-button {
+    width: 100%;
+}
+
+.std-name-other {
+    font-size: 1em;
+}
+
+.std-name-text {
+    font-size: 0.7em;
+}
+
+.project-text {
+    font-size: 8px;
+}
+
+/* Explore Our Diploma Courses END END END */
+
+
+    /* Course Benefit start */
+
+    .course-benefit {
+        font-size: 0.7em;
+        margin: 10px 0;
+        color: #3f3f3f;
+
+    }
+
+    .benefit-width {
+        width: 100%;
+    }
+
+
+    .benefit-button {
+        padding: 8px 15px;
+        font-size: 0.7em;
+        margin: 20px 0 0 0;
+    }
+
+    /* Course Benefit END END END */
+
+    /* about us start */
+
+    .about-us-bg {
+        padding: 70px 20px;
+    }
+
+    .about-us-text {
+        font-size: 0.8em;
+        text-align: justify;
+    }
+
+    .about-us-img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* about us END END END */
+
+
+
+    /* OUE STORY IN STATS START */
+
+
+
+    .our-blue {
+        width: 100%;
+        height: 26vh;
+        display: flex;
+    }
+
+    .our-content-text {
+        padding: 0 50px;
+        font-size: 1em;
+        margin: 30px 0;
+    }
+
+    /* OUE STORY IN STATS END END */
+    /* Diploma Certification start */
+
+
+    /* Diploma Certification END END END */
+
+    /* feedback start */
+
+    /* feedback END END END  */
+
+    /* FOOTER START */
+
+    .footer-margin {
+        margin: 50px 0;
+    }
+
+    .footer-gap {
+        gap: 1px;
+    }
+
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
+    .interview-footer-h {
+        font-size: 1.3em;
+    }
+
+    .interview-footer {
+        font-size: 1em;
+    }
+
+    /* FOOTER END END END */
+
+
+
+}
+
+
+
+
+
+/* Common styles */
+
+.buttons {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+
+
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 130px;
+        text-align: center;
+    }
+
+    .certified-expert {
+        font-size: 1em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .heading-text {
+        font-size: 1.75rem;
+    }
+
+    .united-p-5 {
+        padding: 25px;
+    }
+
+    .paragraph-text {
+        font-size: 0.9375rem;
+    }
+
+    /* main carousle END END END */
+
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
+    .skills-width {
+        width: 170px;
+        height: 170px;
+    }
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
+
+
+
+    /* Explore the master course start */
+    .master-course-text-size {
+        font-size: 0.8rem;
+    }
+
+    .marter-courser-w {
+        width: 100%;
+    }
+
+    .explore-more {
+        font-size: 0.6em;
+    }
+
+    /* Explore the master course END END END */
+
+    /* Start your journey form start */
+
+    .person-img {
+        border-radius: 10px;
+    }
+
+    .person-img-col {
+        margin: 0 0 20px 0;
+    }
+
+    .form-margin {
+        margin-top: 0px;
+    }
+
+    .form-card {
+        border-radius: 20px;
+    }
+
+    .bg-form {
+        padding: 5px;
+    }
+
+    /* Start your journey form END END END */
+
+
+   /* Explore Our Diploma Courses start */
+
+   .course-syllabus {
+    font-size: 0.8em;
+}
+
+.course-syllabus-padding {
+    font-size: 0.8em;
+}
+
+.diploma-icon {
+    font-size: 1.5em;
+    color: #2196f3;
+}
+
+.download-syllabus-button {
+    font-size: 0.7em;
+    padding: 5px 15px;
+}
+
+.diploma-margin {
+    margin: 10px 0 0 0;
+}
+
+.download-syllabus-button {
+    width: 100%;
+}
+
+.diploma-on-Off-course-button {
+    font-size: 0.8em;
+    padding: 5px 15px;
+}
+
+.diploma-h-sm {
+    height: 10%;
+}
+
+.main-diploma-padding {
+    padding: 0px 10px;
+}
+
+.std-name-other {
+    font-size: 1.2em;
+}
+
+.std-name-text {
+    font-size: 1em;
+}
+
+.project-text {
+    font-size: 0.8em;
+}
+
+.diploma-img-width{
+    width: 100%;
+    height: 500px;
+}
+
+.diploma-content-gap{
+    margin: 15px 0;
+}
+
+.course-syllabus {
+    font-size: 1.1em;
+}
+
+.diploma-button {
+    font-size: large;
+    padding: 10px 0;
+}
+
+/* Explore Our Diploma Courses END END END */
+
+
+
+    /* Course Benefit start */
+
+    .course-benefit {
+        font-size: 1em;
+        margin: 10px 0;
+        color: #3f3f3f;
+
+    }
+
+    .course-benefit-margin {
+        margin-top: 20px;
+    }
+
+    .benefit-width {
+        width: 100%;
+    }
+
+
+    .benefit-button {
+        padding: 8px 15px;
+        font-size: 1em;
+        margin: 20px 0 0 0;
+    }
+
+    /* Course Benefit END END END */
+
+
+    /* about us start */
+
+    .about-us-bg {
+        padding: 30px 10px;
+    }
+
+    .about-us-text {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .about-us-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-us-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    /* about us END END END */
+
+
+
+   /* OUE STORY IN STATS START */
+
+
+
+   .our-blue-margin {
+    margin-top: 0px;
+}
+
+.our-green {
+    margin: 0;
+}
+
+.our-text {
+    padding: 0 50px;
+    font-size: 1.4em;
+}
+
+
+.our-blue {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    margin: 0;
+}
+
+.our-text-blue {
+    font-size: 1.5em;
+}
+
+.our-content-text {
+    padding: 0 50px;
+    font-size: 1em;
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* OUE STORY IN STATS END END */
+
+    /* Diploma Certification start */
+
+
+    /* Diploma Certification END END END */
+
+    /* feedback start */
+
+    .feedback-margin {
+        margin-top: 30px;
+    }
+
+    /* feedback END END END  */
+
+    /* FOOTER START */
+
+    .footer-gap {
+        gap: 1px;
+        justify-content: center;
+    }
+
+    .footer-margin2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-margin {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-p {
+        text-align: center;
+    }
+
+    .footer-icon-size {
+        width: 80%;
+        height: 80%;
+    }
+
+    .interview-footer-h {
+        font-size: 1.3em;
+    }
+
+    .interview-footer {
+        font-size: 1em;
+    }
+
+    /* FOOTER END END END */
+
+    /* Common styles */
+
+
+}
+
+@media (max-width: 576px) {
+
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    .certified-expert {
+        font-size: 2.50vh;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+    .grid-container {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .united-col {
+        padding: 0 1rem;
+    }
+
+    .heading-text {
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+
+    .paragraph-text {
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+
+    .united-p-5 {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .explore-margin {
+        margin-top: 0;
+    }
+
+    .explore-button {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .bg-container {
+        padding: 1rem;
+    }
+
+    .microsoft-logo img {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    /* main carousle END END END */
+
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
+    .skills-width {
+        width: 170px;
+        height: 170px;
+    }
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
+
+
+
+    /* Explore the master course start */
+    .master-course-text-size {
+        font-size: 0.8rem;
+    }
+
+    .marter-courser-w {
+        width: 100%;
+    }
+
+    .explore-more {
+        font-size: 0.6em;
+    }
+
+    /* Explore the master course END END END */
+
+    /* Start your journey form start */
+
+    .bg-form {
+        padding: 20px;
+    }
+
+    .form-select {
+        font-size: 0.8em;
+    }
+
+    .form-section {
+        margin-top: 30px;
+    }
+
+    .form-card {
+        margin-bottom: 20px;
+    }
+
+
+    /* Start your journey form END END END */
+
+
+    /* Explore Our Diploma Courses start */
+
+    .diploma-on-Off-course-button {
+        border-radius: 10px;
+    }
+
+    /* Explore Our Diploma Courses END END END */
+
+
+
+
+
+
+
+
+    /* Course Benefit start */
+
+    .course-benefit {
+        font-size: 1em;
+    }
+
+
+    .bg-benefit {
+        padding: 30px;
+    }
+
+    .course-benefit-margin {
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+
+    .benefit-width {
+        width: 100%;
+    }
+
+
+    .benefit-button {
+        padding: 5px 15px;
+        font-size: 1em;
+        margin: 20px 0 0 0;
+        border-radius: 10px;
+    }
+
+    /* Course Benefit END END END */
+
+
+    /* about us start */
+
+
+
+    /* about us END END END */
+
+
+
+   /* OUE STORY IN STATS START */
+
+   .our-text {
+    font-size: 1em;
+}
+
+.our-text-blue {
+    font-size: 1.2em;
+}
+
+.our-green {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    margin: 0;
+}
+
+.our-red {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    margin: 0;
+}
+
+.our-text-blue {
+    font-size: 1.5em;
+}
+
+.our-content-text {
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+
+/* OUE STORY IN STATS END END */
+
+
+/* Diploma Certification start */
+    .crt-img-width{
+        width: 100%;
+    }
+    
+
+    /* Diploma Certification END END END */
+
+    /* feedback start */
+    .feedback-margin {
+        margin-top: 10px;
+    }
+
+    /* feedback END END END  */
+
+    /* FOOTER START */
+    /* FOOTER END END END */
+
+    /* Common styles */
+
+    p {
+        font-size: 1rem;
+    }
+
+    .paragraph-text {
+        font-size: 0.8125rem;
+    }
+
+    .microsoft-logo img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .buttons {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .map {
+        width: 100%;
+        height: 300px;
+    }
+
+    .interview-footer-h {
+        font-size: large;
+    }
+
+    .interview-footer {
+        font-size: small;
+    }
+}
+
+@media (max-width: 450px) {
+
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .certified-expert {
+        font-size: 1.50vh;
+    }
+
+    .btns {
+        font-size: 2vh;
+        padding: 5px 10px;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+    .heading-text {
+        font-size: 1.25em;
+        line-height: 1.25;
+    }
+
+    .united-p-5 {
+        padding: 5px;
+    }
+
+    /* main carousle END END END */
+
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
+    .skills-width {
+        width: 100%;
+        height: 150px;
+    }
+
+    /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
+
+
+
+    /* Explore the master course start */
+    .master-course-text-size {
+        font-size: 0.9rem;
+    }
+
+    .marter-courser-w {
+        width: 100%;
+    }
+
+    .explore-more {
+        font-size: 0.7em;
+    }
+
+
+    .master-Course-p {
+        padding: 20px;
+    }
+
+
+    /* Explore the master course END END END */
+
+    /* Start your journey form start */
+
+    .bg-form {
+        padding: 10px;
+    }
+
+    .form-section {
+        margin-top: 30px;
+    }
+
+    .form-select {
+        font-size: 0.8em;
+    }
+
+    .diploma-button {
+        font-size: small;
+        padding: 10px 0;
+    }
+
+    /* Start your journey form END END END */
+
+
+   /* Explore Our Diploma Courses start */
+
+   .diploma-on-Off-course-button {
+    width: 100%;
+    font-size: 1em;
+}
+
+.diploma-text-h {
+    font-size: 1em;
+}
+
+.diploma-text-p {
+    font-size: 0.8em;
+    text-align: end;
+}
+
+.course-syllabus-padding {
+    margin-top: 10px;
+    font-size: 0.8em;
+    padding: 6px 0;
+}
+
+.download-syllabus-button {
+    border-radius: 5px;
+    font-size: 0.72em;
+    padding: 5px 0px;
+}
+
+.download-syllabus-button:hover {
+    box-shadow: 1px 1px black;
+}
+
+.course-syllabus {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.diploma-icon {
+    font-size: 1.2em;
+}
+
+.diploma-content-gap {
+    gap: 5px;
+}
+
+.project-text {
+    font-size: 1em;
+}
+
+
+/* Explore Our Diploma Courses END END END */
+
+/* Course Benefit start */
+
+    .course-benefit {
+        font-size: 10px;
+        margin: 10px 0;
+        color: #3f3f3f;
+        padding: 0;
+
+    }
+
+    .course-benefit-margin {
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+
+    .course-benefit {
+        font-size: 0.8em;
+    }
+
+
+    .bg-benefit {
+        padding: 20px;
+    }
+
+    .benefit-width {
+        width: 100%;
+    }
+
+
+    .benefit-button {
+        padding: 5px 15px;
+        font-size: 0.8em;
+        margin: 20px 0 0 0;
+    }
+
+    /* Course Benefit END END END */
+
+    /* about us start */
+
+    .about-us-bg {
+        padding: 30px 10px;
+    }
+
+    .about-us-text {
+        font-size: 0.8em;
+        text-align: justify;
+    }
+
+    .section-one-text {
+        font-size: 0.8em;
+    }
+
+    .heading-text {
+        font-size: 1.2em;
+    }
+
+    .about-us-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-us-column {
+        margin: 20px 0;
+    }
+
+
+    /* about us END END END */
+
+
+
+    
+    /* OUE STORY IN STATS START */
+
+    .our-text {
+        font-size: 0.7em;
+    }
+
+    .our-text-blue {
+        font-size: 1em;
+    }
+
+    .our-green {
+        width: 100%;
+        height: 10vh;
+        box-shadow: 5px 5px black;
+        border-radius: 20px;
+        margin: 0;
+    }
+
+    .our-red {
+        width: 100%;
+        height: 10vh;
+        box-shadow: 5px 5px black;
+        border-radius: 20px;
+        margin: 0;
+    }
+
+    .our-blue {
+        width: 100%;
+        height: 20vh;
+        border-radius: 20px;
+        box-shadow: 5px 5px black;
+        margin: 0;
+    }
+
+    .our-gap {
+        gap: 20px;
+    }
+
+    .our-blue-margin {
+        margin: 0;
+    }
+
+    .our-text-blue {
+        font-size: 0.9em;
+    }
+
+    .our-content-text {
+        margin: 0 0;
+        font-size: 0.6em;
+        padding: 0 10px;
+    }
+
+
+
+    /* OUE STORY IN STATS END END */
+
+
+
+    /* Diploma Certification start */
+
+
+    /* Diploma Certification END END END */
+
+    /* feedback start */
+
+    /* feedback END END END  */
+
+
+    /* FOOTER START */
+    /* FOOTER END END END */
+
+}

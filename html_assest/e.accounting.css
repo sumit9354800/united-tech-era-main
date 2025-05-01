@@ -1,0 +1,905 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+
+.animation-effact {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+
+/* Learn From Microsoft Certified Expert apply start */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px 25px;
+    background-color: #eee;
+    gap: 330px;
+}
+
+.dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+.blue {
+    background-color: #2196f3;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+.btns {
+    background-color: #1e88e5;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btns:hover {
+    background-color: #1565c0;
+    color: white;
+}
+
+/* Learn From Microsoft Certified Expert apply END END END */
+
+/* main carousle start */
+
+.microsoft-img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+
+.section-one-text {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+.lg-navbar {
+    background-image: url("../assest/home-assets/website images/Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.bg-container {
+    background-color: rgb(15, 15, 151);
+    padding: 1.25rem 2rem;
+}
+
+.button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.button:hover {
+    box-shadow: 2px 5px black;
+}
+
+.united-border {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px;
+    transition: all 0.3s ease;
+}
+
+
+
+.heading-text {
+    font-size: 1.8em;
+}
+
+.bi-bar-chart-steps {
+    font-size: 30px;
+}
+
+
+.explore-margin {
+    margin-top: 50px;
+}
+
+.explore-button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.explore-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.united-p-5 {
+    padding: 20px;
+}
+
+/* main carousle end */
+
+
+/* Tools You’ll Become Proficient With start */
+
+.tool-margin {
+    margin: 40px 0;
+}
+
+.tool-icon {
+    border-radius: 20px;
+    width: 70%;
+}
+
+/* Tools You’ll Become Proficient With END END */
+
+/* E-Accounting Course syllabus start */
+
+.syllabus-bg {
+    background-image: url("../assest/home-assets/backgrounds/background\ 2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 50px 0;
+}
+
+
+/* accordion */
+
+.accordion-text {
+    font-size: 1.1em;
+    margin: 7px 0;
+}
+
+.accordion {
+    max-width: 100%;
+    background: linear-gradient(to bottom right, #FFF, #f7f7f7);
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.heading {
+    color: #FFF;
+    font-size: 1.2em;
+    border-bottom: 1px solid #e7e7e7;
+    letter-spacing: 0.8px;
+    padding: 15px;
+    background: #042F73;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.heading:hover {
+    background: #042F73;
+}
+
+
+.heading::before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    border-top: 7px solid #f5f5f5;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    float: right;
+    transform: rotate(0);
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+.active.heading::before {
+    transform: rotate(-180deg);
+}
+
+.not-active.heading::before {
+    transform: rotate(0deg);
+}
+
+.contents {
+    display: none;
+    background: #FFFAFA;
+    padding: 15px;
+    color: #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.syllabus-flex {
+    margin: 50px 0;
+}
+
+.download-syllabus-btn {
+    background-color: #55b3ff;
+    text-decoration: none;
+    color: white;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.download-syllabus-btn:hover {
+    box-shadow: 3px 3px black;
+}
+
+.talk-to-mentor {
+    background-color: #1180ff;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.talk-to-mentor:hover {
+    box-shadow: 3px 3px black;
+}
+
+.gray-text {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: rgb(71, 71, 71);
+}
+
+
+
+.syllabus-img {
+    border-radius: 20px;
+}
+
+
+
+/* E-Accounting Course syllabus END END END */
+
+/* Assignments you'll handle: start */
+/* Assignments you'll handle: END END END */
+
+
+/* FOOTER START */
+
+
+.footer-bg {
+    background: #042F73;
+    height: 100%;
+    margin: 15vh 0 0 0;
+}
+
+.footer-logo {
+    width: 10em;
+}
+
+.bi-geo-alt-fill {
+    font-size: 30px;
+}
+
+.bi-envelope {
+    font-size: 30px;
+}
+
+.bi-telephone-fill {
+    font-size: 30px;
+}
+
+.footer-gap {
+    gap: 10px;
+}
+
+.footer-icon-size {
+    width: 50px;
+    height: 50px;
+}
+
+
+.interview-footer {
+    margin: 30px 0;
+}
+
+.map-margin {
+    margin: 50px 0;
+}
+
+.made-orange {
+    color: rgb(255, 102, 47);
+}
+
+.india-green {
+    color: green;
+}
+
+.footer-h {
+    font-size: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+/* FOOTER END END END */
+
+
+
+
+@media (min-width: 1200px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+
+    .banner {
+        flex-direction: row;
+        gap: 460px;
+        text-align: center;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .paragraph-text {
+        font-size: 1.0625rem;
+    }
+
+    /* main carousle END END END */
+
+
+    /* Tools You’ll Become Proficient With start */
+    /* Tools You’ll Become Proficient With END END */
+
+    /* E-Accounting Course syllabus start */
+
+    /* E-Accounting Course syllabus END END END */
+
+    /* Assignments you'll handle: start */
+    /* Assignments you'll handle: END END END */
+
+    /* FOOTER START */
+    /* FOOTER END END END */
+
+
+}
+
+@media (max-width: 1200px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        gap: 200px;
+    }
+
+    .certified-expert {
+        font-size: 2.50vh;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .heading-text {
+        font-size: 1.5em;
+    }
+
+    .section-one-text {
+        font-size: 1em;
+    }
+
+    .paragraph-text {
+        font-size: 1.125rem;
+    }
+
+    /* main carousle END END END */
+
+
+    /* Tools You’ll Become Proficient With start */
+    /* Tools You’ll Become Proficient With END END */
+
+
+    /* E-Accounting Course syllabus start */
+    .download-syllabus-btn {
+        width: 20vw;
+        padding: 5px 0px;
+        font-size: 1em;
+    }
+
+    /* E-Accounting Course syllabus END END END */
+
+    /* Assignments you'll handle: start */
+    /* Assignments you'll handle: END END END */
+
+
+    /* FOOTER START */
+
+    .footer-p {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    .footer-h {
+        font-size: 1.5em;
+    }
+
+    .footer-p {
+        margin: 0;
+    }
+
+
+    /* FOOTER END END END */
+}
+
+@media (max-width: 992px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        gap: 150px;
+    }
+
+    .certified-expert {
+        font-size: 1em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+    /* main carousle start */
+
+    .heading-text {
+        font-size: 1.5rem;
+    }
+
+    .paragraph-text {
+        font-size: 1rem;
+    }
+
+    .microsoft-logo {
+        text-align: center;
+    }
+
+    .explore-button {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .microsoft-img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    /* main carousle END END END */
+
+    /* Tools You’ll Become Proficient With start */
+
+    .tool-icon {
+        border-radius: 15px;
+        width: 90%;
+    }
+
+    /* Tools You’ll Become Proficient With END END */
+
+    /* E-Accounting Course syllabus start */
+    .download-syllabus-btn {
+        padding: 10px 0px;
+        width: 20vw;
+        font-size: 0.9em;
+    }
+
+    .gray-text {
+        font-size: 1em;
+    }
+
+    .syllabus-heading {
+        font-size: 1.5em;
+    }
+
+    /* E-Accounting Course syllabus END END END */
+
+    /* Assignments you'll handle: start */
+    /* Assignments you'll handle: END END END */
+
+
+    /* FOOTER START */
+
+    .footer-margin {
+        margin: 50px 0;
+    }
+
+    .footer-gap {
+        gap: 1px;
+    }
+
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
+    .interview-footer-h {
+        font-size: 1.3em;
+    }
+
+    .interview-footer {
+        font-size: 1em;
+    }
+
+    /* FOOTER END END END */
+
+}
+
+@media (max-width: 768px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 130px;
+        text-align: center;
+    }
+
+    .certified-expert {
+        font-size: 1em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .heading-text {
+        font-size: 1.75rem;
+    }
+
+    .united-p-5 {
+        padding: 25px;
+    }
+
+    .paragraph-text {
+        font-size: 0.9375rem;
+    }
+
+    .e-accounting-margin {
+        margin: 30px 0;
+    }
+
+    .logo-col {
+        margin: 20px 0;
+    }
+
+
+    .microsoft-img {
+        width: 60%;
+        border-radius: 20px;
+    }
+
+
+    /* main carousle END END END */
+
+
+    /* Tools You’ll Become Proficient With start */
+
+    .tool-icon {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    /* Tools You’ll Become Proficient With END END */
+
+    /* E-Accounting Course syllabus start */
+
+    .download-syllabus-btn {
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    .gray-text {
+        font-size: 0.85em;
+    }
+
+    .syllabus-heading {
+        font-size: 1.3em;
+    }
+
+    /* E-Accounting Course syllabus END END END */
+
+    /* Assignments you'll handle: start */
+    /* Assignments you'll handle: END END END */
+
+
+    /* FOOTER START */
+
+    .footer-gap {
+        gap: 1px;
+        justify-content: center;
+    }
+
+    .footer-margin2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-margin {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-p {
+        text-align: center;
+    }
+
+    .footer-icon-size {
+        width: 80%;
+        height: 80%;
+    }
+
+    .interview-footer-h {
+        font-size: 1.3em;
+    }
+
+    .interview-footer {
+        font-size: 1em;
+    }
+
+    /* FOOTER END END END */
+
+
+
+}
+
+@media (max-width: 576px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    .certified-expert {
+        font-size: 2.50vh;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+    .grid-container {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .united-col {
+        padding: 0 1rem;
+    }
+
+    .heading-text {
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+
+    .paragraph-text {
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+
+    .united-p-5 {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .explore-margin {
+        margin-top: 0;
+    }
+
+    .explore-button {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .bg-container {
+        padding: 1rem;
+    }
+
+    .microsoft-logo img {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    /* main carousle END END END */
+
+    /* Tools You’ll Become Proficient With start */
+    /* Tools You’ll Become Proficient With END END */
+
+    /* E-Accounting Course syllabus start */
+
+    .syllabus-flex {
+        margin: 10px 0;
+        flex-wrap: wrap;
+    }
+
+    .syllabus-heading {
+        font-size: 1.5em;
+    }
+
+    .gray-text {
+        font-size: 1em;
+    }
+
+    .download-syllabus-btn {
+        margin: 20px 0;
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 0.7em;
+    }
+
+    .talk-to-mentor {
+        font-size: 0.7em;
+    }
+
+    .heading {
+        font-size: 1em;
+    }
+
+    /* E-Accounting Course syllabus END END END */
+
+
+    /* Assignments you'll handle: start */
+    /* Assignments you'll handle: END END END */
+
+
+
+    /* FOOTER START */
+    /* FOOTER END END END */
+
+}
+
+@media (max-width: 450px) {
+
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .certified-expert {
+        font-size: 1.50vh;
+    }
+
+    .btns {
+        font-size: 2vh;
+        padding: 5px 10px;
+    }
+
+    .heading {
+        font-size: 0.8em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .explore-margin {
+        margin-top: 30px;
+    }
+
+    .heading-text {
+        font-size: 1.25em;
+        line-height: 1.25;
+    }
+
+    .united-p-5 {
+        padding: 15px;
+    }
+
+    .logo-col {
+        margin: 20px 0;
+    }
+
+    /* main carousle END END END */
+
+    /* Tools You’ll Become Proficient With start */
+    /* Tools You’ll Become Proficient With END END */
+
+
+    /* E-Accounting Course syllabus start */
+
+    .syllabus-heading {
+        font-size: 1em;
+    }
+
+    .gray-text {
+        font-size: 0.8em;
+    }
+
+    .syllabus-bg {
+        margin: 30px 0;
+    }
+
+
+    .download-syllabus-btn {
+        margin: 20px 0;
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 0.7em;
+    }
+
+    .contents-heading {
+        font-size: 0.85em;
+    }
+
+    /* E-Accounting Course syllabus END END END */
+
+
+    /* Assignments you'll handle: start */
+    /* Assignments you'll handle: END END END */
+
+
+
+    /* FOOTER START */
+    /* FOOTER END END END */
+
+
+
+
+}
