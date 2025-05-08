@@ -89,6 +89,10 @@
 
 /* main carousle start */
 
+h1 {
+    font-size: 2.1em;
+}
+
 .microsoft-img {
     width: 70%;
     border-radius: 20px;
@@ -102,7 +106,7 @@
 }
 
 .lg-navbar {
-    background-image: url("../assest/home-assets/website images/Rectangle 1.png");
+    background-image: url("../assest/home-assets/website images/Rectangle 1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -134,7 +138,7 @@
 
 
 
-.heading-text {
+h1 {
     font-size: 1.8em;
 }
 
@@ -209,13 +213,23 @@
 
 .heading {
     color: #FFF;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 400;
     border-bottom: 1px solid #e7e7e7;
-    letter-spacing: 0.8px;
     padding: 15px;
     background: #042F73;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.contents {
+    display: none;
+    background: #FFFAFA;
+    padding: 15px;
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 
@@ -245,17 +259,10 @@
     transform: rotate(0deg);
 }
 
-.contents {
-    display: none;
-    background: #FFFAFA;
-    padding: 15px;
-    color: #000;
+.border-contents {
     border-left: 1px solid #000;
     border-bottom: 1px solid #000;
     border-right: 1px solid #000;
-    font-size: 13px;
-    line-height: 1.5;
-    border-radius: 0 0 10px 10px;
 }
 
 
@@ -292,6 +299,7 @@
 
 .gray-text {
     font-size: 1.5em;
+    font-weight: 300;
     margin: 15px 0;
     color: rgb(71, 71, 71);
 }
@@ -307,7 +315,269 @@
 /* E-Accounting Course syllabus END END END */
 
 /* Assignments you'll handle: start */
+
+
+.card-text {
+    margin: 0;
+    font-size: 0.85em;
+}
+
+.assign-gap {
+    gap: 1em;
+}
+
+.assign-button {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.assign-button:hover {
+    color: white;
+    background: #1e88e5;
+    box-shadow: 2px 5px black;
+}
+
+
+.js-excel {
+    background-color: #1e88e5;
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.js-mis {
+    background-color: #1e88e5;
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.js-tallyErp {
+    background-color: #1e88e5;
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.js-TallyPrime {
+    background-color: #1e88e5;
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.js-mp {
+    background-color: #1e88e5;
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+.card-heading {
+    font-size: 0.9em;
+}
+
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-img-top {
+    padding: 5px 0;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.list-group {
+    list-style: none;
+}
+
+
+.list-group-items::before {
+    content: "⬤";
+    font-size: 0.5em;
+    color: #1180ff;
+    border: none;
+}
+
+.list-group-items {
+    font-size: 0.8em;
+    padding: 3px 0;
+}
+
+.card-w {
+    width: 90%;
+}
+
+.card-padding {
+    margin: 30px 0;
+}
+
+
 /* Assignments you'll handle: END END END */
+
+/* top place start */
+
+.bg-top-place {
+    background-image: url("../assest/home-assets/backgrounds/background\ 2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 50px 0;
+}
+
+
+/* top place END END END */
+
+/* Course Benefit start */
+
+.benefits-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.benefits-gap {
+    gap: 50px;
+}
+
+.benefits-heading {
+    margin: 50px 0;
+}
+
+.benefits-text {
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+
+.benefits-para {
+    font-size: 1em;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #505050;
+}
+
+/* Course Benefit END END END */
+
+
+/* career pathway start */
+
+.career-btn {
+    font-weight: 400;
+}
+
+.career-img-align {
+    text-align: end;
+}
+
+.career-bg {
+    background-color: #042F73;
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.career-img {
+    width: 80%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.career-para {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.career-margin {
+    margin: 40px 0;
+}
+
+.career-col-padding {
+    padding: 0 0 0 90px;
+}
+
+/* career pathway END END END */
+
+
+/* Diploma Certification start */
+
+.crt-img-width {
+    width: 75%;
+}
+
+/* Diploma Certification END END END */
+
+/* Start your journey form start */
+
+
+.bg-form {
+    background-color: #FFFAEA;
+    /* background-color: rgb(103, 103, 103); */
+    padding: 50px;
+    border-radius: 20px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.form-section {
+    margin: 50px 0;
+}
+
+.form-margin {
+    margin: 30px 0;
+}
+
+.form-card {
+    background-color: #B9DDFC;
+    padding: 10px;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: rgb(62, 62, 62) 1px 1px 8px 0px inset, rgb(62, 62, 62)1px 1px 8px 0px inset;
+}
+
+.person-img {
+    border-radius: 40px 0 0 40px;
+}
+
+/* Start your journey form END END END */
+
+
+
+/* feedback start */
+
+.feedback-bg {
+    background: #EBECEF;
+    border-radius: 35px;
+    height: 100%;
+}
+
+.feedback-img-margin {
+    margin: auto auto 0 0;
+}
+
+
+/* feedback END END END */
+
 
 
 /* FOOTER START */
@@ -347,6 +617,7 @@
 
 .interview-footer {
     margin: 30px 0;
+    font-weight: 400;
 }
 
 .map-margin {
@@ -369,6 +640,17 @@
     width: 100%;
     height: 500px;
 }
+
+.footer-p {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.interview-footer-h {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
 
 /* FOOTER END END END */
 
@@ -405,7 +687,50 @@
     /* E-Accounting Course syllabus END END END */
 
     /* Assignments you'll handle: start */
+    .card-h {
+        height: 80%;
+    }
+
+    .card:hover {
+        transform: scale(1.03);
+        transition: transform 0.5s;
+    }
+
     /* Assignments you'll handle: END END END */
+
+    /* Course Benefit start */
+    /* Course Benefit END END END */
+
+    /* Start your journey form start */
+    .form-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .form-select{
+        font-size: 1.3em;
+        padding: 10px 5px;
+    }
+
+    
+    label{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+
+    /* Start your journey form END END END */
+
+    /* career pathway start */
+    .career-bg {
+        background-color: #042F73;
+        margin: 20px 0;
+        width: 85%;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    /* career pathway END END END */
 
     /* FOOTER START */
     /* FOOTER END END END */
@@ -429,7 +754,7 @@
 
     /* main carousle start */
 
-    .heading-text {
+    h1 {
         font-size: 1.5em;
     }
 
@@ -458,7 +783,64 @@
     /* E-Accounting Course syllabus END END END */
 
     /* Assignments you'll handle: start */
+
+    .mp {
+        font-size: small;
+        padding: 12px 0;
+    }
+
     /* Assignments you'll handle: END END END */
+
+    /* top place start */
+    /* top place END END END */
+
+    /* Course Benefit start */
+
+    .benefits-gap {
+        gap: 30px;
+    }
+
+    .benefits-text {
+        font-size: 1.1em;
+        margin: 20px 0;
+    }
+
+    .benefits-para {
+        font-size: 0.8em;
+    }
+
+    /* Course Benefit END END END */
+
+    /* Start your journey form start */
+
+    .person-img {
+        border-radius: 10px;
+    }
+
+    .person-img-col {
+        margin-bottom: 20px;
+    }
+
+    .form-margin {
+        margin-top: 0px;
+
+    }
+
+
+    .form-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .bg-form {
+        padding: 5px;
+    }
+
+    /* Start your journey form END END END */
+
+
+    /* career pathway start */
+    /* career pathway END END END */
 
 
     /* FOOTER START */
@@ -495,7 +877,7 @@
 
     /* main carousle start */
 
-    .heading-text {
+    h1 {
         font-size: 1.5rem;
     }
 
@@ -516,6 +898,11 @@
         width: 100%;
         border-radius: 20px;
     }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
 
     /* main carousle END END END */
 
@@ -546,7 +933,95 @@
     /* E-Accounting Course syllabus END END END */
 
     /* Assignments you'll handle: start */
+
+    .mp {
+        font-size: 1em;
+        padding: 12px 0;
+    }
+
     /* Assignments you'll handle: END END END */
+
+    /* top place start */
+    /* top place END END END */
+
+    /* Course Benefit start */
+
+    .benefits-icon {
+        margin: 30px 0 0 0;
+    }
+
+
+    .benefits-gap {
+        gap: 0;
+    }
+
+    /* .benefits-heading{
+        margin: 20px 0;
+    } */
+
+    .benefits-text {
+        font-size: 1.1em;
+        margin: 20px 0;
+    }
+
+    .benefits-para {
+        font-size: 0.8em;
+    }
+
+    /* Course Benefit END END END */
+
+    /* Start your journey form start */
+
+    .person-img {
+        border-radius: 10px;
+    }
+
+    .person-img-col {
+        margin-bottom: 20px;
+    }
+
+    .form-margin {
+        margin-top: 0px;
+
+    }
+
+    .form-card {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .bg-form {
+        padding: 5px;
+    }
+
+    /* Start your journey form END END END */
+
+
+    /* career pathway start */
+    .career-bg {
+        background-color: #042F73;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+
+    .career-margin {
+        margin: 30px 0;
+    }
+
+    .career-img {
+        margin: 20px 0;
+    }
+
+    .career-heading {
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+
+    .career-para {
+        font-size: 1em;
+    }
+
+    /* career pathway END END END */
 
 
     /* FOOTER START */
@@ -594,7 +1069,7 @@
 
     /* main carousle start */
 
-    .heading-text {
+    h1 {
         font-size: 1.75rem;
     }
 
@@ -655,7 +1130,81 @@
     /* E-Accounting Course syllabus END END END */
 
     /* Assignments you'll handle: start */
+
+    .card-heading {
+        font-size: 0.7em;
+    }
+
+    .card-text {
+        font-size: 0.6em;
+    }
+
+    .card-w {
+        width: 100%;
+    }
+
     /* Assignments you'll handle: END END END */
+
+    /* top place start */
+    /* top place END END END */
+
+    /* Course Benefit start */
+
+    .benefits-icon {
+        margin: 30px 0 0 0;
+    }
+
+    /* Course Benefit END END END */
+
+    /* career pathway start */
+
+    .career-bg {
+        padding: 20px 10px;
+        border-radius: 10px;
+    }
+
+    .career-img-align {
+        text-align: center;
+    }
+
+    .career-col-padding {
+        padding: 0 20px;
+    }
+
+    .career-img {
+        width: 90%;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .career-btn {
+        width: 50%;
+    }
+
+    /* career pathway END END END */
+
+    /* Start your journey form start */
+
+    .person-img {
+        border-radius: 10px;
+    }
+
+    .person-img-col {
+        margin: 0 0 20px 0;
+    }
+
+    .form-margin {
+        margin-top: 0px;
+    }
+
+    .form-card {
+        border-radius: 20px;
+    }
+
+    .bg-form {
+        padding: 5px;
+    }
+
+    /* Start your journey form END END END */
 
 
     /* FOOTER START */
@@ -675,8 +1224,17 @@
         text-align: center;
     }
 
+    .footer-h {
+        font-size: 1.5em;
+        text-align: start;
+    }
+
+    .footer-online-course {
+        margin: 20px 0 0 0;
+    }
+
     .footer-p {
-        text-align: center;
+        text-align: start;
     }
 
     .footer-icon-size {
@@ -730,7 +1288,7 @@
         padding: 0 1rem;
     }
 
-    .heading-text {
+    h1 {
         font-size: 1.25rem;
         line-height: 1.25;
     }
@@ -798,15 +1356,129 @@
         font-size: 1em;
     }
 
+    .syllabus-img {
+        height: 50px;
+        border-radius: 10pxcareer-heading;
+    }
+
     /* E-Accounting Course syllabus END END END */
 
 
     /* Assignments you'll handle: start */
+    .mp {
+        font-size: 1em;
+        padding: 12px 0;
+    }
+
+    .card-heading {
+        font-size: 0.9em;
+    }
+
+    .card-text {
+        font-size: 0.8em;
+    }
+
+    .card-w {
+        width: 80%;
+    }
+
     /* Assignments you'll handle: END END END */
+
+    /* top place start */
+    /* top place END END END */
+
+    /* Course Benefit start */
+
+    .benefits-icon {
+        margin: 15px 0 0 0;
+    }
+
+    .benefits-text {
+        font-size: 1em;
+        margin: 20px 0;
+    }
+
+    .benefits-para {
+        font-size: 0.75em;
+    }
+
+    .benefits-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Course Benefit END END END */
+
+    /* career pathway start */
+
+
+    .career-img-align {
+        text-align: center;
+    }
+
+    .career-col-padding {
+        padding: 0 20px;
+    }
+
+    .career-img {
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .career-btn {
+        width: 50%;
+    }
+
+    /* career pathway END END END */
+
+
+
+
+    /* Diploma Certification start */
+    .crt-img-width {
+        width: 100%;
+    }
+
+    /* Diploma Certification END END END */
+
+    /* Start your journey form start */
+
+    .bg-form {
+        padding: 20px;
+    }
+
+    .form-select {
+        font-size: 1em;
+        font-weight: 600;
+        padding: 15px 5px;
+    }
+
+
+    .form-card {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+
+    .form-card {
+        margin-bottom: 20px;
+    }
+
+
+    /* Start your journey form END END END */
 
 
 
     /* FOOTER START */
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
     /* FOOTER END END END */
 
 }
@@ -831,7 +1503,7 @@
     }
 
     .heading {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     /* Learn From Microsoft Certified Expert apply END END END */
@@ -855,6 +1527,12 @@
     .logo-col {
         margin: 20px 0;
     }
+
+
+    h1 {
+        font-size: 1.5em;
+    }
+
 
     /* main carousle END END END */
 
@@ -892,13 +1570,119 @@
 
 
     /* Assignments you'll handle: start */
+
+    .mp {
+        font-size: 0.7em;
+        padding: 12px 0;
+    }
+
+    .mp {
+        font-size: 1em;
+        padding: 12px 0;
+    }
+
+    .card-heading {
+        font-size: 0.8em;
+    }
+
+    .card-text {
+        font-size: 0.7em;
+    }
+
+    .card-w {
+        width: 95%;
+    }
+
+
     /* Assignments you'll handle: END END END */
+
+    /* top place start */
+    /* top place END END END */
+
+    /* Course Benefit start */
+    /* Course Benefit END END END */
+
+    /* career pathway start */
+
+
+    .career-img-align {
+        text-align: center;
+    }
+
+    .career-col-padding {
+        padding: 15px 20px;
+    }
+
+    .career-heading {
+        font-size: 1.2em;
+    }
+
+    .career-para {
+        font-size: 0.9em;
+    }
+
+    .career-img {
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .career-btn {
+        width: 50%;
+    }
+
+
+    /* career pathway END END END */
+
+    /* Start your journey form start */
+
+    .bg-form {
+        padding: 10px;
+    }
+
+    .form-select {
+        font-size: 1em;
+        font-weight: 600;
+        padding: 15px 5px;
+    }
+
+
+    .form-card {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+
+    .diploma-button {
+        font-size: small;
+        padding: 10px 0;
+    }
+
+    /* Start your journey form END END END */
 
 
 
     /* FOOTER START */
-    /* FOOTER END END END */
 
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .footer-p {
+        margin: 5px 0;
+    }
+
+    .footer-h {
+        font-size: 1em;
+        text-align: start;
+    }
+
+    /* FOOTER END END END */
 
 
 

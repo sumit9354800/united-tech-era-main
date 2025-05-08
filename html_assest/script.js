@@ -19,7 +19,7 @@ let stdContent6 = document.querySelector("#stdContent6");
 function renderAccounting() {
 
     courserName.innerHTML = "<b>E-Accounting Diploma Course</b>";
-    diplomaImg.src = "assest/home-assets/render/e-accounting.png";
+    diplomaImg.src = "assest/home-assets/render/e-accounting.webp";
     diplomaSyllabus1.innerHTML = `
         <div class="d-flex mt-1 align-items-center diploma-content-gap">
             <span class="d-block"><i
@@ -91,7 +91,7 @@ function renderAccounting() {
 
     stdContent1.innerHTML = `
     <div class="border border-1 border-dark std-content-padding rounded-5 text-center">
-    <img src="assest/home-assets/demo.jpeg"
+    <img src="assest/home-assets/demo.webp"
     class="img-fluid object-fit-cover d-block diploma-radius diploma-img-h-1"
     alt="">
     <span class="d-block mt-3 std-name">Student name: Anuj</span>
@@ -101,7 +101,7 @@ function renderAccounting() {
 
     stdContent2.innerHTML =`
     <div class="border border-1 border-dark std-content-padding rounded-5 text-center">
-    <img src="assest/home-assets/demo.jpeg"
+    <img src="assest/home-assets/demo.webp"
     class="img-fluid object-fit-cover d-block diploma-radius diploma-img-h-2"
     alt="">
     <span class="d-block mt-3 std-name">Student name: Anuj</span>
@@ -111,7 +111,7 @@ function renderAccounting() {
 
     stdContent3.innerHTML = `
     <div class="border border-1 border-dark std-content-padding rounded-5 text-center">
-    <img src="assest/home-assets/demo.jpeg"
+    <img src="assest/home-assets/demo.webp"
     class="img-fluid object-fit-cover d-block diploma-radius diploma-img-h-3"
     alt="">
     <span class="d-block mt-3 std-name">Student name: Anuj</span>
@@ -121,7 +121,7 @@ function renderAccounting() {
     stdContent4.innerHTML = `
     <div
     class="border border-1 border-dark std-content-padding rounded-5 text-center">
-    <img src="assest/home-assets/demo.jpeg"
+    <img src="assest/home-assets/demo.webp"
     class="img-fluid object-fit-cover d-block diploma-radius diploma-img-h-3"
     alt="">
     <span class="d-block mt-3 std-name">Student name: Anuj</span>
@@ -132,7 +132,7 @@ function renderAccounting() {
     stdContent5.innerHTML =`
     <div
     class="border border-1 border-dark std-content-padding rounded-5 text-center">
-    <img src="assest/home-assets/demo.jpeg"
+    <img src="assest/home-assets/demo.webp"
     class="img-fluid object-fit-cover d-block diploma-radius diploma-img-h-3"
     alt="">
     <span class="d-block mt-3 std-name">Student name: Anuj</span>
@@ -143,7 +143,7 @@ function renderAccounting() {
     stdContent6.innerHTML = `
     <div
     class="border border-1 border-dark std-content-padding rounded-5 text-center">
-    <img src="assest/home-assets/demo.jpeg"
+    <img src="assest/home-assets/demo.webp"
     class="img-fluid object-fit-cover d-block diploma-radius diploma-img-h-3"
     alt="">
     <span class="d-block mt-3 std-name">Student name: Anuj</span>
@@ -156,7 +156,7 @@ function renderAccounting() {
 
 function renderWebDevelopment(){
     courserName.innerHTML = "<b>Web Development Diploma Course</b>";
-    diplomaImg.src = "assest/home-assets/render/web-development.png";
+    diplomaImg.src = "assest/home-assets/render/web-development.webp";
 
     diplomaSyllabus1.innerHTML = `
     <div class="d-flex mt-1 align-items-center diploma-content-gap">
@@ -247,7 +247,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent1.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anuj</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -264,7 +264,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent2.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anuj</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -281,7 +281,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent3.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anuj</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -297,7 +297,7 @@ diplomaSyllabus2.innerHTML = `
     `
     stdContent4.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anuj</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -314,7 +314,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent5.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anuj</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -331,7 +331,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent6.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anuj</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -350,7 +350,7 @@ diplomaSyllabus2.innerHTML = `
 
 function renderGraphicDesign() {
     courserName.innerHTML = "<b>Graphic Design Diploma Course</b>";
-    diplomaImg.src = "assest/home-assets/render/graphic.png";
+    diplomaImg.src = "assest/home-assets/render/graphic.webp";
 
     diplomaSyllabus1.innerHTML = `
     <div class="d-flex mt-1 align-items-center diploma-content-gap">
@@ -410,7 +410,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent1.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Sammy</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -427,7 +427,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent2.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Sammy</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -444,7 +444,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent3.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Sammy</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -460,7 +460,7 @@ diplomaSyllabus2.innerHTML = `
     `
     stdContent4.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Sammy</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -477,7 +477,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent5.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Sammy</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -494,7 +494,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent6.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Sammy</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -512,7 +512,7 @@ diplomaSyllabus2.innerHTML = `
 
 function renderAnimation() {
     courserName.innerHTML = "<b>Animation & Editing Design Diploma Course</b>";
-    diplomaImg.src = "assest/home-assets/render/editing.png";
+    diplomaImg.src = "assest/home-assets/render/editing.webp";
 
     diplomaSyllabus1.innerHTML = `
     <div class="d-flex mt-1 align-items-center diploma-content-gap">
@@ -572,7 +572,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent1.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anish</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -589,7 +589,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent2.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anish</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -606,7 +606,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent3.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anish</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -622,7 +622,7 @@ diplomaSyllabus2.innerHTML = `
     `
     stdContent4.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anish</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -639,7 +639,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent5.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anish</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -656,7 +656,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent6.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Anish</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -674,7 +674,7 @@ diplomaSyllabus2.innerHTML = `
 
 function renderUiUx() {
     courserName.innerHTML = "<b>UI/UX Design Diploma Course</b>";
-    diplomaImg.src = "assest/home-assets/render/ui-ux.png";
+    diplomaImg.src = "assest/home-assets/render/ui-ux.webp";
 
     diplomaSyllabus1.innerHTML = `
     <div class="d-flex mt-1 align-items-center diploma-content-gap">
@@ -729,7 +729,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent1.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Shubham</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -746,7 +746,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent2.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Shubham</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -763,7 +763,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent3.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Shubham</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -779,7 +779,7 @@ diplomaSyllabus2.innerHTML = `
     `
     stdContent4.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Shubham</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -796,7 +796,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent5.innerHTML =`
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Shubham</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -813,7 +813,7 @@ diplomaSyllabus2.innerHTML = `
 
     stdContent6.innerHTML = `
     <div class="border border-1 border-dark std-content-padding text-center bg-color" id="stdContent1">
-    <img src="assest/home-assets/demo.jpeg" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
+    <img src="assest/home-assets/demo.webp" class="w-100 object-fit-cover d-block diploma-radius-other" alt="">
     <span class="d-block mt-3 std-name-other text-start">Student name: Shubham</span>
     <span class="std-name-text text-start d-block">Website:United</span>
     <span class="std-name-text text-start d-block">GitHub:Link</span>
@@ -829,7 +829,7 @@ diplomaSyllabus2.innerHTML = `
     `
 }
 
-renderAccounting();
+// renderAccounting();
 // renderWebDevelopment();
 // renderGraphicDesign();
 // renderAnimation();

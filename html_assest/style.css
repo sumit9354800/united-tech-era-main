@@ -8,6 +8,7 @@
 }
 
 
+
 @keyframes appear {
     from {
         opacity: 0;
@@ -27,6 +28,12 @@
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
 }
+
+
+/* html , body {
+    overflow-x: hidden;
+ }
+  */
 
 /* Learn From Microsoft Certified Expert apply start */
 
@@ -96,8 +103,12 @@
     padding: 1.25rem 2rem;
 }
 
+.img-review{
+    margin: 10px 0;
+}
+
 .lg-navbar {
-    background-image: url("../assest/home-assets/website images/Rectangle 1.png");
+    background-image: url("../assest/home-assets/website images/Rectangle 1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -132,8 +143,13 @@
     max-width: 1300px;
 }
 
-.heading-text {
+h1 {
     font-size: 1.8em;
+}
+
+
+.united-col {
+    padding: 20px 1rem;
 }
 
 .bi-bar-chart-steps {
@@ -147,7 +163,7 @@
 }
 
 .explore-margin {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .explore-button {
@@ -165,7 +181,7 @@
 }
 
 .united-p-5 {
-    padding: 50px;
+    padding: 15px 50px;
 }
 
 /* main carousle END END END */
@@ -191,6 +207,7 @@
 
 .gray-color {
     color: #3B3B3B;
+    font-weight: 400;
 }
 
 .skill-gap {
@@ -261,6 +278,10 @@
     border-radius: 20px;
 }
 
+label {
+    font-weight: 600;
+}
+
 .form-section {
     margin: 50px 0;
 }
@@ -280,13 +301,12 @@
 .person-img {
     border-radius: 40px 0 0 40px;
 }
-
 /* Start your journey form END END END */
 
 
 /* Explore Our Diploma Courses start */
 
-.diploma-img-width{
+.diploma-img-width {
     width: 100%;
     height: 100%;
 }
@@ -304,25 +324,34 @@
     border: 2px solid black;
 }
 
-.js-eAccountingBtn{
+.js-eAccountingBtn {
     background-color: #1e88e5;
     color: white;
+    box-shadow: 2px 5px black;
 }
-.js-webDevlopmentBtn{
+
+.js-webDevlopmentBtn {
     background-color: #1e88e5;
     color: white;
+    box-shadow: 2px 5px black;
 }
-.js-graphicBtn{
+
+.js-graphicBtn {
     background-color: #1e88e5;
     color: white;
+    box-shadow: 2px 5px black;
 }
-.js-animationBtn{
+
+.js-animationBtn {
     background-color: #1e88e5;
     color: white;
+    box-shadow: 2px 5px black;
 }
-.js-uiUxBtn{
+
+.js-uiUxBtn {
     background-color: #1e88e5;
     color: white;
+    box-shadow: 2px 5px black;
 }
 
 .diploma-on-Off-course-button {
@@ -353,7 +382,7 @@
 }
 
 .diploma-margin {
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .classes-button {
@@ -491,47 +520,31 @@
 
 /* Course Benefit start */
 
-.bg-benefit {
-    background-color: #FFFAEA;
-    padding: 50px;
+.benefits-icon {
+    width: 100px;
+    height: 100px;
     border-radius: 20px;
 }
 
-.course-benefit>li {
+.benefits-gap {
+    gap: 50px;
+}
+
+.benefits-heading {
+    margin: 50px 0;
+}
+
+.benefits-text {
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+
+.benefits-para {
+    text-align: center;
     font-size: 1em;
     margin: 10px 0;
-    color: #3f3f3f;
-
-}
-
-.benefit-width {
-    width: 80%;
-}
-
-.course-benefit {
-    list-style-type: none;
-    padding: 0 20px 0 0;
-}
-
-.course-benefit li::before {
-    content: "✔️";
-    margin-right: 10px;
-    color: #2196f3;
-}
-
-.benefit-button {
-    margin: 20px 0 0 0;
-    background-color: #2196f3;
-    text-decoration: none;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 20px;
-    border: 2px solid black;
-}
-
-.benefit-button:hover {
-    color: white;
-    box-shadow: 2px 5px black;
+    font-weight: 500;
+    color: #505050;
 }
 
 /* Course Benefit END END END */
@@ -540,6 +553,7 @@
 /* about us start */
 
 .about-us-bg {
+    margin: 50px 0 0 0;
     background-color: #042F73;
     color: white;
     padding: 70px;
@@ -547,6 +561,7 @@
 
 .about-us-text {
     text-align: justify;
+    font-weight: 400;
 }
 
 .about-us-img {
@@ -567,7 +582,7 @@
 /* OUE STORY IN STATS START */
 
 .our-story-bg {
-    background: url("../assest/home-assets/backgrounds/background\ 2.png");
+    background: url("../assest/home-assets/backgrounds/background\ 2.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -579,7 +594,7 @@
 }
 
 .our-red {
-    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats-red.png");
+    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats-red.webp");
     color: white;
     text-align: center;
     border-radius: 40px;
@@ -599,7 +614,7 @@
 }
 
 .our-green {
-    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats-green.png");
+    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats-green.webp");
     color: white;
     text-align: center;
     border-radius: 40px;
@@ -613,7 +628,7 @@
 }
 
 .our-blue {
-    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats.png");
+    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats.webp");
     color: white;
     text-align: center;
     border-radius: 40px;
@@ -654,7 +669,7 @@
 
 /* Diploma Certification start */
 
-.crt-img-width{
+.crt-img-width {
     width: 75%;
 }
 
@@ -673,8 +688,6 @@
 }
 
 
-
-
 /* feedback END END END */
 
 /* FAQs START */
@@ -688,14 +701,26 @@
 
 .heading {
     color: #FFF;
-    font-size: 14px;
+    font-size: 1em;
+    font-weight: 400;
     border-bottom: 1px solid #e7e7e7;
-    letter-spacing: 0.8px;
     padding: 15px;
     background: #042F73;
     border-radius: 10px;
     cursor: pointer;
 }
+
+.contents {
+    display: none;
+    background: #FFFAFA;
+    padding: 15px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 
 
 .heading:hover {
@@ -724,21 +749,10 @@
     transform: rotate(0deg);
 }
 
-.contents {
-    display: none;
-    background: #FFFAFA;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    color: #000;
-    font-size: 13px;
-    line-height: 1.5;
-}
 
 h1 {
     color: #000;
     font-weight: normal;
-    margin: 50px 0;
 }
 
 /* FAQs END END END */
@@ -802,6 +816,16 @@ h1 {
 .map {
     width: 100%;
     height: 500px;
+}
+
+.interview-footer {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.footer-p {
+    font-weight: 400;
+    margin: 10px 0;
 }
 
 /* FOOTER END END END */
@@ -905,6 +929,17 @@ h1 {
         padding: 20px;
     }
 
+    .form-select{
+        font-size: 1.3em;
+        padding: 10px 5px;
+    }
+
+    
+    label{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
     /* Start your journey form END END END */
 
     /* Explore Our Diploma Courses start */
@@ -914,12 +949,12 @@ h1 {
         margin: 0 auto;
     }
 
-    .course-syllabus-p{
-     padding: 20px;
+    .course-syllabus-p {
+        padding: 20px;
     }
 
     /* Explore Our Diploma Courses END END END */
-    
+
     /* about us start */
 
 
@@ -927,13 +962,13 @@ h1 {
     /* about us END END END */
 
 
- /* OUE STORY IN STATS START */
+    /* OUE STORY IN STATS START */
 
- .our-blue {
-    height: 310px;
-}
+    .our-blue {
+        height: 310px;
+    }
 
-/* OUE STORY IN STATS END END */
+    /* OUE STORY IN STATS END END */
 
     /* Diploma Certification start */
 
@@ -968,7 +1003,7 @@ h1 {
 
     /* main carousle start */
 
-    .heading-text {
+    h1 {
         font-size: 1.5em;
     }
 
@@ -1031,7 +1066,7 @@ h1 {
 
     /* Start your journey form END END END */
 
-    
+
     /* Explore Our Diploma Courses start */
 
 
@@ -1129,11 +1164,23 @@ h1 {
 
     /* Explore Our Diploma Courses END END END */
 
-
     /* Course Benefit start */
 
+    .benefits-gap {
+        gap: 30px;
+    }
+
+    .benefits-text {
+        font-size: 1.1em;
+        margin: 20px 0;
+    }
+
+    .benefits-para {
+        font-size: 0.8em;
+    }
 
     /* Course Benefit END END END */
+
 
     /* about us start */
 
@@ -1226,7 +1273,7 @@ h1 {
 
     /* main carousle start */
 
-    .heading-text {
+    h1 {
         font-size: 1.5rem;
     }
 
@@ -1328,76 +1375,81 @@ h1 {
 
     /* Start your journey form END END END */
 
-  /* Explore Our Diploma Courses start */
+    /* Explore Our Diploma Courses start */
 
-  .course-syllabus {
-    font-size: 0.7em;
-}
+    .course-syllabus {
+        font-size: 0.7em;
+    }
 
-.course-syllabus-padding {
-    font-size: 0.8em;
-    margin: 5px 0 0 0;
-    padding: 10px 0 0 0;
-}
-
-
-.diploma-icon {
-    font-size: 1.5em;
-    color: #2196f3;
-}
-
-.download-syllabus-button {
-    font-size: 0.5em;
-    padding: 5px 10px;
-}
-
-.diploma-margin {
-    margin: 10px 0 0 0;
-}
-
-.diploma-on-Off-course-button {
-    font-size: 0.8em;
-    padding: 5px 15px;
-}
+    .course-syllabus-padding {
+        font-size: 0.8em;
+        margin: 5px 0 0 0;
+        padding: 10px 0 0 0;
+    }
 
 
-.download-syllabus-button {
-    width: 100%;
-}
+    .diploma-icon {
+        font-size: 1.5em;
+        color: #2196f3;
+    }
 
-.std-name-other {
-    font-size: 1em;
-}
+    .download-syllabus-button {
+        font-size: 0.5em;
+        padding: 5px 10px;
+    }
 
-.std-name-text {
-    font-size: 0.7em;
-}
+    .diploma-margin {
+        margin: 10px 0 0 0;
+    }
 
-.project-text {
-    font-size: 8px;
-}
+    .diploma-on-Off-course-button {
+        font-size: 0.8em;
+        padding: 5px 15px;
+    }
 
-/* Explore Our Diploma Courses END END END */
+
+    .download-syllabus-button {
+        width: 100%;
+    }
+
+    .std-name-other {
+        font-size: 1em;
+    }
+
+    .std-name-text {
+        font-size: 0.7em;
+    }
+
+    .project-text {
+        font-size: 8px;
+    }
+
+    /* Explore Our Diploma Courses END END END */
+
 
 
     /* Course Benefit start */
 
-    .course-benefit {
-        font-size: 0.7em;
-        margin: 10px 0;
-        color: #3f3f3f;
-
-    }
-
-    .benefit-width {
-        width: 100%;
+    .benefits-icon {
+        margin: 30px 0 0 0;
     }
 
 
-    .benefit-button {
-        padding: 8px 15px;
-        font-size: 0.7em;
-        margin: 20px 0 0 0;
+    .benefits-gap {
+        gap: 0;
+    }
+
+    /* .benefits-heading{
+        margin: 20px 0;
+    } */
+
+    .benefits-text {
+        font-size: 1.1em;
+        margin: 20px 0;
+    }
+
+    .benefits-para {
+        font-size: 0.8em;
     }
 
     /* Course Benefit END END END */
@@ -1466,10 +1518,12 @@ h1 {
 
     .interview-footer-h {
         font-size: 1.3em;
+        font-weight: 400;
     }
 
     .interview-footer {
         font-size: 1em;
+        font-weight: 400;
     }
 
     /* FOOTER END END END */
@@ -1513,17 +1567,23 @@ p {
 
     /* main carousle start */
 
-    .heading-text {
+    h1 {
         font-size: 1.75rem;
+        margin: 0;
     }
 
     .united-p-5 {
-        padding: 25px;
+        padding: 5px 10px;
     }
 
     .paragraph-text {
         font-size: 0.9375rem;
     }
+    
+    .img-review{
+        margin: 30px 0px;
+    }
+
 
     /* main carousle END END END */
 
@@ -1578,103 +1638,85 @@ p {
     /* Start your journey form END END END */
 
 
-   /* Explore Our Diploma Courses start */
+    /* Explore Our Diploma Courses start */
 
-   .course-syllabus {
-    font-size: 0.8em;
-}
+    .course-syllabus {
+        font-size: 0.8em;
+    }
 
-.course-syllabus-padding {
-    font-size: 0.8em;
-}
+    .course-syllabus-padding {
+        font-size: 0.8em;
+    }
 
-.diploma-icon {
-    font-size: 1.5em;
-    color: #2196f3;
-}
+    .diploma-icon {
+        font-size: 1.5em;
+        color: #2196f3;
+    }
 
-.download-syllabus-button {
-    font-size: 0.7em;
-    padding: 5px 15px;
-}
+    .download-syllabus-button {
+        font-size: 0.7em;
+        padding: 5px 15px;
+    }
 
-.diploma-margin {
-    margin: 10px 0 0 0;
-}
+    .diploma-margin {
+        margin: 10px 0 0 0;
+    }
 
-.download-syllabus-button {
-    width: 100%;
-}
+    .download-syllabus-button {
+        width: 100%;
+    }
 
-.diploma-on-Off-course-button {
-    font-size: 0.8em;
-    padding: 5px 15px;
-}
+    .diploma-on-Off-course-button {
+        font-size: 0.8em;
+        padding: 5px 15px;
+    }
 
-.diploma-h-sm {
-    height: 10%;
-}
+    .diploma-h-sm {
+        height: 10%;
+    }
 
-.main-diploma-padding {
-    padding: 0px 10px;
-}
+    .main-diploma-padding {
+        padding: 0px 10px;
+    }
 
-.std-name-other {
-    font-size: 1.2em;
-}
+    .std-name-other {
+        font-size: 1.2em;
+    }
 
-.std-name-text {
-    font-size: 1em;
-}
+    .std-name-text {
+        font-size: 1em;
+    }
 
-.project-text {
-    font-size: 0.8em;
-}
+    .project-text {
+        font-size: 0.8em;
+    }
 
-.diploma-img-width{
-    width: 100%;
-    height: 500px;
-}
+    .diploma-img-width {
+        width: 100%;
+        height: 500px;
+    }
 
-.diploma-content-gap{
-    margin: 15px 0;
-}
+    .diploma-content-gap {
+        margin: 15px 0;
+    }
 
-.course-syllabus {
-    font-size: 1.1em;
-}
+    .course-syllabus {
+        font-size: 1.1em;
+    }
 
-.diploma-button {
-    font-size: large;
-    padding: 10px 0;
-}
+    .diploma-button {
+        font-size: large;
+        padding: 10px 0;
+    }
 
-/* Explore Our Diploma Courses END END END */
+    /* Explore Our Diploma Courses END END END */
 
 
 
     /* Course Benefit start */
 
-    .course-benefit {
-        font-size: 1em;
-        margin: 10px 0;
-        color: #3f3f3f;
-
-    }
-
-    .course-benefit-margin {
-        margin-top: 20px;
-    }
-
-    .benefit-width {
-        width: 100%;
-    }
-
-
-    .benefit-button {
-        padding: 8px 15px;
-        font-size: 1em;
-        margin: 20px 0 0 0;
+    .benefits-icon {
+        margin: 30px 0 0 0;
     }
 
     /* Course Benefit END END END */
@@ -1708,43 +1750,43 @@ p {
 
 
 
-   /* OUE STORY IN STATS START */
+    /* OUE STORY IN STATS START */
 
 
 
-   .our-blue-margin {
-    margin-top: 0px;
-}
+    .our-blue-margin {
+        margin-top: 0px;
+    }
 
-.our-green {
-    margin: 0;
-}
+    .our-green {
+        margin: 0;
+    }
 
-.our-text {
-    padding: 0 50px;
-    font-size: 1.4em;
-}
+    .our-text {
+        padding: 0 50px;
+        font-size: 1.4em;
+    }
 
 
-.our-blue {
-    width: 100%;
-    height: 35vh;
-    display: flex;
-    margin: 0;
-}
+    .our-blue {
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        margin: 0;
+    }
 
-.our-text-blue {
-    font-size: 1.5em;
-}
+    .our-text-blue {
+        font-size: 1.5em;
+    }
 
-.our-content-text {
-    padding: 0 50px;
-    font-size: 1em;
-    text-align: center;
-    margin: 30px 0;
-}
+    .our-content-text {
+        padding: 0 50px;
+        font-size: 1em;
+        text-align: center;
+        margin: 30px 0;
+    }
 
-/* OUE STORY IN STATS END END */
+    /* OUE STORY IN STATS END END */
 
     /* Diploma Certification start */
 
@@ -1759,7 +1801,16 @@ p {
 
     /* feedback END END END  */
 
+    /* FAQs START */
+
+    .heading {
+        font-size: 1em;
+    }
+
+    /* FAQs END END END */
+
     /* FOOTER START */
+
 
     .footer-gap {
         gap: 1px;
@@ -1776,8 +1827,17 @@ p {
         text-align: center;
     }
 
+    .footer-h {
+        font-size: 1.5em;
+        text-align: start;
+    }
+
+    .footer-online-course{
+        margin: 20px 0 0 0;
+    }
+
     .footer-p {
-        text-align: center;
+        text-align: start;
     }
 
     .footer-icon-size {
@@ -1833,7 +1893,7 @@ p {
         padding: 0 1rem;
     }
 
-    .heading-text {
+    h1 {
         font-size: 1.25rem;
         line-height: 1.25;
     }
@@ -1843,10 +1903,11 @@ p {
         line-height: 1.5;
     }
 
+ 
     .united-p-5 {
-        padding: 10px;
-        margin: 0;
+        padding: 5px 10px;
     }
+
 
     .explore-margin {
         margin-top: 0;
@@ -1901,16 +1962,21 @@ p {
     }
 
     .form-select {
-        font-size: 0.8em;
+        font-size: 1em;
+        font-weight: 600;
+        padding: 15px 5px;
     }
 
-    .form-section {
-        margin-top: 30px;
-    }
 
     .form-card {
         margin-bottom: 20px;
     }
+
+    label{
+        font-size: 1em;
+        font-weight: 600;
+    }
+
 
 
     /* Start your journey form END END END */
@@ -1925,41 +1991,28 @@ p {
     /* Explore Our Diploma Courses END END END */
 
 
-
-
-
-
-
-
     /* Course Benefit start */
 
-    .course-benefit {
+    .benefits-icon {
+        margin: 15px 0 0 0;
+    }
+
+    .benefits-text {
         font-size: 1em;
+        margin: 20px 0;
     }
 
-
-    .bg-benefit {
-        padding: 30px;
+    .benefits-para {
+        font-size: 0.75em;
     }
 
-    .course-benefit-margin {
-        margin-top: 20px;
-        font-size: 1.5em;
-    }
-
-    .benefit-width {
-        width: 100%;
-    }
-
-
-    .benefit-button {
-        padding: 5px 15px;
-        font-size: 1em;
-        margin: 20px 0 0 0;
-        border-radius: 10px;
+    .benefits-icon {
+        width: 80px;
+        height: 80px;
     }
 
     /* Course Benefit END END END */
+
 
 
     /* about us start */
@@ -1970,48 +2023,48 @@ p {
 
 
 
-   /* OUE STORY IN STATS START */
+    /* OUE STORY IN STATS START */
 
-   .our-text {
-    font-size: 1em;
-}
+    .our-text {
+        font-size: 1em;
+    }
 
-.our-text-blue {
-    font-size: 1.2em;
-}
+    .our-text-blue {
+        font-size: 1.2em;
+    }
 
-.our-green {
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    margin: 0;
-}
+    .our-green {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        margin: 0;
+    }
 
-.our-red {
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    margin: 0;
-}
+    .our-red {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        margin: 0;
+    }
 
-.our-text-blue {
-    font-size: 1.5em;
-}
+    .our-text-blue {
+        font-size: 1.5em;
+    }
 
-.our-content-text {
-    margin: 20px 0;
-    font-size: 0.9em;
-}
-
-
-/* OUE STORY IN STATS END END */
+    .our-content-text {
+        margin: 20px 0;
+        font-size: 0.9em;
+    }
 
 
-/* Diploma Certification start */
-    .crt-img-width{
+    /* OUE STORY IN STATS END END */
+
+
+    /* Diploma Certification start */
+    .crt-img-width {
         width: 100%;
     }
-    
+
 
     /* Diploma Certification END END END */
 
@@ -2022,7 +2075,21 @@ p {
 
     /* feedback END END END  */
 
+    /* FAQs START */
+
+    .heading {
+        font-size: 1em;
+    }
+
+    /* FAQs END END END */
+
     /* FOOTER START */
+
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
     /* FOOTER END END END */
 
     /* Common styles */
@@ -2087,14 +2154,15 @@ p {
 
 
     /* main carousle start */
-    .heading-text {
+    h1 {
         font-size: 1.25em;
         line-height: 1.25;
     }
 
     .united-p-5 {
-        padding: 5px;
+        padding: 5px 10px;
     }
+
 
     /* main carousle END END END */
 
@@ -2136,13 +2204,22 @@ p {
         padding: 10px;
     }
 
-    .form-section {
-        margin-top: 30px;
+    .form-select {
+        font-size: 1em;
+        font-weight: 600;
+        padding: 15px 5px;
     }
 
-    .form-select {
-        font-size: 0.8em;
+
+    .form-card {
+        margin-bottom: 20px;
     }
+
+    label{
+        font-size: 1em;
+        font-weight: 600;
+    }
+
 
     .diploma-button {
         font-size: small;
@@ -2152,92 +2229,60 @@ p {
     /* Start your journey form END END END */
 
 
-   /* Explore Our Diploma Courses start */
+    /* Explore Our Diploma Courses start */
 
-   .diploma-on-Off-course-button {
-    width: 100%;
-    font-size: 1em;
-}
-
-.diploma-text-h {
-    font-size: 1em;
-}
-
-.diploma-text-p {
-    font-size: 0.8em;
-    text-align: end;
-}
-
-.course-syllabus-padding {
-    margin-top: 10px;
-    font-size: 0.8em;
-    padding: 6px 0;
-}
-
-.download-syllabus-button {
-    border-radius: 5px;
-    font-size: 0.72em;
-    padding: 5px 0px;
-}
-
-.download-syllabus-button:hover {
-    box-shadow: 1px 1px black;
-}
-
-.course-syllabus {
-    font-size: 0.9em;
-    margin: 0;
-}
-
-.diploma-icon {
-    font-size: 1.2em;
-}
-
-.diploma-content-gap {
-    gap: 5px;
-}
-
-.project-text {
-    font-size: 1em;
-}
-
-
-/* Explore Our Diploma Courses END END END */
-
-/* Course Benefit start */
-
-    .course-benefit {
-        font-size: 10px;
-        margin: 10px 0;
-        color: #3f3f3f;
-        padding: 0;
-
-    }
-
-    .course-benefit-margin {
-        margin-top: 10px;
-        font-size: 1.3em;
-    }
-
-    .course-benefit {
-        font-size: 0.8em;
-    }
-
-
-    .bg-benefit {
-        padding: 20px;
-    }
-
-    .benefit-width {
+    .diploma-on-Off-course-button {
         width: 100%;
+        font-size: 1em;
     }
 
+    .diploma-text-h {
+        font-size: 1em;
+    }
 
-    .benefit-button {
-        padding: 5px 15px;
+    .diploma-text-p {
         font-size: 0.8em;
-        margin: 20px 0 0 0;
+        text-align: end;
     }
+
+    .course-syllabus-padding {
+        margin-top: 10px;
+        font-size: 0.8em;
+        padding: 9px 0;
+    }
+
+    .download-syllabus-button {
+        border-radius: 5px;
+        font-size: 0.72em;
+        padding: 5px 0px;
+    }
+
+    .download-syllabus-button:hover {
+        box-shadow: 1px 1px black;
+    }
+
+    .course-syllabus {
+        font-size: 0.8em;
+        margin: 0;
+    }
+
+    .diploma-icon {
+        font-size: 1em;
+    }
+
+    .diploma-content-gap {
+        gap: 5px;
+    }
+
+    .project-text {
+        font-size: 1em;
+    }
+
+
+    /* Explore Our Diploma Courses END END END */
+
+    /* Course Benefit start */
+
 
     /* Course Benefit END END END */
 
@@ -2248,16 +2293,18 @@ p {
     }
 
     .about-us-text {
-        font-size: 0.8em;
+        font-size: 0.9em;
         text-align: justify;
     }
 
     .section-one-text {
-        font-size: 0.8em;
+        font-size: 1em;
+
     }
 
-    .heading-text {
+    h1 {
         font-size: 1.2em;
+        margin:  0;
     }
 
     .about-us-img {
@@ -2274,7 +2321,7 @@ p {
 
 
 
-    
+
     /* OUE STORY IN STATS START */
 
     .our-text {
@@ -2342,8 +2389,36 @@ p {
 
     /* feedback END END END  */
 
+    /* FAQs START */
+
+    .heading {
+        font-size: 1em;
+    }
+
+    .contents {
+        font-size: 0.85em;
+    }
+
+    /* FAQs END END END */
+
 
     /* FOOTER START */
+
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .footer-p{
+        margin: 5px 0;
+    }
+
+    .footer-h {
+        font-size: 1em;
+        text-align: start;
+    }
+
     /* FOOTER END END END */
 
 }
