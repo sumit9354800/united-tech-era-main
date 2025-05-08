@@ -27,6 +27,22 @@
 }
 
 
+.view-more {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 1px 4px black;
+}
+
+.view-more:hover {
+    background-color: #077bff;
+    color: white;
+}
+
+
 /* Learn From Microsoft Certified Expert apply start */
 
 .banner {
@@ -433,6 +449,14 @@ h1 {
     margin: 50px 0;
 }
 
+.top-place-img-col{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #8b8b8b;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 /* top place END END END */
 
