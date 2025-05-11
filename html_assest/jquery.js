@@ -1,4 +1,4 @@
-var owl = $('.owl-carousel');
+var owl = ('.owl-carousel');
 owl.owlCarousel({
     loop:true,
     nav:false,

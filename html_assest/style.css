@@ -23,11 +23,11 @@
 } */
 
 
-.animation-effact {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-}
+/*.animation-effact {*/
+/*    animation: appear linear;*/
+/*    animation-timeline: view();*/
+/*    animation-range: entry 0% cover 30%;*/
+/*}*/
 
 
 /* html , body {
@@ -103,7 +103,7 @@
     padding: 1.25rem 2rem;
 }
 
-.img-review{
+.img-review {
     margin: 10px 0;
 }
 
@@ -201,7 +201,7 @@ h1 {
 
 .skills-width {
     width: 60%;
-    height: 200px;
+    height: 60%;
     border-radius: 5px;
 }
 
@@ -301,6 +301,7 @@ label {
 .person-img {
     border-radius: 40px 0 0 40px;
 }
+
 /* Start your journey form END END END */
 
 
@@ -479,8 +480,8 @@ label {
 
 
 .company-img {
-    width: 100px;
-    height: 50px;
+    width: 10%;
+    height: auto;
 }
 
 
@@ -628,7 +629,8 @@ label {
 }
 
 .our-blue {
-    background: url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats.webp");
+    background: linear-gradient(rgba(44, 73, 115, 0.8), rgba(44, 73, 115, 0.8)),
+        url("../assest/home-assets/our-story-in-stats/Our\ Story\ In\ Stats-blue.webp");
     color: white;
     text-align: center;
     border-radius: 40px;
@@ -639,6 +641,18 @@ label {
     align-items: center;
     justify-content: center;
     margin: 0 0 30px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.justdial1 {
+    font-size: 30px;
+    color: #1274C0;
+}
+
+.justdial2 {
+    font-size: 30px;
+    color: rgb(255, 103, 47);
 }
 
 .our-gap {
@@ -659,6 +673,7 @@ label {
 
 .our-content-text {
     padding: 0 50px;
+    font-weight: 500;
     font-size: 1.4em;
     margin: 30px 0;
 }
@@ -783,13 +798,9 @@ h1 {
     font-size: 30px;
 }
 
-.footer-gap {
-    gap: 10px;
-}
-
 .footer-icon-size {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -929,13 +940,13 @@ h1 {
         padding: 20px;
     }
 
-    .form-select{
+    .form-select {
         font-size: 1.3em;
         padding: 10px 5px;
     }
 
-    
-    label{
+
+    label {
         font-size: 1.1em;
         font-weight: 600;
     }
@@ -1020,8 +1031,9 @@ h1 {
 
     /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
     .skills-width {
-        width: 70%;
-        height: 150px;
+        width: 60%;
+        height: 60%;
+        border-radius: 5px;
     }
 
     .skill-gap {
@@ -1140,8 +1152,8 @@ h1 {
 
 
     .company-img {
-        width: 100px;
-        height: 50px;
+        width: 10%;
+        height: auto;
     }
 
     .course-syllabus-padding {
@@ -1295,9 +1307,11 @@ h1 {
 
     /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
     .skills-width {
-        width: 250px;
-        height: 250px;
+        width: 60%;
+        height: 60%;
+        border-radius: 5px;
     }
+
 
     .skill-gap {
         gap: 0;
@@ -1579,8 +1593,8 @@ p {
     .paragraph-text {
         font-size: 0.9375rem;
     }
-    
-    .img-review{
+
+    .img-review {
         margin: 30px 0px;
     }
 
@@ -1589,10 +1603,11 @@ p {
 
 
     /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
-    .skills-width {
-        width: 170px;
-        height: 170px;
-    }
+.skills-width {
+    width: 60%;
+    height: 60%;
+    border-radius: 5px;
+}
 
     /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
 
@@ -1832,7 +1847,7 @@ p {
         text-align: start;
     }
 
-    .footer-online-course{
+    .footer-online-course {
         margin: 20px 0 0 0;
     }
 
@@ -1841,8 +1856,8 @@ p {
     }
 
     .footer-icon-size {
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }
 
     .interview-footer-h {
@@ -1903,7 +1918,7 @@ p {
         line-height: 1.5;
     }
 
- 
+
     .united-p-5 {
         padding: 5px 10px;
     }
@@ -1931,10 +1946,11 @@ p {
 
 
     /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons start */
-    .skills-width {
-        width: 170px;
-        height: 170px;
-    }
+.skills-width {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+}
 
     /* Degree Hai Skill Nahi , Toh Job Milti Kyu Nahi ? Reasons END END END */
 
@@ -1972,7 +1988,7 @@ p {
         margin-bottom: 20px;
     }
 
-    label{
+    label {
         font-size: 1em;
         font-weight: 600;
     }
@@ -2086,8 +2102,8 @@ p {
     /* FOOTER START */
 
     .footer-icon-size {
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 70%;
     }
 
     /* FOOTER END END END */
@@ -2215,7 +2231,7 @@ p {
         margin-bottom: 20px;
     }
 
-    label{
+    label {
         font-size: 1em;
         font-weight: 600;
     }
@@ -2304,7 +2320,7 @@ p {
 
     h1 {
         font-size: 1.2em;
-        margin:  0;
+        margin: 0;
     }
 
     .about-us-img {
@@ -2405,12 +2421,12 @@ p {
     /* FOOTER START */
 
     .footer-icon-size {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
 
-    
-    .footer-p{
+
+    .footer-p {
         margin: 5px 0;
     }
 
