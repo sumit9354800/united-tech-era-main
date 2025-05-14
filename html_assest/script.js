@@ -829,7 +829,7 @@ diplomaSyllabus2.innerHTML = `
     `
 }
 
-// renderAccounting();
+renderAccounting();
 // renderWebDevelopment();
 // renderGraphicDesign();
 // renderAnimation();
