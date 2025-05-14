@@ -1,0 +1,1152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+
+.tf{
+    text-transform: capitalize;
+}
+
+/* 
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+
+.animation-effact {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+} */
+
+
+/* Learn From Microsoft Certified Expert apply start */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px 25px;
+    background-color: #eee;
+    gap: 330px;
+}
+
+.dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+.blue {
+    background-color: #2196f3;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+.btns {
+    background-color: #1e88e5;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btns:hover {
+    background-color: #1565c0;
+    color: white;
+}
+
+/* Learn From Microsoft Certified Expert apply END END END */
+
+/* main carousle start */
+
+h1 {
+    font-size: 2.5em;
+}
+
+.microsoft-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.united-col {
+    padding: 2em 1rem;
+}
+
+
+
+.section-one-text {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+.lg-navbar {
+    background-image: url("../assest/home-assets/website images/Rectangle 1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.bg-container {
+    background-color: rgb(15, 15, 151);
+    padding: 1.25rem 3rem;
+}
+
+.button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.button:hover {
+    box-shadow: 2px 5px black;
+}
+
+.united-border {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px;
+    transition: all 0.3s ease;
+}
+
+
+.bi-bar-chart-steps {
+    font-size: 30px;
+}
+
+
+.explore-margin {
+    margin-top: 50px;
+}
+
+.explore-button {
+    background-color: rgb(41, 130, 255);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.explore-button:hover {
+    color: white;
+    box-shadow: 2px 5px black;
+}
+
+.united-p-5 {
+    padding: 20px;
+}
+
+/* main carousle end */
+
+/* diploma start */
+
+.diploma-bg {
+    background-color: rgb(248, 248, 248);
+    padding: 20px 0;
+}
+
+.diploma-img {
+    width: 80%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.36);
+    margin: 20px 0;
+}
+
+/* diploma END END END */
+
+/* social media start */
+
+.social-media-bg {
+    background: url("../assest/contact-us/social-media.webp") no-repeat center center;
+    background-size: 100%;
+    height: 409px;
+    width: 100%;
+}
+
+
+
+/* social media END END END */
+
+/* contact us form start */
+
+.contact-form-padding {
+    padding: 0 3rem;
+}
+
+.contact-heading {
+    margin: 50px 0 25px 0;
+}
+
+.contact-sub-heading {
+    margin: 0 0 50px 0;
+    color: #3B3B3B;
+}
+
+.contact-container {
+    background-color: #B9DDFC;
+    padding: 30px 0;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: rgba(16, 16, 17, 0.495) 0px 15px 5px -12px inset, rgba(0, 0, 0, 0.3) 0px 1px 5px 1px inset;
+}
+
+.form-select {
+    padding: 15px 10px;
+    font-size: 1em;
+}
+
+.submit-text {
+    font-weight: 700;
+}
+
+/* contact us form END END END */
+
+
+/* Begin your Journey here ! start */
+.begin-bg {
+    background-image: url("../assest/home-assets/backgrounds/background\ 2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 80px 0 0 0;
+}
+
+.text-container-padding {
+    padding: 70px 10px;
+}
+
+.contact-img {
+    width: 100%;
+    height: 100px;
+}
+
+.begin-para {
+    font-size: 1.5em;
+}
+
+.begin-text {
+    margin: 0 0 40px 0;
+}
+
+.begin-img-container {
+    padding: 30px;
+}
+
+   .begin-img{
+        width: 50%;
+    }
+
+/* Begin your Journey here ! END END END */
+
+/* FOOTER START */
+
+
+.footer-bg {
+    background: #042F73;
+    height: 100%;
+    margin: 15vh 0 0 0;
+}
+
+.footer-logo {
+    width: 10em;
+}
+
+.bi-geo-alt-fill {
+    font-size: 30px;
+}
+
+.bi-envelope {
+    font-size: 30px;
+}
+
+.bi-telephone-fill {
+    font-size: 30px;
+}
+
+.footer-icon-size {
+    width: 100%;
+    height: 100%;
+}
+
+.interview-footer {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.interview-footer-h {
+    margin: 30px 0 0 0;
+}
+
+.map-margin {
+    margin: 50px 0;
+}
+
+.made-orange {
+    color: rgb(255, 102, 47);
+}
+
+.india-green {
+    color: green;
+}
+
+.footer-h {
+    font-size: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+.footer-p {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.interview-footer-h {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+/* FOOTER END END END */
+
+
+
+
+@media (min-width: 1200px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+
+    .banner {
+        flex-direction: row;
+        gap: 460px;
+        text-align: center;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .paragraph-text {
+        font-size: 1.0625rem;
+    }
+
+    /* main carousle END END END */
+
+    /* social media start */
+
+    .social-media-bg {
+        background: url("../assest/contact-us/social-media.webp") no-repeat center center;
+        background-size: 100% 409px;
+        height: 409px;
+        width: 100%;
+    }
+
+    .social-heading {
+        font-size: 2em;
+        margin: 50px 0 50px 0;
+        text-align: center;
+    }
+
+
+    .social-text {
+        margin: 0 0 50px 0;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: 500;
+        color: #3B3B3B;
+    }
+
+
+    /* social media END END END */
+
+    /* contact us form start */
+    /* contact us form END END END */
+
+    /* FOOTER START */
+    /* FOOTER END END END */
+
+
+}
+
+@media (max-width: 1200px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        gap: 200px;
+    }
+
+    .certified-expert {
+        font-size: 2.50vh;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .section-one-text {
+        font-size: 1em;
+    }
+
+    .paragraph-text {
+        font-size: 1.125rem;
+    }
+
+    /* main carousle END END END */
+
+
+
+    /* social media start */
+
+    .social-media-bg {
+        background: url("../assest/contact-us/social-media.webp") no-repeat center center;
+        background-size: 100% 309px;
+        height: 309px;
+        width: 100%;
+    }
+
+    .social-heading {
+        font-size: 1.5em;
+        margin: 0 0 30px 0;
+    }
+
+
+    .social-text {
+        margin: 0 0 50px 0;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: 500;
+        color: #3B3B3B;
+    }
+
+
+
+    /* social media END END END */
+
+    /* contact us form start */
+
+    .contact-heading {
+        margin: 50px 0 25px 0;
+    }
+
+    .contact-sub-heading {
+        margin: 0 0 50px 0;
+        color: #3B3B3B;
+    }
+
+    .contact-container {
+        padding: 30px 0;
+        width: 80vw;
+    }
+
+
+    /* contact us form END END END */
+
+
+    /* Begin your Journey here ! start */
+    .begin-bg {
+        margin: 80px 0 0 0;
+    }
+
+    .text-container-padding {
+        padding: 70px 10px;
+    }
+
+    .contact-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .begin-para {
+        font-size: 1.2em;
+    }
+
+    .begin-text {
+        margin: 0 0 40px 0;
+    }
+
+    .begin-img-container {
+        padding: 10px;
+    }
+
+    .begin-heading {
+        font-size: 1em;
+    }
+
+    
+   .begin-img{
+        width: 60%;
+    }
+
+    /* Begin your Journey here ! END END END */
+
+    /* FOOTER START */
+
+    .footer-p {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    .footer-h {
+        font-size: 1.5em;
+    }
+
+    .footer-p {
+        margin: 0;
+    }
+
+
+    /* FOOTER END END END */
+}
+
+@media (max-width: 992px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        gap: 150px;
+    }
+
+    .certified-expert {
+        font-size: 1em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+    /* main carousle start */
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .paragraph-text {
+        font-size: 1rem;
+    }
+
+    .microsoft-logo {
+        text-align: center;
+    }
+
+    .explore-button {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .microsoft-img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+
+    /* main carousle END END END */
+
+
+    /* social media start */
+
+    .social-media-bg {
+        background: url("../assest/contact-us/social-media.webp") no-repeat center center;
+        background-size: 100% 309px;
+        height: 309px;
+        width: 100%;
+    }
+
+    .social-heading {
+        font-size: 1.3em;
+        margin: 30px 0 30px 0;
+    }
+
+
+    .social-text {
+        margin: 0 0 50px 0;
+        font-size: 1.2em;
+    }
+
+
+    /* social media END END END */
+
+
+    /* contact us form start */
+    /* contact us form END END END */
+
+
+    /* Begin your Journey here ! start */
+    .begin-bg {
+        margin: 80px 0 0 0;
+    }
+
+    .text-container-padding {
+        padding: 50px 0px;
+    }
+
+    .contact-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .begin-para {
+        font-size: 1em;
+    }
+
+    .begin-text {
+        margin: 0 0 30px 0;
+    }
+
+    .begin-img-container {
+        padding: 0;
+    }
+
+    .begin-heading {
+        font-size: 0.9em;
+    }
+
+    /* Begin your Journey here ! END END END */
+
+    /* FOOTER START */
+
+    .footer-margin {
+        margin: 50px 0;
+    }
+
+    .footer-gap {
+        gap: 1px;
+    }
+
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
+    .interview-footer-h {
+        font-size: 1.3em;
+    }
+
+    .interview-footer {
+        font-size: 1em;
+    }
+
+    /* FOOTER END END END */
+
+}
+
+@media (max-width: 768px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 130px;
+        text-align: center;
+    }
+
+    .certified-expert {
+        font-size: 1em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .united-p-5 {
+        padding: 25px;
+    }
+
+    .paragraph-text {
+        font-size: 0.9375rem;
+    }
+
+    .e-accounting-margin {
+        margin: 30px 0;
+    }
+
+    .logo-col {
+        margin: 20px 0;
+    }
+
+
+    .microsoft-img {
+        width: 60%;
+        border-radius: 20px;
+    }
+
+
+    /* main carousle END END END */
+
+    /* social media start */
+
+    .social-media-bg {
+        background: url("../assest/contact-us/social-media.webp") no-repeat center center;
+        background-size: 100% 309px;
+        height: 309px;
+        width: 100%;
+    }
+
+    .social-heading {
+        font-size: 1.2em;
+        margin: 30px 0 30px 0;
+    }
+
+    .social-text {
+        margin: 0 0 50px 0;
+        font-size: 1em;
+        text-align: center;
+        font-weight: 500;
+        color: #3B3B3B;
+    }
+
+    /* social media END END END */
+
+    /* contact us form start */
+    /* contact us form END END END */
+
+    /* Begin your Journey here ! start */
+    .begin-bg {
+        margin: 80px 0 0 0;
+    }
+
+    .text-container-padding {
+        padding: 50px 10px;
+    }
+
+    .contact-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .begin-para {
+        font-size: 1.2em;
+    }
+
+    .begin-text {
+        margin: 0 0 30px 0;
+    }
+
+    .begin-img{
+        width: 100%;
+    }
+
+    .begin-img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .begin-heading {
+        font-size: 1.1em;
+    }
+
+    /* Begin your Journey here ! END END END */
+
+    /* FOOTER START */
+
+    .footer-gap {
+        gap: 1px;
+        justify-content: center;
+    }
+
+    .footer-margin2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-margin {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-h {
+        font-size: 1.5em;
+        text-align: start;
+    }
+
+    .footer-online-course {
+        margin: 20px 0 0 0;
+    }
+
+    .footer-p {
+        text-align: start;
+    }
+
+    .footer-icon-size {
+        width: 100%;
+        height: 100%;
+    }
+
+    .interview-footer-h {
+        font-size: 1.3em;
+    }
+
+    .interview-footer {
+        font-size: 1em;
+    }
+
+    /* FOOTER END END END */
+
+
+
+}
+
+@media (max-width: 576px) {
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    .certified-expert {
+        font-size: 2.50vh;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+    .grid-container {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .united-col {
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+
+    .paragraph-text {
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+
+    .united-p-5 {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .explore-margin {
+        margin-top: 0;
+    }
+
+    .explore-button {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .bg-container {
+        padding: 1rem;
+    }
+
+    .microsoft-logo img {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    /* main carousle END END END */
+
+    /* social media start */
+
+    .social-media-bg {
+        background: url("../assest/contact-us/social-media.webp") no-repeat center center;
+        background-size: 100% 209px;
+        height: 209px;
+        width: 100%;
+    }
+
+    .social-heading {
+        font-size: 1.1em;
+        margin: 30px 0 30px 0;
+    }
+
+
+    .social-text {
+        margin: 0 0 30px 0;
+        font-size: 1em;
+        text-align: center;
+        font-weight: 500;
+        color: #3B3B3B;
+    }
+
+    /* social media END END END */
+
+    /* contact us form start */
+
+    .contact-form-padding {
+        padding: 0 1.5rem;
+    }
+
+    .contact-heading {
+        margin: 50px 0 25px 0;
+    }
+
+    .contact-sub-heading {
+        font-size: 1em;
+        margin: 0 0 30px 0;
+        color: #3B3B3B;
+    }
+
+    .contact-container {
+        padding: 30px 0;
+        width: 90vw;
+    }
+
+
+    /* contact us form END END END */
+
+        /* Begin your Journey here ! start */
+    .begin-bg {
+        margin: 80px 0 0 0;
+    }
+
+    .text-container-padding {
+        padding: 50px 0 5px 0;
+    }
+
+    .contact-img {
+        width: 100%;
+        height: 100px;
+    }
+    
+
+    .begin-para {
+        font-size: 1.2em;
+    }
+
+    .begin-text {
+        padding: 0 10px;
+        margin: 0 0 30px 0;
+    }
+
+    .begin-img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .begin-img-container {
+        padding: 0;
+        gap: 0;
+    }
+
+    .begin-heading {
+        font-size: 1.1em;
+    }
+
+    /* Begin your Journey here ! END END END */
+
+
+    /* FOOTER START */
+
+    .footer-icon-size {
+        width: 70%;
+        height: 70%;
+    }
+
+
+    /* FOOTER END END END */
+
+}
+
+@media (max-width: 450px) {
+
+
+    /* Learn From Microsoft Certified Expert apply start */
+    .banner {
+        flex-direction: row;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .certified-expert {
+        font-size: 1.50vh;
+    }
+
+    .btns {
+        font-size: 2vh;
+        padding: 5px 10px;
+    }
+
+    .heading {
+        font-size: 1em;
+    }
+
+    /* Learn From Microsoft Certified Expert apply END END END */
+
+
+    /* main carousle start */
+
+    .explore-margin {
+        margin-top: 30px;
+    }
+
+    .heading-text {
+        font-size: 1.25em;
+        line-height: 1.25;
+    }
+
+    .united-p-5 {
+        padding: 15px;
+    }
+
+    .logo-col {
+        margin: 20px 0;
+    }
+
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+
+    /* main carousle END END END */
+
+
+    /* social media start */
+
+    .social-media-bg {
+        background: url("../assest/contact-us/social-media.webp") no-repeat center center;
+        background-size: 100% 200px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .social-heading {
+        font-size: 0.9em;
+        margin: 30px 0 30px 0;
+    }
+
+    .social-text {
+        margin: 0 0 30px 0;
+        font-size: 0.9em;
+    }
+
+    /* social media END END END */
+
+
+    /* contact us form start */
+    /* contact us form END END END */
+
+            /* Begin your Journey here ! start */
+    .begin-bg {
+        margin: 80px 0 0 0;
+    }
+
+    .text-container-padding {
+        padding: 50px 0 5px 0;
+    }
+
+    .contact-img {
+        width: 100%;
+        height: 100px;
+    }
+    
+
+    .begin-para {
+        font-size: 1em;
+    }
+
+    .begin-text {
+        padding: 0 10px;
+        margin: 0 0 30px 0;
+    }
+
+    .begin-img{
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .begin-img-container {
+        gap: 0;
+        padding: 0;
+    }
+
+    .begin-heading {
+        font-size: 1em;
+    }
+
+    /* Begin your Journey here ! END END END */
+
+    /* FOOTER START */
+
+    .footer-icon-size {
+        width: 80%;
+        height: 80%;
+    }
+
+
+    .footer-p {
+        margin: 5px 0;
+    }
+
+    .footer-h {
+        font-size: 1em;
+        text-align: start;
+    }
+
+    /* FOOTER END END END */
+
+
+
+}

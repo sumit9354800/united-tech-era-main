@@ -6,7 +6,12 @@
 }
 
 
-@keyframes appear {
+.tf{
+    text-transform: capitalize;
+}
+
+
+/* @keyframes appear {
     from {
         opacity: 0;
         scale: 0;
@@ -24,7 +29,7 @@
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
-}
+} */
 
 .view-more {
     display: flex;
@@ -653,10 +658,13 @@ label {
     height: 100%;
 }
 
-
 .interview-footer {
-    margin: 30px 0;
+    margin: 10px 0;
     font-weight: 400;
+}
+
+.interview-footer-h {
+    margin: 30px 0 0 0;
 }
 
 .map-margin {

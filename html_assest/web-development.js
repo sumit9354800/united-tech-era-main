@@ -935,17 +935,28 @@ function show() {
     <li>Reverse Research: Analyze competitor keywords</li>
     </ul>
     </span>
+     <h5><b class="contents-heading">Quick Checklist</b></h5>
+    <span class="accordion-text d-block">
+    <ul>
+    <li>Optimized titles/descriptions</li>
+    <li>Mobile-friendly & fast</li>
+    <li>Image SEO: Use ALT text and compressed formats.</li>
+    <li>Internal Linking: Connect relevant pages for better navigation.</li>
+    <li>Anchor Text: Use relevant and natural keywords in links.</li>
+    </ul>
+    </span>
     </div>
     </div>
     <div class="row justify-content-between align-items-start mt-4">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-    <h5><b class="contents-heading">On-Page SEO (Quick Overview)</b></h5>
+      <h5><b class="contents-heading">Advanced Tips</b></h5>
     <span class="accordion-text d-block">
     <ul>
-    <li>Definition: SEO changes made on your site (content, tags, structure).</li>
-    <li>Importance: Improves visibility, ranking, and user experience.</li>
+    <li>Voice SEO: Optimize with natural language and FAQs.</li>
+    <li>URL Structure: Keep short, keyword-based, and clean.</li>
+    <li>Subdomain vs Directory: Directories are better for SEO.</li>
+    <li>Website Structure: Use clear, crawlable navigation.</li>
     </ul>
-    </span>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
     <h5><b class="contents-heading">Core Elements</b></h5>
@@ -962,27 +973,18 @@ function show() {
     </div>
     <div class="row justify-content-between align-items-start mt-4">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-    <h5><b class="contents-heading">Advanced Tips</b></h5>
+  
+    <h5><b class="contents-heading">On-Page SEO (Quick Overview)</b></h5>
     <span class="accordion-text d-block">
     <ul>
-    <li>Voice SEO: Optimize with natural language and FAQs.</li>
-    <li>URL Structure: Keep short, keyword-based, and clean.</li>
-    <li>Subdomain vs Directory: Directories are better for SEO.</li>
-    <li>Website Structure: Use clear, crawlable navigation.</li>
+    <li>Definition: SEO changes made on your site (content, tags, structure).</li>
+    <li>Importance: Improves visibility, ranking, and user experience.</li>
     </ul>
+    </span>
     </span>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-    <h5><b class="contents-heading">Quick Checklist</b></h5>
-    <span class="accordion-text d-block">
-    <ul>
-    <li>Optimized titles/descriptions</li>
-    <li>Mobile-friendly & fast</li>
-    <li>Image SEO: Use ALT text and compressed formats.</li>
-    <li>Internal Linking: Connect relevant pages for better navigation.</li>
-    <li>Anchor Text: Use relevant and natural keywords in links.</li>
-    </ul>
-    </span>
+   
     </div>
     </div>
     </div>
@@ -993,7 +995,7 @@ function show() {
 
 
 viewMore.addEventListener("click", () => {
-        show(); // Yeh tab chalega jab viewMore click hoga
+        show(); 
         viewMore.classList.add("d-none");
         viewLess.classList = "view-more viewLess d-block";
 });
