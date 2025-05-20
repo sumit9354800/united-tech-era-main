@@ -1,0 +1,134 @@
+    .stuck-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px 30px;
+      background-color: #0F0F95;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(-100%);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      z-index: 1000;
+    }
+
+    .stuck-navbar.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+
+
+    .nav-img:hover {
+      transform: scale(1.050);
+      transition: all 0.3s ease-in-out
+    }
+
+
+
+    @media (min-width: 1200px) {
+
+
+      /* navbar start  */
+
+      .navbar-expand-lg {
+        font-size: 1.1em !important;
+      }
+
+      .nav-img {
+        width: 180px;
+        height: 180px;
+      }
+
+      .dropdown-item {
+        font-size: smaller;
+      }
+
+
+      /* navbar END END */
+    }
+
+    @media (min-width: 992px) {
+
+
+      /* navbar start  */
+
+      .navbar-expand-lg {
+        font-size: smaller;
+      }
+
+      .nav-img {
+        width: 143px;
+        height: 143px;
+      }
+
+      .dropdown-item {
+        font-size: smaller;
+      }
+
+      .dropdown-menu {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+        display: block;
+        /* Necessary to allow animation */
+        position: absolute;
+      }
+
+      .dropdown:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      /* Optional styling */
+      .navbar-nav .nav-link {
+        padding: 10px 20px;
+      }
+
+      .dropdown-menu a {
+        padding: 10px 15px;
+      }
+
+      /* navbar END END END */
+
+
+
+    }
+
+    @media (max-width: 992px) {
+
+      .offcanvas {
+        width: 70% !important;
+      }
+
+      .nav-img {
+        width: 100%;
+        height: 200px;
+      }
+
+      .navbar-nav {
+        padding: 0 !important;
+      }
+
+      .dropdown-menu {
+        border: none;
+      }
+
+      .dropdown-menu>div {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+      }
+
+      .dropdown-item {
+        padding: 0 !important;
+      }
+
+      .dropdown-menu {
+        margin: 0 !important;
+      }
+
+
+    }

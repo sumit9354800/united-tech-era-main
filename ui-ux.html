@@ -22,6 +22,8 @@
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="html_assest/ui-ux.css">
+    <link rel="stylesheet" href="html_assest/navbar.css">
+    <link rel="stylesheet" href="html_assest/web-page-animation.css">
 </head>
 
 <body>
@@ -36,7 +38,41 @@
             </div>
             <div class="d-flex justify-content-between align-items-center gap-3">
                 <div class="text gray-color certified-expert">Learn From Microsoft Certified Expert</div>
-                <button class="btns">Apply now</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btns" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Apply Now Form</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name">
+                                    <label for="floatingInput">Enter Name</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingPassword"
+                                        placeholder="Mobile Number">
+                                    <label for="floatingPassword">Mobile Number</label>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <input type="submit" class="btn btn-primary w-50" name="" id="">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -48,12 +84,14 @@
     <!-- main carousle start -->
     <section>
         <div class="container-fluid bg-container">
+
+
             <!-- this navbar for large size start -->
             <section class="d-none d-lg-block mb-3 d-xl-block lg-navbar">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img width="100vw" src="assest/home-assets/logos/united.webp" alt="united logo">
+                        <a class="navbar-brand" href="index.html">
+                            <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -65,27 +103,141 @@
                                 <li class="nav-item">
                                     <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
                                 </li>
-                                <li class="nav-item dropdown text-light">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle text-light" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Course
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="e_acconting.html">E-accounting</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="web-development.html">Web Development</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="animation.html">Animation & Editing</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
-                                        </li>
+                                        <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                            <li class="text-center">
+                                                <a href="e_acconting.html">
+                                                    <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="e_acconting.html">E-Accounting</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="web-development.html">
+                                                    <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="web-development.html">Web
+                                                        Development</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="graphic.html">
+                                                    <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="animation.html">
+                                                    <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="animation.html">Animation &
+                                                        Editing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="ui-ux.html">
+                                                    <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Student Project</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Diploma verification</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="about-us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="contact-us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="button text-light" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+
+            <!-- lg scroll -->
+            <section class="d-none d-lg-block d-xl-block stuck-navbar" id="stuck-navbar">
+                <nav class="navbar lg-navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Course
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                            <li class="text-center">
+                                                <a href="e_acconting.html">
+                                                    <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="e_acconting.html">E-Accounting</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="web-development.html">
+                                                    <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="web-development.html">Web
+                                                        Development</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="graphic.html">
+                                                    <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="animation.html">
+                                                    <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="animation.html">Animation &
+                                                        Editing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="ui-ux.html">
+                                                    <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                </a>
+                                            </li>
+                                        </div>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -118,10 +270,10 @@
 
             <!-- this navbar for small size start -->
             <section class="d-sm-block d-md-block mb-3 d-lg-none">
-                <nav class="navbar lg-navbar ">
+                <nav class="navbar lg-navbar">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img width="100vw" src="assest/home-assets/logos/united.webp" alt="united logo">
+                        <a class="navbar-brand" href="index.html">
+                            <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
@@ -131,8 +283,8 @@
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                             aria-labelledby="offcanvasNavbarLabel">
                             <div class="offcanvas-header">
-                                <a class="navbar-brand" href="#">
-                                    <img width="100vw" src="assest/home-assets/logos/united.webp" alt="united logo">
+                                <a class="navbar-brand" href="index.html">
+                                    <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
                                 </a>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
@@ -149,23 +301,47 @@
                                                 Course
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="e_acconting.html">E-accounting</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="web-development.html">Web
-                                                        Development</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="animation.html">Animation &
-                                                        Editing</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
-                                                </li>
+                                                <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                                    <li class="text-center">
+                                                        <a href="e_acconting.html">
+                                                            <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item"
+                                                                href="e_acconting.html">E-Accounting</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="web-development.html">
+                                                            <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="web-development.html">Web
+                                                                Development</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="graphic.html">
+                                                            <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="graphic.html">Graphic
+                                                                Designing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="animation.html">
+                                                            <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="animation.html">Animation &
+                                                                Editing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="ui-ux.html">
+                                                            <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                        </a>
+                                                    </li>
+                                                </div>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -181,7 +357,108 @@
                                             <a class="nav-link" href="about-us.html">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                            <a class="nav-link text-light" href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item mt-3">
+                                            <a class="button text-light" href="#">Login</a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <!-- scroll sm -->
+            <section class="d-sm-block d-md-block mb-3 d-lg-none stuck-navbar" id="stuck-navbar2">
+                <nav class="navbar lg-navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <i class="bi bi-bar-chart-steps text-light"></i>
+                        </button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <a class="navbar-brand" href="index.html">
+                                    <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
+                                </a>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Course
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                                    <li class="text-center">
+                                                        <a href="e_acconting.html">
+                                                            <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item"
+                                                                href="e_acconting.html">E-Accounting</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="web-development.html">
+                                                            <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="web-development.html">Web
+                                                                Development</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="graphic.html">
+                                                            <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="graphic.html">Graphic
+                                                                Designing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="animation.html">
+                                                            <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="animation.html">Animation &
+                                                                Editing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="ui-ux.html">
+                                                            <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Student Project</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Blogs</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Diploma verification</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about-us.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-light" href="contact-us.html">Contact Us</a>
                                         </li>
                                         <li class="nav-item mt-3">
                                             <a class="button text-light" href="#">Login</a>
@@ -203,20 +480,21 @@
                                 UI/UX Designing Diploma Course
                             </b>
                         </h1>
-                        <p class="mb-4 gray-color section-one-text">
+                        <p class="mb-4 gray-color section-one-text slide-bottom-to-top-content">
                             Learn Premiere Pro, After Effects & more; join now to use animation and video editing to
                             bring ideas to life. You only need your passion to get going.
                         </p>
-                        <div class="e-accounting-margin">
+                        <div class="e-accounting-margin slide-bottom-to-top-content">
                             <img src="assest/animation-review.webp" class="img-fluid" alt="Group 185">
                         </div>
                         <h4 class="text-decoration-underline text-center explore-margin"><b>Explore Courses</b></h4>
                         <div class="d-flex justify-content-center explore-margin explore-courses mt-4 gap-2">
-                            <a href="#" class="explore-button text-light text-center d-block">Offline Courses</a>
-                            <a href="#" class="explore-button text-light text-center d-block">Online Courses</a>
+                            <a href="#" class="explore-button text-light text-center d-block slide-bottom-to-top-content">Offline Courses</a>
+                            <a href="https://www.unitedinstitute.org.in/"
+                                class="explore-button text-light text-center d-block slide-bottom-to-top-content">Online Courses</a>
                         </div>
                     </div>
-                    <div class="logo-col col-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                    <div class="logo-col col-12 col-sm-12 col-md-4 col-lg-4 text-center slide-bottom-to-top-content">
                         <img src="assest/ui-ux/figma-main.webp" class="microsoft-img" alt="e-accounting">
                     </div>
                 </div>
@@ -235,7 +513,7 @@
         <div class="tool-margin">
             <h2 class="text-center tool-heading"><b>Tools You'll Become Proficient With:</b></h2>
         </div>
-        <div class="">
+        <div class="slide-bottom-to-top-content">
             <div class="row justify-content-center tool-gap">
                 <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 text-center">
                     <img src="assest/ui-ux/figma-icon1.webp" class="tool-icon" alt="excel">
@@ -286,23 +564,118 @@
         <div class="container">
             <div class="d-flex align-items-start justify-content-between syllabus-flex">
                 <div class="">
-                    <h2 class="syllabus-heading"><b>UI/UX Designing Diploma Course</b></h2>
+                    <h2 class="syllabus-heading slide-bottom-to-top-content"><b>UI/UX Designing Diploma Course</b></h2>
                     <div class="syllabus">
-                        <p class="gray-text"><b>Examine the curriculum created in accordance with industry
+                        <p class="gray-text slide-bottom-to-top-content"><b>Examine the curriculum created in accordance with industry
                                 standards!</b>
                         </p>
                     </div>
                     <div class="mt-3 d-flex gap-3 align-items-center">
                         <div class="">
-                            <a href="#" class="d-block talk-to-mentor text-center">Talk To Mentor</a>
+                            <!-- Button trigger modal1 -->
+                            <button type="button" class="d-block talk-to-mentor text-center slide-bottom-to-top-content" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Talk To Mentor
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Talk To Mentor</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-floating mb-3">
+                                                <input type="text" class="form-control" id="floatingInput"
+                                                    placeholder="Enter Name">
+                                                <label for="floatingInput">Enter Name</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="floatingPassword"
+                                                    placeholder="Mobile Number">
+                                                <label for="floatingPassword">Mobile Number</label>
+                                            </div>
+                                            <div class="text-center mt-3">
+                                                <input type="submit" class="btn btn-primary w-50" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="d-block d-sm-block d-md-none d-lg-none">
-                            <a href="" class="d-block download-syllabus-btn text-center">Download Syllabus</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="d-block download-syllabus-btn text-center slide-bottom-to-top-content"
+                                data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                Download Syllabus
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title fs-5" id="staticBackdropLabel">Download
+                                                Syllabus</h2>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <a href="#" id="downloadSyllabus"
+                                                class="nav-link text-primary explore-more">Download Syllabus
+                                                <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="d-none d-sm-none d-md-block d-lg-block">
-                    <a href="" class="d-block download-syllabus-btn text-center">Download Syllabus</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="d-block download-syllabus-btn text-center slide-bottom-to-top-content" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop2">
+                        Download Syllabus
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5" id="staticBackdropLabel">Download
+                                        Syllabus</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <a href="#" id="downloadSyllabus"
+                                        class="nav-link text-primary explore-more">Download Syllabus
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="mt-4">
@@ -503,7 +876,7 @@
         <div class="container">
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
-                    <div class="col card-padding d-flex justify-content-center">
+                    <div class="col card-padding d-flex justify-content-center slide-bottom-to-top-content">
                         <div class="card h-100 card-w">
                             <img id="img1" src="assest/ui-ux/Assignments/figma/figma1.webp" class="card-img-top"
                                 alt="excel-1">
@@ -518,7 +891,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col card-padding d-flex justify-content-center">
+                    <div class="col card-padding d-flex justify-content-center slide-bottom-to-top-content">
                         <div class="card h-100 card-w">
                             <img id="img2" src="assest/ui-ux/Assignments/figma/figma2.webp" class="card-img-top"
                                 alt="excel-2">
@@ -533,7 +906,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col card-padding d-flex justify-content-center">
+                    <div class="col card-padding d-flex justify-content-center slide-bottom-to-top-content">
                         <div class="card h-100 card-w">
                             <img id="img3" src="assest/ui-ux/Assignments/figma/figma3.webp" class="card-img-top"
                                 alt="excel-3">
@@ -548,7 +921,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col card-padding d-flex justify-content-center">
+                    <div class="col card-padding d-flex justify-content-center slide-bottom-to-top-content">
                         <div class="card h-100 card-w">
                             <img id="img4" src="assest/ui-ux/Assignments/figma/figma4.webp" class="card-img-top"
                                 alt="excel-4">
@@ -563,7 +936,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col card-padding d-flex justify-content-center">
+                    <div class="col card-padding d-flex justify-content-center slide-bottom-to-top-content">
                         <div class="card h-100 card-w">
                             <img id="img5" src="assest/ui-ux/Assignments/figma/figma5.webp" class="card-img-top"
                                 alt="excel-5">
@@ -577,7 +950,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col card-padding d-flex justify-content-center">
+                    <div class="col card-padding d-flex justify-content-center slide-bottom-to-top-content">
                         <div class="card h-100 card-w">
                             <img id="img6" src="assest/ui-ux/Assignments/figma/figma6.webp" class="card-img-top"
                                 alt="excel-6">
@@ -606,41 +979,57 @@
             <h2 class="text-center mb-5 mt-5"><b>Top Place To Hire</b></h2>
         </div>
         <div class="container">
-            <marquee behavior="" direction="">
-                <div class="d-flex justify-content-center align-items-center gap-5">
-                    <img src="assest/E-accounting-page/company logo/zomato-seeklogo.webp" alt="zomato" width="300px"
-                        height="40px">
-                    <img src="assest/E-accounting-page/company logo/cognizant-1.webp" alt="cognizant" width="300px"
-                        height="40px">
-                    <img src="assest/E-accounting-page/company logo/hdfc-bank-logo.webp" alt="hdfc" alt="zomato"
-                        width="300px" height="40px">
-                    <img src="assest/E-accounting-page/company logo/icici-1.webp" alt="icici" width="300px"
-                        height="40px">
-                    <img src="assest/E-accounting-page/company logo/larsen-toubro-logo-2.webp" alt="zomato"
-                        width="300px" height="40px">
-                    <img src="assest/E-accounting-page/company logo/accenture-2.webp" alt="accenture" width="300px"
-                        height="40px">
-                    <img src="assest/E-accounting-page/company logo/reliance-industries-logo-1.webp"
-                        alt="reliance-industries" width="300px" height="40px">
-                    <img src="assest/E-accounting-page/company logo/tata-1.webp" alt="tata" width="300px" height="40px">
-                    <img src="assest/E-accounting-page/company logo/wipro-1.webp" alt="wipro" width="300px"
-                        height="40px">
+            <div class="logo-slider">
+                <div class="logo-track">
+                    <!-- Company logos repeated twice for loop -->
+                    <img src="assest/graphic/company-logo/Bodhtree_id13euJQZc_1.webp" alt="amazon"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/designhill-seeklogo.webp" alt="infosys" class="company-img" />
+                    <img src="assest/graphic/company-logo/fynd-seeklogo.webp" alt="paytm" class="company-img" />
+                    <img src="assest/graphic/company-logo/glitch-seeklogo.webp" alt="wipro" class="company-img" />
+                    <img src="assest/graphic/company-logo/landor-seeklogo.webp" alt="deloitte" class="company-img" />
+                    <img src="assest/graphic/company-logo/Lollypop.design_idH7UuNVka_2.webp" alt="flipkart"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/Ogilvy_idBp8NWpN-_3.webp" alt="accenture"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/Studio Graphene_idDkfslBpe_2.webp" alt="google"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/TATAELXSI.NS_BIG.webp" alt="birla" class="company-img" />
+                    <img src="assest/graphic/company-logo/wiedenkennedy-seeklogo.webp" alt="amazon"
+                        class="company-img" />
+
+                    <!-- Repeat for smooth loop -->
+                    <img src="assest/graphic/company-logo/Bodhtree_id13euJQZc_1.webp" alt="amazon"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/designhill-seeklogo.webp" alt="infosys" class="company-img" />
+                    <img src="assest/graphic/company-logo/fynd-seeklogo.webp" alt="paytm" class="company-img" />
+                    <img src="assest/graphic/company-logo/glitch-seeklogo.webp" alt="wipro" class="company-img" />
+                    <img src="assest/graphic/company-logo/landor-seeklogo.webp" alt="deloitte" class="company-img" />
+                    <img src="assest/graphic/company-logo/Lollypop.design_idH7UuNVka_2.webp" alt="flipkart"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/Ogilvy_idBp8NWpN-_3.webp" alt="accenture"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/Studio Graphene_idDkfslBpe_2.webp" alt="google"
+                        class="company-img" />
+                    <img src="assest/graphic/company-logo/TATAELXSI.NS_BIG.webp" alt="birla" class="company-img" />
+                    <img src="assest/graphic/company-logo/wiedenkennedy-seeklogo.webp" alt="amazon"
+                        class="company-img" />
                 </div>
-            </marquee>
+            </div>
             <h2 class="text-center mt-5 mb-5"><b>Job Opportunities</b></h2>
             <div class="row justify-content-start align-items-center">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3">
-                    <div class="top-place-img-col">
+                    <div class="top-place-img-col slide-bottom-to-top-content">
                         <img src="assest/ui-ux/figma-job1.webp" class="img-fluid top-place-img" alt="Group 186">
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3">
-                    <div class="top-place-img-col">
+                    <div class="top-place-img-col slide-bottom-to-top-content">
                         <img src="assest/ui-ux/figma-job2.webp" class="img-fluid top-place-img" alt="Group 186">
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3">
-                    <div class="top-place-img-col">
+                    <div class="top-place-img-col slide-bottom-to-top-content">
                         <img src="assest/ui-ux/figma-job3.webp" class="img-fluid top-place-img" alt="Group 186">
                     </div>
                 </div>
@@ -659,7 +1048,7 @@
                 <div class="d-none d-sm-none d-md-block d-lg-block">
                     <div class="row mt-5  justify-content-center align-items-center">
                         <div class="col-6 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-                            <div class="text-center bg-project-card" id="stdContent1">
+                            <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                 <img src="assest/ui-ux/project/project1.webp"
                                     class="w-100 object-fit-fill d-block project-radius" alt="">
                                 <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -667,7 +1056,7 @@
                             </div>
                         </div>
                         <div class="col-6 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-                            <div class="text-center bg-project-card" id="stdContent1">
+                            <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                 <img src="assest/ui-ux/project/project2.webp"
                                     class="w-100 object-fit-fill d-block project-radius" alt="">
                                 <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -675,7 +1064,7 @@
                             </div>
                         </div>
                         <div class="col-6 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-                            <div class="text-center bg-project-card" id="stdContent1">
+                            <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                 <img src="assest/ui-ux/project/project3.webp"
                                     class="w-100 object-fit-fill d-block project-radius" alt="">
                                 <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -683,7 +1072,7 @@
                             </div>
                         </div>
                         <div class="col-6 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-                            <div class="text-center bg-project-card" id="stdContent1">
+                            <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                 <img src="assest/ui-ux/project/project4.webp"
                                     class="w-100 object-fit-fill d-block project-radius" alt="">
                                 <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -691,7 +1080,7 @@
                             </div>
                         </div>
                         <div class="col-6 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-                            <div class="text-center bg-project-card" id="stdContent1">
+                            <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                 <img src="assest/ui-ux/project/project5.webp"
                                     class="w-100 object-fit-fill d-block project-radius" alt="">
                                 <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -701,10 +1090,10 @@
                     </div>
                 </div>
                 <div class="d-sm-block d-md-none d-lg-none">
-                    <div id="carouselExample" class="carousel slide">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
                         <div class="carousel-inner">
                             <div class="carousel-item active p-3">
-                                <div class="text-center bg-project-card" id="stdContent1">
+                                <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                     <img src="assest/ui-ux/project/project1.webp"
                                         class="w-100 object-fit-fill d-block project-radius" alt="">
                                     <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -712,7 +1101,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item p-3">
-                                <div class="text-center bg-project-card" id="stdContent1">
+                                <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                     <img src="assest/ui-ux/project/project2.webp"
                                         class="w-100 object-fit-fill d-block project-radius" alt="">
                                     <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -720,7 +1109,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item p-3">
-                                <div class="text-center bg-project-card" id="stdContent1">
+                                <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                     <img src="assest/ui-ux/project/project3.webp"
                                         class="w-100 object-fit-fill d-block project-radius" alt="">
                                     <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -728,7 +1117,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item p-3">
-                                <div class="text-center bg-project-card" id="stdContent1">
+                                <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                     <img src="assest/ui-ux/project/project4.webp"
                                         class="w-100 object-fit-fill d-block project-radius" alt="">
                                     <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -736,7 +1125,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item p-3">
-                                <div class="text-center bg-project-card" id="stdContent1">
+                                <div class="text-center bg-project-card slide-bottom-to-top-content" id="stdContent1">
                                     <img src="assest/ui-ux/project/project5.webp"
                                         class="w-100 object-fit-fill d-block project-radius" alt="">
                                     <span class="d-block mt-3 project-h-text text-start">Student name: Anuj</span>
@@ -774,7 +1163,7 @@
             <h2 class="benefits-heading"><b>Course Benefits:</h2>
         </div>
         <div class="row justify-content-evenly benefits-gap">
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/1.webp" alt="course benefits1" class="benefits-icon">
                 <h5 class="benefits-text"><b>Impactful, Real-World Solutions</b></h5>
                 <p class="benefits-para">
@@ -782,42 +1171,42 @@
                     for the future.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/2.webp" alt="course benefits2" class="benefits-icon">
                 <h5 class="benefits-text"><b>Small Groups, Personal Attention</b></h5>
                 <p class="benefits-para">
                     Experience focused learning with small groups for personalized attention and better results
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/3.webp" alt="course benefits3" class="benefits-icon">
                 <h5 class="benefits-text"><b>Affordable Fees</b></h5>
                 <p class="benefits-para">
                     Quality education at affordable prices—learning that fits your budget.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/4.webp" alt="" class="benefits-icon">
                 <h5 class="benefits-text"><b>Earn Government-Approved Diploma</b></h5>
                 <p class="benefits-para">
                     Get a recognized, government-approved diploma to boost your career prospects.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/5.webp" alt="course benefits4" class="benefits-icon">
                 <h5 class="benefits-text"><b>learn From Microsoft Certified Expert</b></h5>
                 <p class="benefits-para">
                     Learn from Microsoft-certified experts and gain skills directly from the best in the field.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/6.webp" alt="course benefits5" class="benefits-icon">
                 <h5 class="benefits-text"><b>Free Online Classes for 6 Months/1 Year</b></h5>
                 <p class="benefits-para">
                     Enjoy 6 months to 1 year of free online classes to enhance your skills at no cost.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/7.webp" alt="course benefits6" class="benefits-icon">
                 <h5 class="benefits-text"><b>Get Industrial Experience Certificate</b></h5>
                 <p class="benefits-para">
@@ -825,7 +1214,7 @@
                     credentials.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/8.webp" alt="course benefits7" class="benefits-icon">
                 <h5 class="benefits-text"><b>Practice Time for Every Student</b></h5>
                 <p class="benefits-para">
@@ -846,12 +1235,40 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 career-col-padding text-start">
                     <h2 class="text-light"><b class="career-margin career-heading">Get details about this program.</b>
                     </h2>
-                    <p class="text-light career-margin career-para">
+                    <p class="text-light career-margin career-para slide-bottom-to-top-content">
                         We offer detailed guides on our job-linked programs including eligibility requirements, courses
                         offered, and career pathways.
                     </p>
-                    <a href="#" class="d-block download-syllabus-btn text-center career-btn career-margin">Download
-                        Syllabus</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="d-block download-syllabus-btn text-center career-btn career-margin slide-bottom-to-top-content"
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                        Download Syllabus
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5" id="staticBackdropLabel">Download
+                                        Syllabus</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <a href="#" id="downloadSyllabus" class="nav-link text-primary career-btn">Download
+                                        Syllabus
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 career-img-align">
                     <img class="career-img h-100" src="assest/E-accounting-page/career pathways.webp"
@@ -938,7 +1355,7 @@
         <h2 class="text-center mt-5 fs-1 mb-5"><b>Student Testimonials</b></h2>
         <div class="container feedback-bg p-3">
             <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 slide-bottom-to-top-content">
                     <div>
                         <img class="w-100 feedback-img-margin" src="assest/home-assets/feedback/feedback.webp"
                             alt="feedback">
@@ -1088,7 +1505,9 @@
         <div>
             <div class="container footer-content">
                 <div>
-                    <img class="footer-logo mt-5" src="assest/home-assets/logos/united.webp" alt="United Logo" />
+                    <a href="index.html">
+                        <img class="footer-logo mt-5" src="assest/home-assets/logos/united.webp" alt="United Logo" />
+                    </a>
                 </div>
                 <div class="sub-footer-container">
                     <div class="row mt-5 justify-content-center">
@@ -1242,6 +1661,8 @@
     <!-- jquery -->
 
     <script src="html_assest/ui-ux.js"></script>
+    <script src="html_assest/navbar.js"></script>
+    <script src="html_assest/web-page-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>

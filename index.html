@@ -26,10 +26,13 @@ student skill, and best Graphic Design porfolio">
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="html_assest/web-page-animation.css">
     <link rel="stylesheet" href="html_assest/style.css">
+    <link rel="stylesheet" href="html_assest/animation-card.css">
+    <link rel="stylesheet" href="html_assest/navbar.css">
 
     <!-- Google Analytics -->
-    <script>
+    <!-- <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
@@ -40,13 +43,13 @@ student skill, and best Graphic Design porfolio">
         ga('create', 'UA-XXXX-Y', 'auto');
         ga('send', 'pageview');
 
-    </script>
+    </script> -->
     <!-- End Google Analytics -->
 </head>
 
 <body>
     <!-- Learn From Microsoft Certified Expert apply start -->
-    <section>
+    <section id="navbar">
         <div class="banner">
             <div class="dots">
                 <span class="dot red"></span>
@@ -55,7 +58,41 @@ student skill, and best Graphic Design porfolio">
             </div>
             <div class="d-flex justify-content-between align-items-center gap-3">
                 <div class="text gray-color certified-expert">Learn From Microsoft Certified Expert</div>
-                <button class="btns">Apply now</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btns" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Apply Now Form</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name">
+                                    <label for="floatingInput">Enter Name</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingPassword"
+                                        placeholder="Mobile Number">
+                                    <label for="floatingPassword">Mobile Number</label>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <input type="submit" class="btn btn-primary w-50" name="" id="">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -66,11 +103,12 @@ student skill, and best Graphic Design porfolio">
     <!-- main carousle start -->
     <section>
         <div class="container-fluid bg-container">
+
             <!-- this navbar for large size start -->
             <section class="d-none d-lg-block mb-3 d-xl-block lg-navbar">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.html">
                             <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -88,22 +126,136 @@ student skill, and best Graphic Design porfolio">
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Course
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="e_acconting.html">E-Accounting</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="web-development.html">Web Development</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="animation.html">Animation & Editing</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
-                                        </li>
+                                    <ul class="dropdown-menu mt-3">
+                                        <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                            <li class="text-center">
+                                                <a href="e_acconting.html">
+                                                    <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="e_acconting.html">E-Accounting</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="web-development.html">
+                                                    <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="web-development.html">Web
+                                                        Development</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="graphic.html">
+                                                    <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="animation.html">
+                                                    <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="animation.html">Animation &
+                                                        Editing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="ui-ux.html">
+                                                    <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Student Project</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Diploma verification</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="about-us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="contact-us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="button text-light" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+
+            <!-- lg scroll -->
+            <section class="d-none d-lg-block d-xl-block stuck-navbar" id="stuck-navbar">
+                <nav class="navbar lg-navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Course
+                                    </a>
+                                    <ul class="dropdown-menu mt-3">
+                                        <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                            <li class="text-center">
+                                                <a href="e_acconting.html">
+                                                    <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="e_acconting.html">E-Accounting</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="web-development.html">
+                                                    <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="web-development.html">Web
+                                                        Development</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="graphic.html">
+                                                    <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="animation.html">
+                                                    <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="animation.html">Animation &
+                                                        Editing</a>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="ui-ux.html">
+                                                    <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                        class="nav-img"><br>
+                                                    <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                </a>
+                                            </li>
+                                        </div>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -138,7 +290,7 @@ student skill, and best Graphic Design porfolio">
             <section class="d-sm-block d-md-block mb-3 d-lg-none">
                 <nav class="navbar lg-navbar">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.html">
                             <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -149,7 +301,7 @@ student skill, and best Graphic Design porfolio">
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                             aria-labelledby="offcanvasNavbarLabel">
                             <div class="offcanvas-header">
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="index.html">
                                     <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
                                 </a>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
@@ -166,24 +318,149 @@ student skill, and best Graphic Design porfolio">
                                                 data-bs-toggle="dropdown" aria-expanded="false">
                                                 Course
                                             </a>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="e_acconting.html">E-Accounting</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="web-development.html">Web
-                                                        Development</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="graphic.html">Graphic Designing</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="Animation.html">Animation &
-                                                        Editing</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
-                                                </li>
+                                            <ul class="dropdown-menu mt-3">
+                                                <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                                    <li class="text-center">
+                                                        <a href="e_acconting.html">
+                                                            <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item"
+                                                                href="e_acconting.html">E-Accounting</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="web-development.html">
+                                                            <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="web-development.html">Web
+                                                                Development</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="graphic.html">
+                                                            <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="graphic.html">Graphic
+                                                                Designing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="animation.html">
+                                                            <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="animation.html">Animation &
+                                                                Editing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="ui-ux.html">
+                                                            <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Student Project</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Blogs</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Diploma verification</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about-us.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-light" href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item mt-3">
+                                            <a class="button text-light" href="#">Login</a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <!-- scroll sm -->
+            <section class="d-sm-block d-md-block mb-3 d-lg-none stuck-navbar" id="stuck-navbar2">
+                <nav class="navbar lg-navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <i class="bi bi-bar-chart-steps text-light"></i>
+                        </button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <a class="navbar-brand" href="index.html">
+                                    <img width="100vh" src="assest/home-assets/logos/united.webp" alt="united logo" />
+                                </a>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Course
+                                            </a>
+                                            <ul class="dropdown-menu mt-3">
+                                                <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                                    <li class="text-center">
+                                                        <a href="e_acconting.html">
+                                                            <img src="assest/navbar-img/accounting-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item"
+                                                                href="e_acconting.html">E-Accounting</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="web-development.html">
+                                                            <img src="assest/navbar-img/web-development-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="web-development.html">Web
+                                                                Development</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="graphic.html">
+                                                            <img src="assest/navbar-img/graphic-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="graphic.html">Graphic
+                                                                Designing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="animation.html">
+                                                            <img src="assest/navbar-img/animation-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="animation.html">Animation &
+                                                                Editing</a>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="ui-ux.html">
+                                                            <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
+                                                                class="nav-img"><br>
+                                                            <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
+                                                        </a>
+                                                    </li>
+                                                </div>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -221,22 +498,26 @@ student skill, and best Graphic Design porfolio">
                                 #1 Best Computer Training Institute <span class="text-primary">Delhi</span>
                             </b>
                         </h1>
-                        <p class="mb-4 gray-color section-one-text">
+                        <p class="mb-4 gray-color section-one-text slide-bottom-to-top-content">
                             Take advantage of industry-ready courses to improve your skills
                             in <b>E-Accounting, web development, Graphic Design , Animation ,
                                 Editing , and UI\UX</b>
                         </p>
-                        <div class="img-review">
+                        <div class="img-review slide-bottom-to-top-content">
                             <img src="assest/home-assets/home-page-review.webp" class="img-fluid"
                                 alt="home-page-review.webp" />
                         </div>
                         <h4 class="text-decoration-underline text-center explore-margin"><b>Explore Courses</b></h4>
                         <div class="d-flex justify-content-center explore-margin explore-courses mt-4 gap-2">
-                            <a href="#" class="explore-button text-light text-center d-block">Offline Courses</a>
-                            <a href="#" class="explore-button text-light text-center d-block">Online Courses</a>
+                            <a href="#"
+                                class="explore-button text-light text-center d-block slide-top-to-bottom-content">Offline
+                                Courses</a>
+                            <a href="https://www.unitedinstitute.org.in/"
+                                class="explore-button text-light text-center d-block slide-top-to-bottom-content">Online
+                                Courses</a>
                         </div>
                     </div>
-                    <div class="logo-col">
+                    <div class="logo-col slide-bottom-to-top-content">
                         <img src="assest/home-assets/logos/microsoft-log.webp" class="img-fluid microsoft-img"
                             alt="microsoft image" />
                     </div>
@@ -262,7 +543,7 @@ student skill, and best Graphic Design porfolio">
             </div>
             <div class="row justify-content-center skill-gap mt-4">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
-                    <div class="skills text-center mt-2 ">
+                    <div class="skills text-center mt-2 slide-bottom-to-top-content">
                         <img src="assest/home-assets/skills icon/no practical skills.webp"
                             class="skills-width skills-img object-fit-fill" alt="no practical skills" />
                     </div>
@@ -271,7 +552,7 @@ student skill, and best Graphic Design porfolio">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
-                    <div class="skills text-center mt-2">
+                    <div class="skills text-center mt-2 slide-bottom-to-top-content">
                         <img src="assest/home-assets/skills icon/no hand on projects.webp"
                             class="skills-width skills-img object-fit-fill" alt="no hand on projects" />
                     </div>
@@ -280,7 +561,7 @@ student skill, and best Graphic Design porfolio">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
-                    <div class="skills text-center mt-2">
+                    <div class="skills text-center mt-2 slide-bottom-to-top-content">
                         <img src="assest/home-assets/skills icon/fear of technical interviews.webp"
                             class="skills-width skills-img object-fit-fill" alt="fear of technical interviews" />
                     </div>
@@ -289,7 +570,7 @@ student skill, and best Graphic Design porfolio">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 Animation-effact">
-                    <div class="skills text-center mt-2 ">
+                    <div class="skills text-center mt-2 slide-bottom-to-top-content">
                         <img src="assest/home-assets/skills icon/lack of guidance.webp"
                             class="skills-width skills-img object-fit-fill" alt="lack of guidance" />
                     </div>
@@ -298,7 +579,7 @@ student skill, and best Graphic Design porfolio">
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 Animation-effact">
-                    <div class="skills text-center mt-2 ">
+                    <div class="skills text-center mt-2 slide-bottom-to-top-content">
                         <img src="assest/home-assets/skills icon/struggling with logical problems.webp"
                             class="skills-width skills-img object-fit-fill" alt="struggling with logical problems" />
                     </div>
@@ -320,19 +601,59 @@ student skill, and best Graphic Design porfolio">
             <div class="row justify-content-start g-4">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="h-100 d-flex align-items-center">
-                        <div class="card-body bg-none Animation-effact">
-                            <h3 class="card-title text-light marter-courser-heading-size"><b>Explore the master
-                                    course</b></h3>
-                            <span class="card-text text-light marter-courser-text-size">"we don't just teach - we
+                        <div class="card-body bg-none">
+                            <h3 class="card-title text-light marter-courser-heading-size slide-bottom-to-top-content">
+                                <b>Explore the master
+                                    course</b>
+                            </h3>
+                            <span
+                                class="card-text text-light d-block marter-courser-text-size slide-bottom-to-top-content">"we
+                                don't just teach - we
                                 transform learners into
                                 professionals"</span>
-                            <div>
-                                <button class="master-course-button mt-3">Talk To Mentor</button>
+                            <div class="slide-bottom-to-top-content">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="master-course-button mt-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Talk To Mentor
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Talk To Mentor</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" id="floatingInput"
+                                                        placeholder="Enter Name">
+                                                    <label for="floatingInput">Enter Name</label>
+                                                </div>
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-control" id="floatingPassword"
+                                                        placeholder="Mobile Number">
+                                                    <label for="floatingPassword">Mobile Number</label>
+                                                </div>
+                                                <div class="text-center mt-3">
+                                                    <input type="submit" class="btn btn-primary w-50" name="" id="">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 slide-bottom-to-top-content">
                     <div class="card marter-courser-w h-100 hover-card">
                         <div class="text-center">
                             <img src="assest/home-assets/master course icon/eaccounting.webp" class="card-img-top w-50"
@@ -345,7 +666,7 @@ student skill, and best Graphic Design porfolio">
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 slide-bottom-to-top-content">
                     <div class="card marter-courser-w h-100 hover-card">
                         <div class="text-center">
                             <div class="text-center">
@@ -362,7 +683,7 @@ student skill, and best Graphic Design porfolio">
                 </div>
             </div>
             <div class="row master-row g-4 mt-3">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 slide-bottom-to-top-content">
                     <div class="card marter-courser-w h-100 hover-card">
                         <div class="text-center">
                             <img src="assest/home-assets/master course icon/graphic-design.webp"
@@ -375,7 +696,7 @@ student skill, and best Graphic Design porfolio">
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 slide-bottom-to-top-content">
                     <div class="card marter-courser-w h-100 hover-card">
                         <div class="text-center">
                             <img src="assest/home-assets/master course icon/animation.webp" class="card-img-top w-50"
@@ -388,7 +709,7 @@ student skill, and best Graphic Design porfolio">
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 Animation-effact">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 slide-bottom-to-top-content">
                     <div class="card marter-courser-w h-100 hover-card">
                         <div class="text-center">
                             <img src="assest/home-assets/master course icon/uiux.webp" class="card-img-top w-50"
@@ -456,7 +777,7 @@ student skill, and best Graphic Design porfolio">
     <section class="container mt-5">
         <h3 class="text-center mb-4"><b>Explore Our Diploma Courses</b></h3>
         <div
-            class="diploma-course-button d-flex justify-content-center diploma-gap align-items-center mt-3 flex-wrap mb-4 Animation-effact">
+            class="diploma-course-button d-flex justify-content-center diploma-gap align-items-center mt-3 flex-wrap mb-4 Animation-effact slide-bottom-to-top-content">
             <div class="col-5 col-sm-5 col-md-3 col-lg-2">
                 <button class="diploma-button w-100 d-block text-center js-eAccountingBtn"
                     id="eAccounting">E-Accounting</button>
@@ -493,7 +814,7 @@ student skill, and best Graphic Design porfolio">
                                 </p>
                             </div>
                             <div class="h-100">
-                                <div class="mt-3">
+                                <div class="mt-3 slide-bottom-to-top-content">
                                     <img src="assest/home-assets/render/e-accounting.webp"
                                         class="diploma-img-width object-fit-fill" alt="E-Accounting diploma"
                                         id="diplomaImg" />
@@ -504,28 +825,49 @@ student skill, and best Graphic Design porfolio">
                             <h5 class="diploma-text-h">
                                 <a href="" class="nav-link text-primary">Top Place To Hire:</a>
                             </h5>
-                            <marquee behavior="" direction="">
-                                <div class="d-flex gap-5 align-items-center">
-                                    <img src="assest/home-assets/Company Logo/amazon.webp" class="company-img"
-                                        alt="amazon" />
-                                    <img src="assest/home-assets/Company Logo/infosys.webp" class="company-img"
-                                        alt="infosys" />
-                                    <img src="assest/home-assets/Company Logo/paytm.webp" class="company-img"
-                                        alt="paytm" />
-                                    <img src="assest/home-assets/Company Logo/wipro.webp" class="company-img"
-                                        alt="wipro" />
-                                    <img src="assest/home-assets/Company Logo/deloitte-1.webp" class="company-img"
-                                        alt="deloitte" />
-                                    <img src="assest/home-assets/Company Logo/flipkart.webp" class="company-img"
-                                        alt="flipkart" />
-                                    <img src="assest/home-assets/Company Logo/accenture.webp" class="company-img"
-                                        alt="accenture" />
-                                    <img src="assest/home-assets/Company Logo/google.webp" class="company-img"
-                                        alt="google" />
+                            <div class="logo-slider">
+                                <div class="logo-track">
+                                    <!-- Company logos repeated twice for loop -->
+                                    <img src="assest/home-assets/Company Logo/amazon.webp" alt="amazon"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/infosys.webp" alt="infosys"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/paytm.webp" alt="paytm"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/wipro.webp" alt="wipro"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/deloitte-1.webp" alt="deloitte"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/flipkart.webp" alt="flipkart"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/accenture.webp" alt="accenture"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/google.webp" alt="google"
+                                        class="company-img" />
                                     <img src="assest/home-assets/Company Logo/aditya-birla-group-vector-logo.webp"
-                                        class="company-img" alt="aditya-birla-group-vector-logo" />
+                                        alt="birla" class="company-img" />
+
+                                    <!-- Repeat for smooth loop -->
+                                    <img src="assest/home-assets/Company Logo/amazon.webp" alt="amazon"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/infosys.webp" alt="infosys"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/paytm.webp" alt="paytm"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/wipro.webp" alt="wipro"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/deloitte-1.webp" alt="deloitte"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/flipkart.webp" alt="flipkart"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/accenture.webp" alt="accenture"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/google.webp" alt="google"
+                                        class="company-img" />
+                                    <img src="assest/home-assets/Company Logo/aditya-birla-group-vector-logo.webp"
+                                        alt="birla" class="company-img" />
                                 </div>
-                            </marquee>
+                            </div>
                             <div class="border w-100 border-2 border-dark diploma-content-shadow rounded-5 p-3">
                                 <div class="row p-3 align-items-start">
                                     <div class="col-6">
@@ -566,8 +908,37 @@ student skill, and best Graphic Design porfolio">
                                         </div>
                                     </div>
                                     <div class="col-6">
-                                        <div class="download-syllabus-button text-center mt-2">
-                                            Download Syllabus</div>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="download-syllabus-button d-block text-center mt-2"
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            Download Syllabus
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h2 class="modal-title fs-5" id="staticBackdropLabel">Download
+                                                            Syllabus</h2>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <a href="#" id="downloadSyllabus"
+                                                            class="nav-link text-primary explore-more">Download Syllabus
+                                                            <i class="bi bi-chevron-right"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="syllabus-margin" id="diplomaSyllabus2">
                                             <div class="d-flex mt-1 align-items-center diploma-content-gap">
                                                 <span class="d-block"><i
@@ -600,18 +971,21 @@ student skill, and best Graphic Design porfolio">
                                                 <span class="d-block fw-semibold course-syllabus">Digital
                                                     Marketing</span>
                                             </div>
+                                            <div class="mb-3">
+                                                <a href="e_acconting.html"
+                                                    class="nav-link text-primary explore-more">Explore More
+                                                    <i class="bi bi-chevron-right"></i>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="text-center diploma-margin">
-                                    <div class="text-center mb-3">
-                                        <a href="" class="nav-link text-primary explore-more">Explore More <i
-                                                class="bi bi-chevron-right"></i></a>
-                                    </div>
                                     <h4>Book Demo:</h4>
                                     <div class="d-flex justify-content-center gap-3 mt-3">
                                         <a href="" class="d-block diploma-on-Off-course-button">Offline Class</a>
-                                        <a href="" class="d-block diploma-on-Off-course-button">Online Class</a>
+                                        <a href="https://www.unitedinstitute.org.in/"
+                                            class="d-block diploma-on-Off-course-button">Online Class</a>
                                     </div>
                                 </div>
                             </div>
@@ -620,7 +994,7 @@ student skill, and best Graphic Design porfolio">
                     <div class="leaderboard mt-5">
                         <h4>Leaderboard 2024:</h4>
                         <div class="d-none d-sm-none d-md-block d-lg-block Animation-effact">
-                            <div class="row mt-5 leaderboard-flex ">
+                            <div class="row mt-5 leaderboard-flex slide-bottom-to-top-content">
                                 <div class="col-sm-12 col-md-4 col-lg-4" id="stdContent1">
                                     <div class="border border-1 border-dark std-content-padding rounded-5 text-center">
                                         <img src="assest/home-assets/demo.webp"
@@ -653,7 +1027,7 @@ student skill, and best Graphic Design porfolio">
                         <div class="d-sm-block d-md-none d-lg-none  Animation-effact">
                             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="10000" id="stdContent4">
+                                    <div class="carousel-item active" data-bs-interval="1500" id="stdContent4">
                                         <div
                                             class="border border-1 border-dark std-content-padding rounded-5 text-center">
                                             <img src="assest/home-assets/demo.webp"
@@ -663,7 +1037,7 @@ student skill, and best Graphic Design porfolio">
                                             <a href="demo" class="btn btn-primary w-75">Watch Video</a>
                                         </div>
                                     </div>
-                                    <div class="carousel-item" data-bs-interval="2000" id="stdContent5">
+                                    <div class="carousel-item" data-bs-interval="1500" id="stdContent5">
                                         <div
                                             class="border border-1 border-dark std-content-padding rounded-5 text-center">
                                             <img src="assest/home-assets/demo.webp"
@@ -711,7 +1085,7 @@ student skill, and best Graphic Design porfolio">
             <h2 class="benefits-heading"><b>Course Benefits:</h2>
         </div>
         <div class="row justify-content-evenly benefits-gap">
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/1.webp" alt="course benefits1"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>Impactful, Real-World Solutions</b></h5>
@@ -720,7 +1094,7 @@ student skill, and best Graphic Design porfolio">
                     for the future.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/2.webp" alt="course benefits2"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>Small Groups, Personal Attention</b></h5>
@@ -728,7 +1102,7 @@ student skill, and best Graphic Design porfolio">
                     Experience focused learning with small groups for personalized attention and better results
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/3.webp" alt="course benefits3"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>Affordable Fees</b></h5>
@@ -736,7 +1110,7 @@ student skill, and best Graphic Design porfolio">
                     Quality education at affordable prices—learning that fits your budget.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/4.webp" alt="course benefits4"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>Earn Government-Approved Diploma</b></h5>
@@ -744,7 +1118,7 @@ student skill, and best Graphic Design porfolio">
                     Get a recognized, government-approved diploma to boost your career prospects.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/5.webp" alt="course benefits5"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>learn From Microsoft Certified Expert</b></h5>
@@ -752,7 +1126,7 @@ student skill, and best Graphic Design porfolio">
                     Learn from Microsoft-certified experts and gain skills directly from the best in the field.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/6.webp" alt="course benefits6"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>Free Online Classes for 6 Months/1 Year</b></h5>
@@ -760,7 +1134,7 @@ student skill, and best Graphic Design porfolio">
                     Enjoy 6 months to 1 year of free online classes to enhance your skills at no cost.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/7.webp" alt="course benefits"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>Get Industrial Experience Certificate</b></h5>
@@ -769,7 +1143,7 @@ student skill, and best Graphic Design porfolio">
                     credentials.
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 text-center slide-bottom-to-top-content">
                 <img src="assest/E-accounting-page/course benefits/8.webp" alt="course benefits7"
                     class="benefits-icon" />
                 <h5 class="benefits-text"><b>Practice Time for Every Student</b></h5>
@@ -788,11 +1162,11 @@ student skill, and best Graphic Design porfolio">
         <div class="container-fluid about-us-bg">
             <div class="container-fluid about-us-padding">
                 <div class="row justify-content-between align-items-centeranimation-effact">
-                    <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <div class="col-sm-12 col-md-6 col-lg-6 text-center slide-bottom-to-top-content">
                         <img src="assest/home-assets/sir about us/sir.webp" class="about-us-img object-fit-cover"
                             alt="sir" />
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 about-us-column">
+                    <div class="col-sm-12 col-md-6 col-lg-6 about-us-column slide-bottom-to-top-content">
                         <h3 class="mb-4"><b>About Us</b></h3>
                         <p class="about-us-text">
                             United Tech Era is a starting mark for future-ready brains, not only a
@@ -825,7 +1199,7 @@ student skill, and best Graphic Design porfolio">
                     <h2 class="text-center our-story-text Animation-effact"><b>Our Story In Stats</b></h2>
                     <div class="col-12 col-sm-12 col-md-5 col-lg-3 Animation-effact">
                         <div class="row justify-content-center">
-                            <div class=" col-6 col-sm-6 col-md-12 col-lg-12">
+                            <div class=" col-6 col-sm-6 col-md-12 col-lg-12 slide-bottom-to-top-content">
                                 <div class="our-red">
                                     <h2 class="our-text">
                                         <b>
@@ -838,7 +1212,7 @@ student skill, and best Graphic Design porfolio">
                                     </h2>
                                 </div>
                             </div>
-                            <div class=" col-6 col-sm-6 col-md-12 col-lg-12">
+                            <div class=" col-6 col-sm-6 col-md-12 col-lg-12 slide-bottom-to-top-content">
                                 <div class="our-green">
                                     <h2 class="our-text">
                                         <b>
@@ -851,7 +1225,7 @@ student skill, and best Graphic Design porfolio">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 our-blue-margin Animation-effact">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 our-blue-margin slide-bottom-to-top-content">
                         <div class="our-blue">
                             <div>
                                 <h3 class="our-text-blue">
@@ -910,7 +1284,7 @@ student skill, and best Graphic Design porfolio">
         <div class="container feedback-bg p-3">
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                    <div>
+                    <div class="slide-bottom-to-top-content">
                         <img class="w-100 feedback-img-margin" src="assest/home-assets/feedback/feedback.webp"
                             alt="feedback" />
                     </div>
@@ -955,6 +1329,169 @@ student skill, and best Graphic Design porfolio">
     </section>
 
     <!-- feedback END END END  -->
+
+    <!-- animation card start  -->
+
+    <div class="container-fluid expanding-card">
+        <div class="panel active">
+            <h3>Expore The World</h3>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-1x1">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/50R8b3ab1go?si=mGj4cJzbdHpFl77k?autoplay=1"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>Flower Section 1</h3>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section1">
+                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="section1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-1x1">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/50R8b3ab1go?si=mGj4cJzbdHpFl77k"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>Flower Section 3</h3>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section2">
+                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="section2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-1x1">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/50R8b3ab1go?si=mGj4cJzbdHpFl77k"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>Flower Section 4</h3>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section3">
+                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="section3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-1x1">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/50R8b3ab1go?si=mGj4cJzbdHpFl77k"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h3>Flower Section 5</h3>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section4">
+                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="section4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-1x1">
+                                <iframe width="560" height="315" src="student.jpg" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- animation card END  -->
 
 
     <!-- FAQs start -->
@@ -1094,7 +1631,9 @@ student skill, and best Graphic Design porfolio">
         <div>
             <div class="container footer-content">
                 <div>
-                    <img class="footer-logo mt-5" src="assest/home-assets/logos/united.webp" alt="United Logo" />
+                    <a href="index.html">
+                        <img class="footer-logo mt-5" src="assest/home-assets/logos/united.webp" alt="United Logo" />
+                    </a>
                 </div>
                 <div class="sub-footer-container">
                     <div class="row mt-5 justify-content-center">
@@ -1257,8 +1796,11 @@ student skill, and best Graphic Design porfolio">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+    <script src="html_assest/web-page-animation.js"></script>
+    <script src="html_assest/animation--card.js"></script>
     <script src="html_assest/jquery.js"></script>
     <script src="html_assest/script.js"></script>
+    <script src="html_assest/navbar.js"></script>
 </body>
 
 </html>

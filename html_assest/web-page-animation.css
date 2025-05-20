@@ -1,0 +1,82 @@
+/* slide content left to right start */
+  
+  .slide-left-to-right-content {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* When in view */
+  .slide-left-to-right-content.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+
+/* slide content left to right end */
+
+/* slide content right to left start */
+  
+  .slide-right-to-left-container {
+    padding: 100px;
+  }
+  
+  .slide-right-to-left-content {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* When in view */
+  .slide-right-to-left-content.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+/* slide content right to left end */
+
+/* slide content bottom to top start */
+
+  .slide-bottom-to-top-container {
+    padding: 20px;
+  }
+  
+  .slide-bottom-to-top-content {
+    opacity: 0;
+    transform: translateY(20px); /* <<< Move from BOTTOM instead of RIGHT */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* When in view */
+  .slide-bottom-to-top-content.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+/* slide content bottom to top end */
+
+/* slide content top to bottom start */
+
+  .slide-top-to-bottom-container {
+    padding: 20px;
+  }
+  
+  .slide-top-to-bottom-content {
+    opacity: 0;
+    transform: translateY(-20px); /* <<< Move from BOTTOM instead of RIGHT */
+    transition: opacity 0.5s ease-out, transform 1s ease-out;
+  }
+  
+  /* When in view */
+  .slide-top-to-bottom-content.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+/* slide content top to bottom end */
+
+html, body{
+  overflow-x: hidden;
+}

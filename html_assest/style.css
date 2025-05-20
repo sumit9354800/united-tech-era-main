@@ -13,35 +13,49 @@
 }
 
 
+.heart {
+    position: fixed;
+    z-index: 99999;
+    bottom: 50px;
+    left: 95%;
+    width: 60px;
+}
+
+.logo-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.logo-track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 10s linear infinite;
+}
+
+.logo-track:hover {
+  animation-play-state: paused; /* Optional: Pause on hover */
+}
+
+.company-img {
+  height: 30px;
+  width: auto;
+  transition: transform 0.3s;
+}
 
 
-/* @keyframes appear {
-    from {
-        opacity: 0;
-        scale: 0;
-    }
-
-    to {
-        opacity: 1;
-        scale: 1;
-    }
-
-} */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 
-/*.animation-effact {*/
-/*    animation: appear linear;*/
-/*    animation-timeline: view();*/
-/*    animation-range: entry 0% cover 30%;*/
-/*}*/
-
-
-/* html , body {
-    overflow-x: hidden;
- }
-  */
-
-/* Learn From Microsoft Certified Expert apply start */
 
 .banner {
     display: flex;
@@ -285,7 +299,7 @@ h1 {
 }
 
 label {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .form-section {
@@ -483,12 +497,6 @@ label {
     font-size: 1.3em;
 }
 
-
-
-.company-img {
-    width: 10%;
-    height: auto;
-}
 
 
 .course-syllabus-padding {
@@ -904,6 +912,7 @@ h1 {
 
 @media (min-width: 1200px) {
 
+
     /* Learn From Microsoft Certified Expert apply start */
 
     .banner {
@@ -959,7 +968,7 @@ h1 {
 
     label {
         font-size: 1.1em;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     /* Start your journey form END END END */
@@ -1009,7 +1018,9 @@ h1 {
 }
 
 
+
 @media (max-width: 1200px) {
+
 
     /* Learn From Microsoft Certified Expert apply start */
     .banner {
@@ -1160,12 +1171,6 @@ h1 {
         font-size: 0.9em;
     }
 
-
-
-    .company-img {
-        width: 10%;
-        height: auto;
-    }
 
     .course-syllabus-padding {
         font-size: 1em;
@@ -2156,6 +2161,10 @@ p {
     .interview-footer {
         font-size: small;
     }
+
+    .heart {
+        left: 90%;
+    }
 }
 
 @media (max-width: 450px) {
@@ -2221,6 +2230,11 @@ p {
     .master-Course-p {
         padding: 20px;
     }
+
+    .heart {
+        left: 90%;
+    }
+
 
 
     /* Explore the master course END END END */

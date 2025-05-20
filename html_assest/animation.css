@@ -6,30 +6,127 @@
 }
 
 
-.tf{
+.tf {
     text-transform: capitalize;
 }
 
+.with-united-btn {
+    text-decoration: none;
+    background-color: rgb(242, 242, 242);
+    color: black;
+    width: 35%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 0;
+}
 
-/* @keyframes appear {
-    from {
-        opacity: 0;
-        scale: 0;
-    }
-
-    to {
-        opacity: 1;
-        scale: 1;
-    }
-
+.with-united-btn:hover {
+    background-color: rgb(41, 130, 255);
+    color: white;
+    box-shadow: 2px 5px black;
 }
 
 
-.animation-effact {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-} */
+.index-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('6 Tourist Destination Promotion.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.hover-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 2;
+}
+
+.index-container:hover .hover-btn {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.index-container:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.gallery-flex {
+    margin: 55px 0 0 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-contant {
+    height: 500px;
+    width: 30%;
+}
+
+
+
+.logo-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.logo-track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 20s linear infinite;
+}
+
+.logo-track:hover {
+  animation-play-state: paused; /* Optional: Pause on hover */
+}
+
+.company-img {
+  height: 30px;
+  width: auto;
+  transition: transform 0.3s;
+}
+
+.company-img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 
 .view-more {
@@ -160,7 +257,7 @@ h1 {
 
 
 h1 {
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 .bi-bar-chart-steps {
@@ -449,7 +546,7 @@ h1 {
     margin: 50px 0;
 }
 
-.top-place-img-col{
+.top-place-img-col {
     background-color: white;
     text-align: center;
     padding: 20px;
@@ -604,8 +701,10 @@ h1 {
 }
 
 label {
-    font-weight: 600;
+    font-size: 1.1em;
+    font-weight: 500;
 }
+
 
 .form-section {
     margin: 50px 0;
@@ -687,6 +786,7 @@ label {
 .interview-footer-h {
     margin: 30px 0 0 0;
 }
+
 .map-margin {
     margin: 50px 0;
 }
@@ -750,6 +850,7 @@ label {
     .tool-gap {
         gap: 40px;
     }
+
     /* Tools You’ll Become Proficient With END END */
 
     /* E-Accounting Course syllabus start */
@@ -840,9 +941,10 @@ label {
 
 
     /* Tools You’ll Become Proficient With start */
-    .tool-icon{
+    .tool-icon {
         width: 70%;
     }
+
     /* Tools You’ll Become Proficient With END END */
 
 
@@ -1160,6 +1262,31 @@ label {
 
 @media (max-width: 768px) {
 
+
+    .gallery-flex {
+        margin: 55px 0 0 0;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery-img{
+        border-radius: 10px;
+    }
+
+    .gallery-contant {
+        height: 250px;
+        width: 45%;
+    }
+    
+
+
+    .index-container {
+        height: 100%;
+        border-radius: 10px;
+    }
+
     /* Learn From Microsoft Certified Expert apply start */
     .banner {
         flex-direction: row;
@@ -1372,7 +1499,7 @@ label {
         text-align: start;
     }
 
-  
+
     .footer-icon-size {
         width: 100%;
         height: 100%;
@@ -1393,6 +1520,13 @@ label {
 }
 
 @media (max-width: 576px) {
+
+
+    .with-united-btn{
+        width: 50%;
+        font-size: 1em;
+        padding: auto 10px;
+    }
 
     /* Learn From Microsoft Certified Expert apply start */
     .banner {
@@ -1834,8 +1968,8 @@ label {
 
 
     /* FOOTER START */
-    
-     .footer-icon-size {
+
+    .footer-icon-size {
         width: 80%;
         height: 80%;
     }

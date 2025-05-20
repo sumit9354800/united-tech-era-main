@@ -11,25 +11,47 @@
 }
 
 
-/* @keyframes appear {
-    from {
-        opacity: 0;
-        scale: 0;
-    }
+/* view more img start */
 
-    to {
-        opacity: 1;
-        scale: 1;
-    }
-
+.index-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('6 Tourist Destination Promotion.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
+.hover-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 2;
+}
 
-.animation-effact {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-} */
+.index-container:hover .hover-btn {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.index-container:hover .overlay {
+    opacity: 1;
+}
 
 
 .view-more {
@@ -521,6 +543,43 @@ h1 {
     transition: transform 0.5s;
 }
 
+.logo-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.logo-track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 10s linear infinite;
+}
+
+.logo-track:hover {
+  animation-play-state: paused; /* Optional: Pause on hover */
+}
+
+.company-img {
+  height: 50px;
+  width: auto;
+  transition: transform 0.3s;
+}
+
+.company-img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 /* Explore Student Project END END END */
 
@@ -562,6 +621,9 @@ h1 {
     font-weight: 400;
 }
 
+.downloadSyllabus{
+    font-weight: 400;
+}
 .career-img-align {
     text-align: end;
 }
@@ -615,8 +677,10 @@ h1 {
 }
 
 label {
-    font-weight: 600;
+    font-size: 1.1em;
+    font-weight: 500;
 }
+
 
 .form-section {
     margin: 50px 0;
