@@ -927,10 +927,33 @@ student skill, and best Graphic Design porfolio">
                                                             aria-label="Close"></button>
                                                     </div>
                                                     <div class="modal-body">
-                                                        <a href="#" id="downloadSyllabus"
-                                                            class="nav-link text-primary explore-more">Download Syllabus
-                                                            <i class="bi bi-chevron-right"></i>
-                                                        </a>
+                                                        <div>
+                                                            <form id="downloadSyllabus" action="download.php"
+                                                                method="post">
+                                                                <div class="form-floating mb-3">
+                                                                    <input type="text" class="form-control" name="name"
+                                                                        id="floatingInput"
+                                                                        placeholder="name@example.com" required />
+                                                                    <label for="floatingInput">Name</label>
+                                                                </div>
+                                                                <div class="form-floating">
+                                                                    <input type="Email" class="form-control"
+                                                                        name="email" id="floatingPassword"
+                                                                        placeholder="Email" required />
+                                                                    <label for="floatingPassword">Email</label>
+                                                                </div>
+                                                                <div class="form-floating mt-3">
+                                                                    <input type="Mobile" class="form-control"
+                                                                        name="mobile" id="floatingPassword"
+                                                                        placeholder="Mobile" required />
+                                                                    <label for="floatingPassword">Mobile</label>
+                                                                </div>
+                                                                <div class="text-center mt-3">
+                                                                    <input type="submit" class="btn btn-primary" name=""
+                                                                        id="">
+                                                                </div>
+                                                            </form>
+                                                        </div>
                                                     </div>
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary"
@@ -1332,17 +1355,23 @@ student skill, and best Graphic Design porfolio">
 
     <!-- animation card start  -->
 
-    <div class="container-fluid expanding-card">
+    <div class="container-fluid expanding-card d-none d-md-none d-lg-flex">
         <div class="panel active">
-            <h3>Expore The World</h3>
+            <h3>Flower Section 1</h3>
             <!-- Button trigger modal -->
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
-                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+            <button type="button" class="btn d-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+                <!-- <div id="js-hover-icon">
+                    <div class="d-flex align-items-center justify-content-center" id="hover-icon">
+                        <i class="bi bi-play-fill" title="play"></i>
+                        <span class="fs-6">Play</span>
+                    </div>
+                </div> -->
+                <i class="bi bi-play-circle-fill" id="icon-move" title="play"></i>
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1370,7 +1399,7 @@ student skill, and best Graphic Design porfolio">
         <div class="panel">
             <h3>Flower Section 1</h3>
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section1">
-                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+                <i class="bi bi-play-circle-fill" title="play" id="icon-move"></i>
             </button>
 
             <!-- Modal -->
@@ -1401,7 +1430,7 @@ student skill, and best Graphic Design porfolio">
         <div class="panel">
             <h3>Flower Section 3</h3>
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section2">
-                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+                <i class="bi bi-play-circle-fill" title="play" id="icon-move"></i>
             </button>
 
             <!-- Modal -->
@@ -1432,7 +1461,7 @@ student skill, and best Graphic Design porfolio">
         <div class="panel">
             <h3>Flower Section 4</h3>
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section3">
-                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+                <i class="bi bi-play-circle-fill" title="play" id="icon-move"></i>
             </button>
 
             <!-- Modal -->
@@ -1463,7 +1492,7 @@ student skill, and best Graphic Design porfolio">
         <div class="panel">
             <h3>Flower Section 5</h3>
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#section4">
-                <i class="fa-solid fa-circle-play" title="play" id="icon"></i>
+                <i class="bi bi-play-circle-fill" title="play" id="icon-move"></i>
             </button>
 
             <!-- Modal -->

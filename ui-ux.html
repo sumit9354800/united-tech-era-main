@@ -489,9 +489,12 @@
                         </div>
                         <h4 class="text-decoration-underline text-center explore-margin"><b>Explore Courses</b></h4>
                         <div class="d-flex justify-content-center explore-margin explore-courses mt-4 gap-2">
-                            <a href="#" class="explore-button text-light text-center d-block slide-bottom-to-top-content">Offline Courses</a>
+                            <a href="#"
+                                class="explore-button text-light text-center d-block slide-bottom-to-top-content">Offline
+                                Courses</a>
                             <a href="https://www.unitedinstitute.org.in/"
-                                class="explore-button text-light text-center d-block slide-bottom-to-top-content">Online Courses</a>
+                                class="explore-button text-light text-center d-block slide-bottom-to-top-content">Online
+                                Courses</a>
                         </div>
                     </div>
                     <div class="logo-col col-12 col-sm-12 col-md-4 col-lg-4 text-center slide-bottom-to-top-content">
@@ -566,15 +569,16 @@
                 <div class="">
                     <h2 class="syllabus-heading slide-bottom-to-top-content"><b>UI/UX Designing Diploma Course</b></h2>
                     <div class="syllabus">
-                        <p class="gray-text slide-bottom-to-top-content"><b>Examine the curriculum created in accordance with industry
+                        <p class="gray-text slide-bottom-to-top-content"><b>Examine the curriculum created in accordance
+                                with industry
                                 standards!</b>
                         </p>
                     </div>
                     <div class="mt-3 d-flex gap-3 align-items-center">
                         <div class="">
                             <!-- Button trigger modal1 -->
-                            <button type="button" class="d-block talk-to-mentor text-center slide-bottom-to-top-content" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
+                            <button type="button" class="d-block talk-to-mentor text-center slide-bottom-to-top-content"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Talk To Mentor
                             </button>
                             <!-- Modal -->
@@ -612,7 +616,8 @@
                         </div>
                         <div class="d-block d-sm-block d-md-none d-lg-none">
                             <!-- Button trigger modal -->
-                            <button type="button" class="d-block download-syllabus-btn text-center slide-bottom-to-top-content"
+                            <button type="button"
+                                class="d-block download-syllabus-btn text-center slide-bottom-to-top-content"
                                 data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                 Download Syllabus
                             </button>
@@ -630,10 +635,26 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <a href="#" id="downloadSyllabus"
-                                                class="nav-link text-primary explore-more">Download Syllabus
-                                                <i class="bi bi-chevron-right"></i>
-                                            </a>
+                                            <form id="downloadSyllabus" action="ui-ux.php" method="post">
+                                                <div class="form-floating mb-3">
+                                                    <input type="text" class="form-control" name="name"
+                                                        id="floatingInput" placeholder="name@example.com" required />
+                                                    <label for="floatingInput">Name</label>
+                                                </div>
+                                                <div class="form-floating">
+                                                    <input type="Email" class="form-control" name="email"
+                                                        id="floatingPassword" placeholder="Email" required />
+                                                    <label for="floatingPassword">Email</label>
+                                                </div>
+                                                <div class="form-floating mt-3">
+                                                    <input type="Mobile" class="form-control" name="mobile"
+                                                        id="floatingPassword" placeholder="Mobile" required />
+                                                    <label for="floatingPassword">Mobile</label>
+                                                </div>
+                                                <div class="text-center mt-3">
+                                                    <input type="submit" class="btn btn-primary" name="" id="">
+                                                </div>
+                                            </form>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
@@ -647,8 +668,8 @@
                 </div>
                 <div class="d-none d-sm-none d-md-block d-lg-block">
                     <!-- Button trigger modal -->
-                    <button type="button" class="d-block download-syllabus-btn text-center slide-bottom-to-top-content" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop2">
+                    <button type="button" class="d-block download-syllabus-btn text-center slide-bottom-to-top-content"
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                         Download Syllabus
                     </button>
 
@@ -664,10 +685,26 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <a href="#" id="downloadSyllabus"
-                                        class="nav-link text-primary explore-more">Download Syllabus
-                                        <i class="bi bi-chevron-right"></i>
-                                    </a>
+                                    <form id="downloadSyllabus" action="ui-ux.php" method="post">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" name="name" id="floatingInput"
+                                                placeholder="name@example.com" required />
+                                            <label for="floatingInput">Name</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="Email" class="form-control" name="email" id="floatingPassword"
+                                                placeholder="Email" required />
+                                            <label for="floatingPassword">Email</label>
+                                        </div>
+                                        <div class="form-floating mt-3">
+                                            <input type="Mobile" class="form-control" name="mobile"
+                                                id="floatingPassword" placeholder="Mobile" required />
+                                            <label for="floatingPassword">Mobile</label>
+                                        </div>
+                                        <div class="text-center mt-3">
+                                            <input type="submit" class="btn btn-primary" name="" id="">
+                                        </div>
+                                    </form>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -1240,7 +1277,8 @@
                         offered, and career pathways.
                     </p>
                     <!-- Button trigger modal -->
-                    <button type="button" class="d-block download-syllabus-btn text-center career-btn career-margin slide-bottom-to-top-content"
+                    <button type="button"
+                        class="d-block download-syllabus-btn text-center career-btn career-margin slide-bottom-to-top-content"
                         data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
                         Download Syllabus
                     </button>
@@ -1257,10 +1295,26 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <a href="#" id="downloadSyllabus" class="nav-link text-primary career-btn">Download
-                                        Syllabus
-                                        <i class="bi bi-chevron-right"></i>
-                                    </a>
+                                    <form id="downloadSyllabus" action="ui-ux.php" method="post">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" name="name" id="floatingInput"
+                                                placeholder="name@example.com" required />
+                                            <label for="floatingInput">Name</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="Email" class="form-control" name="email" id="floatingPassword"
+                                                placeholder="Email" required />
+                                            <label for="floatingPassword">Email</label>
+                                        </div>
+                                        <div class="form-floating mt-3">
+                                            <input type="Mobile" class="form-control" name="mobile"
+                                                id="floatingPassword" placeholder="Mobile" required />
+                                            <label for="floatingPassword">Mobile</label>
+                                        </div>
+                                        <div class="text-center mt-3">
+                                            <input type="submit" class="btn btn-primary" name="" id="">
+                                        </div>
+                                    </form>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
