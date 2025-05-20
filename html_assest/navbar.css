@@ -17,12 +17,117 @@
       transform: translateY(0);
     }
 
-
-
     .nav-img:hover {
       transform: scale(1.050);
       transition: all 0.3s ease-in-out
     }
+
+    /* Fullscreen Loader Background */
+    #loader {
+      position: fixed;
+      z-index: 9999;
+      background: #ffffff;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Spinner Animation */
+    .spinner {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #3498db;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+
+    /* Container with position relative */
+    .image-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      /* adjust as needed */
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .image-container img {
+      width: 100%;
+      display: block;
+      border-radius: 35px;
+    }
+
+    /* Overlay + icon - hidden by default */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(5, 1, 34, 0.525);
+      opacity: 0;
+      transition: 0.5s;
+      border-radius: 35px;
+    }
+
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+
+    /* Plus icon styling */
+    .plus-icon {
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: all;
+      cursor: pointer;
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.9);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      width: 40%;
+      height: 80%;
+      object-position: top;
+      object-fit: fill;
+      border-radius: 55px;
+    }
+
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+    }
+
 
 
 
@@ -93,8 +198,6 @@
 
       /* navbar END END END */
 
-
-
     }
 
     @media (max-width: 992px) {
@@ -130,5 +233,39 @@
         margin: 0 !important;
       }
 
+      .modal-content {
+        width: 60%;
+        height: 60%;
+
+      }
+
+
+    }
+
+    @media (max-width: 768px) {
+      .modal-content {
+        width: 50%;
+        height: 50%;
+        border-radius: 30px;
+
+      }
+
+      .image-container img {
+        border-radius: 10px;
+      }
+
+      .overlay {
+        border-radius: 10px;
+      }
+
+    }
+
+    @media (max-width: 550px) {
+
+      .modal-content {
+        width: 80%;
+        height: 50%;
+
+      }
 
     }

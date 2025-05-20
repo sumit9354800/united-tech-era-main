@@ -13,52 +13,6 @@
     text-transform: capitalize;
 }
 
-/* view more img start */
-
-
-.index-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: url('6 Tourist Destination Promotion.png');
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    border-radius: 40px;
-}
-
-.hover-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 2;
-}
-
-.index-container:hover .hover-btn {
-    display: block;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    transition: opacity 0.3s;
-    z-index: 1;
-}
-
-.index-container:hover .overlay {
-    opacity: 1;
-}
-
-/* view more img END END END */
-
-
 
 
 /* Learn From Microsoft Certified Expert apply start */
