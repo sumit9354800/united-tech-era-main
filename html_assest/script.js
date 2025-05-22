@@ -18,11 +18,7 @@ let downloadSyllabus = document.querySelector("#downloadSyllabus");
 
 
 function renderAccounting() {
-<<<<<<< HEAD
     downloadSyllabus.action = "e-accounting.php"
-=======
-    downloadSyllabus.action = "e_acconting.php"
->>>>>>> 440e665dc426222b3760d87c584e79b2d765210d
     courserName.innerHTML = "<b>E-Accounting Diploma Course</b>";
     diplomaImg.src = "assest/home-assets/render/e-accounting.webp";
     diplomaSyllabus1.innerHTML = `
@@ -868,11 +864,7 @@ function renderUiUx() {
     `
 }
 
-<<<<<<< HEAD
 // renderAccounting();
-=======
-renderAccounting();
->>>>>>> 440e665dc426222b3760d87c584e79b2d765210d
 // renderWebDevelopment();
 // renderGraphicDesign();
 // renderAnimation();

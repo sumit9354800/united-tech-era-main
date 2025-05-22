@@ -1,97 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="shortcut icon" href="assest/E-accounting-page/logos/united.webp" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
-        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- owl  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="html_assest/contact-us.css">
-    <link rel="stylesheet" href="html_assest/navbar.css">
-    <link rel="stylesheet" href="html_assest/web-page-animation.css">
-</head>
-
-<body>
-
-    <div id="loader">
-        <div class="d-flex flex-column gap-5 justify-content-center align-items-center">
-            <img src="assest/United Logo (1) 2.webp" class="w-100" alt="Loading...">
-            <div class="spinner"></div>
-        </div>
-    </div>
-
-    <!-- Learn From Microsoft Certified Expert apply start -->
-    <section>
-        <div class="banner">
-            <div class="dots">
-                <span class="dot red"></span>
-                <span class="dot green"></span>
-                <span class="dot blue"></span>
-            </div>
-            <div class="d-flex justify-content-between align-items-center gap-3">
-                <div class="text gray-color certified-expert">Learn From Microsoft Certified Expert</div>
-                <!-- Button trigger modal -->
-                <button type="button" class="btns" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Apply now
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Apply Now Form</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name">
-                                    <label for="floatingInput">Enter Name</label>
-                                </div>
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="floatingPassword"
-                                        placeholder="Mobile Number">
-                                    <label for="floatingPassword">Mobile Number</label>
-                                </div>
-                                <div class="text-center mt-3">
-                                    <input type="submit" class="btn btn-primary w-50" name="" id="">
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Learn From Microsoft Certified Expert apply end -->
-
-
-
-    <!-- main carousle start -->
-    <section>
-        <div class="container-fluid bg-container">
-
-            <!-- this navbar for large size start -->
+<!-- this navbar for large size start -->
             <section class="d-none d-lg-block mb-3 d-xl-block lg-navbar">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
@@ -113,7 +20,7 @@
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Course
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu mt-3">
                                         <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
                                             <li class="text-center">
                                                 <a href="e_acconting.html">
@@ -155,8 +62,39 @@
                                         </div>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Student Project</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Students Project
+                                    </a>
+                                    <ul class="dropdown-menu mt-3">
+                                        <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                            <li class="text-center">
+                                                <a href="web-development.html">
+                                                    <img src="assest/project-nav-image/web-nav-icon.webp"
+                                                        alt="web-development.html" class="nav-img">
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="graphic.html">
+                                                    <img src="assest/project-nav-image/graphic-nav-icon.webp"
+                                                        alt="graphic-nav.webp" class="nav-img">
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="animation.html">
+                                                    <img src="assest/project-nav-image/anime-nav-icon.webp"
+                                                        alt="animation-nav.webp" class="nav-img"><br>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="ui-ux.html">
+                                                    <img src="assest/project-nav-image/ui-ux-nav-icon.webp"
+                                                        alt="ui-ux-nav.webp" class="nav-img">
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-light" href="#">Blogs</a>
@@ -203,7 +141,7 @@
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Course
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu mt-3">
                                         <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
                                             <li class="text-center">
                                                 <a href="e_acconting.html">
@@ -245,8 +183,39 @@
                                         </div>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Student Project</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Students Project
+                                    </a>
+                                    <ul class="dropdown-menu mt-3">
+                                        <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                            <li class="text-center">
+                                                <a href="web-development.html">
+                                                    <img src="assest/project-nav-image/web-nav-icon.webp"
+                                                        alt="web-development.html" class="nav-img">
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="graphic.html">
+                                                    <img src="assest/project-nav-image/graphic-nav-icon.webp"
+                                                        alt="graphic-nav.webp" class="nav-img">
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="animation.html">
+                                                    <img src="assest/project-nav-image/anime-nav-icon.webp"
+                                                        alt="animation-nav.webp" class="nav-img"><br>
+                                                </a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a href="ui-ux.html">
+                                                    <img src="assest/project-nav-image/ui-ux-nav-icon.webp"
+                                                        alt="ui-ux-nav.webp" class="nav-img">
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-light" href="#">Blogs</a>
@@ -305,52 +274,83 @@
                                                 data-bs-toggle="dropdown" aria-expanded="false">
                                                 Course
                                             </a>
-                                            <ul class="dropdown-menu">
+                                            <ul class="dropdown-menu mt-3">
                                                 <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
                                                     <li class="text-center">
                                                         <a href="e_acconting.html">
-                                                            <img src="assest/navbar-img/accounting-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/accounting-nav.webp"
+                                                                alt="accounting-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item"
                                                                 href="e_acconting.html">E-Accounting</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="web-development.html">
-                                                            <img src="assest/navbar-img/web-development-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/web-development-nav.webp"
+                                                                alt="web-development-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item" href="web-development.html">Web
                                                                 Development</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="graphic.html">
-                                                            <img src="assest/navbar-img/graphic-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/graphic-nav.webp"
+                                                                alt="graphic-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item" href="graphic.html">Graphic
                                                                 Designing</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="animation.html">
-                                                            <img src="assest/navbar-img/animation-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/animation-nav.webp"
+                                                                alt="animation-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item" href="animation.html">Animation &
                                                                 Editing</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="ui-ux.html">
-                                                            <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/ui-ux-nav.webp"
+                                                                alt="ui-ux-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
                                                         </a>
                                                     </li>
                                                 </div>
                                             </ul>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Student Project</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Students Project
+                                            </a>
+                                            <ul class="dropdown-menu mt-3">
+                                                <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                                    <li class="text-center">
+                                                        <a href="web-development.html">
+                                                            <img src="assest/project-nav-image/web-nav-icon.webp"
+                                                                alt="web-development.html" class="nav-img">
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="graphic.html">
+                                                            <img src="assest/project-nav-image/graphic-nav-icon.webp"
+                                                                alt="graphic-nav.webp" class="nav-img">
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="animation.html">
+                                                            <img src="assest/project-nav-image/anime-nav-icon.webp"
+                                                                alt="animation-nav.webp" class="nav-img"><br>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="ui-ux.html">
+                                                            <img src="assest/project-nav-image/ui-ux-nav-icon.webp"
+                                                                alt="ui-ux-nav.webp" class="nav-img">
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </ul>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Blogs</a>
@@ -362,7 +362,7 @@
                                             <a class="nav-link" href="about-us.html">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-light" href="contact-us.html">Contact Us</a>
+                                            <a class="nav-link" href="contact-us.html">Contact Us</a>
                                         </li>
                                         <li class="nav-item mt-3">
                                             <a class="button text-light" href="#">Login</a>
@@ -453,52 +453,83 @@
                                                 data-bs-toggle="dropdown" aria-expanded="false">
                                                 Course
                                             </a>
-                                            <ul class="dropdown-menu">
+                                            <ul class="dropdown-menu mt-3">
                                                 <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
                                                     <li class="text-center">
                                                         <a href="e_acconting.html">
-                                                            <img src="assest/navbar-img/accounting-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/accounting-nav.webp"
+                                                                alt="accounting-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item"
                                                                 href="e_acconting.html">E-Accounting</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="web-development.html">
-                                                            <img src="assest/navbar-img/web-development-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/web-development-nav.webp"
+                                                                alt="web-development.html" class="nav-img"><br>
                                                             <a class="dropdown-item" href="web-development.html">Web
                                                                 Development</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="graphic.html">
-                                                            <img src="assest/navbar-img/graphic-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/graphic-nav.webp"
+                                                                alt="graphic-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item" href="graphic.html">Graphic
                                                                 Designing</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="animation.html">
-                                                            <img src="assest/navbar-img/animation-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/animation-nav.webp"
+                                                                alt="animation-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item" href="animation.html">Animation &
                                                                 Editing</a>
                                                         </a>
                                                     </li>
                                                     <li class="text-center">
                                                         <a href="ui-ux.html">
-                                                            <img src="assest/navbar-img/ui-ux-nav.webp" alt=""
-                                                                class="nav-img"><br>
+                                                            <img src="assest/navbar-img/ui-ux-nav.webp"
+                                                                alt="ui-ux-nav.webp" class="nav-img"><br>
                                                             <a class="dropdown-item" href="ui-ux.html">UI/UX</a>
                                                         </a>
                                                     </li>
                                                 </div>
                                             </ul>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Student Project</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Students Project
+                                            </a>
+                                            <ul class="dropdown-menu mt-3">
+                                                <div class="d-flex flex-column flex-md-column flex-lg-row p-2">
+                                                    <li class="text-center">
+                                                        <a href="web-development.html">
+                                                            <img src="assest/project-nav-image/web-nav-icon.webp"
+                                                                alt="web-development.html" class="nav-img">
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="graphic.html">
+                                                            <img src="assest/project-nav-image/graphic-nav-icon.webp"
+                                                                alt="graphic-nav.webp" class="nav-img">
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="animation.html">
+                                                            <img src="assest/project-nav-image/anime-nav-icon.webp"
+                                                                alt="animation-nav.webp" class="nav-img"><br>
+                                                        </a>
+                                                    </li>
+                                                    <li class="text-center">
+                                                        <a href="ui-ux.html">
+                                                            <img src="assest/project-nav-image/ui-ux-nav-icon.webp"
+                                                                alt="ui-ux-nav.webp" class="nav-img">
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </ul>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Blogs</a>
@@ -510,7 +541,7 @@
                                             <a class="nav-link" href="about-us.html">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-light" href="contact-us.html">Contact Us</a>
+                                            <a class="nav-link" href="contact-us.html">Contact Us</a>
                                         </li>
                                         <li class="nav-item mt-3">
                                             <a class="button text-light" href="#">Login</a>
@@ -570,371 +601,3 @@
                 </nav>
             </section>
             <!-- this navbar for small size end -->
-
-            <!-- e accounting carousle start -->
-            <div class="container-fluid united-border bg-light united-p-5">
-                <div class="row justify-content-evenly align-items-center">
-                    <div class="united-col text-dark col-12 col-sm-12 col-md-6 col-lg-6">
-                        <h1 class="mb-4"><b>
-                                Contact Us
-                            </b>
-                        </h1>
-                        <h3 class="mb-4 slide-bottom-to-top-content">
-                            Contact Us – Your Technology Excellence Begins With United Tech Era
-                        </h3>
-                        <p class="mb-4 gray-color section-one-text slide-bottom-to-top-content">
-                            Location : Address: C-356 60foot First Floor Mahavir Enclave Part 3, Uttam Nagar, New
-                            Delhi-110050
-                        </p>
-                        <div class="e-accounting-margin slide-bottom-to-top-content">
-                            <img src="assest/contact-us/contact-us-reveiw.webp" class="img-fluid" alt="Group 185">
-                        </div>
-                        <div class="row mt-4 align-items-start slide-bottom-to-top-content">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
-                                <div class="d-flex gap-3 align-items-center">
-                                    <i class="bi bi-telephone-fill"></i>
-                                    <div>
-                                        <span class="d-block">+91:93153-27442</span>
-                                        <span class="d-block">+91:93102-60066</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
-                                <div class="d-flex gap-3 align-items-center">
-                                    <i class="bi bi-envelope"></i>
-                                    <span>unitedtechera@gmail.com</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="logo-col col-12 col-sm-12 col-md-4 col-lg-4 text-center slide-right-to-left-content">
-                        <img src="assest/contact-us/United Logo.webp" class="microsoft-img" alt="e-accounting">
-                    </div>
-                </div>
-            </div>
-            <!-- e accounting carousle end -->
-        </div>
-    </section>
-
-    <!-- main carousle end -->
-
-    <!-- certification for all courses start -->
-
-    <section class="diploma-bg">
-        <div class="container mt-5 mb-5">
-            <h2 class="text-center"><b>certification for all courses</b></h2>
-            <div class="row justify-content-center">
-                <div class="col-6 col-sm-6 col-md-4 col-lg-4 mt-4 slide-bottom-to-top-content">
-                    <div class="p-0 d-flex justify-content-center">
-                        <img src="assest/contact-us/accounting-diploma.webp" class="diploma-img" alt="">
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-4 mt-4 slide-bottom-to-top-content">
-                    <div class="p-0 d-flex justify-content-center">
-                        <img src="assest/contact-us/web-development-diploma.webp" class="diploma-img" alt="">
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-4 mt-4 slide-bottom-to-top-content">
-                    <div class="p-0 d-flex justify-content-center">
-                        <img src="assest/contact-us/graphic-diploma.webp" class="diploma-img" alt="">
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-4 mt-4 slide-bottom-to-top-content">
-                    <div class="p-0 d-flex justify-content-center">
-                        <img src="assest/contact-us/animation-diploma.webp" class="diploma-img" alt="">
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-4 mt-4 slide-bottom-to-top-content">
-                    <div class="p-0 d-flex justify-content-center">
-                        <img src="assest/contact-us/ui-ux-diploma.webp" class="diploma-img" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- certification for all courses end -->
-
-    <!-- social media start -->
-    <section>
-        <div class="d-flex justify-content-center align-items-center">
-            <h2 class="text-center col-11 col-sm-11 col-lg-8 social-heading slide-bottom-to-top-content"><b>Connect with
-                    us across all social media
-                    platforms, and be among the first
-                    to receive our exciting updates!</b>
-            </h2>
-        </div>
-        <div class="w-100 social-media-bg d-flex justify-content-center align-items-end">
-            <span class="social-text slide-bottom-to-top-content">Contact us at any time; we're available 24/7.</span>
-        </div>
-    </section>
-    <!-- social media end -->
-
-
-    <!-- contact us form start -->
-
-    <section class="container-fluid d-flex justify-content-center align-items-center flex-column">
-        <div class="container">
-            <h2 class="contact-heading text-center"><b>Contact Us</b></h2>
-            <h4 class="contact-sub-heading text-center slide-bottom-to-top-content">"Get in contact with us and let's
-                get started—we're here to help
-                you succeed"</h4>
-        </div>
-        <form class="contact-container">
-            <h4 class="text-center mb-4"><b>Start your journey</b></h4>
-            <div class="row justify-content-center contact-form-padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="p-0">
-                        <div class="form-floating mt-4">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name">
-                            <label for="floatingInput">Enter Name</label>
-                        </div>
-                        <div class="form-floating  mt-4">
-                            <input type="email" class="form-control" id="floatingPassword"
-                                placeholder="name@example.com">
-                            <label for="floatingPassword">Email address</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="p-0">
-                        <div class="form-floating mt-4">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Mobile Number">
-                            <label for="floatingInput">Enter Mobile</label>
-                        </div>
-                        <select class="form-select form-select-lg mt-4" aria-label="Large select example">
-                            <option selected>Select Mode</option>
-                            <option value="1">Online Mode</option>
-                            <option value="2">Offline Mode</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center  contact-form-padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6  mt-4">
-                    <div class="p-0">
-                        <select class="form-select form-select-lg" aria-label="Large select example">
-                            <option selected>Select course</option>
-                            <option value="E Accounting">E Accounting</option>
-                            <option value="Web development">Web development</option>
-                            <option value="Graphic Designing">Graphic Designing</option>
-                            <option value="Animation & Editing">Animation & Editing</option>
-                            <option value="UI/UX Designing">UI/UX Designing</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6  mt-4">
-                    <div class="p-0">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Message">
-                            <label for="floatingInput">Message</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-4">
-                    <input type="submit" class="btn btn-primary w-50 submit-text" name="" id="">
-                </div>
-            </div>
-        </form>
-    </section>
-
-    <!-- contact us form END -->
-
-
-    <!-- Begin your Journey here start ! -->
-
-    <section class="begin-bg">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-sm-12 col-md-7 col-lg-7 text-container-padding">
-                    <h2 class="begin-text"><b class="begin-heading">Begin your Journey here !</b></h2>
-                    <p class="begin-text begin-para slide-bottom-to-top-content">
-                        Reach out to United Tec Era and start your path to your future. Whether you're inquiring about a
-                        course,
-                        require advice, or simply need to know where to start — we're just a message away.
-                    </p>
-                    <p class="begin-text begin-para slide-bottom-to-top-content">
-                        Your journey, your dreams, your growth — start with a discussion.
-                    </p>
-                    <a href="#" class="fs-3 text-decoration-underline text-dark begin-text"><b>Explore Courses</b></a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 begin-img-container">
-                    <img src="assest/contact-us/Group 300.webp" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Begin your Journey here END ! -->
-
-
-    <!-- FOOTER START -->
-
-    <section class="container-fluid footer-bg">
-        <div>
-            <div class="container footer-content">
-                <div>
-                    <a href="index.html">
-                        <img class="footer-logo mt-5" src="assest/home-assets/logos/united.webp" alt="United Logo" />
-                    </a>
-                </div>
-                <div class="sub-footer-container">
-                    <div class="row mt-5 justify-content-center">
-                        <div class="col-sm-12 col-md-6 col-lg-4 text-light">
-                            <div class="d-flex gap-3 align-items-center">
-                                <p class="footer-p">
-                                    <i class="bi bi-geo-alt-fill"></i> &nbsp;
-                                </p>
-                                <p class="footer-p text-start">
-                                    <strong> Address</strong> : C-356, 60 Feet Rd, Mahavir Enclave Part 2, Mahavir
-                                    Enclave
-                                    Part 3, Uttam Nagar,
-                                    New Delhi, Delhi, 110059
-                                </p>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center">
-                                <p class="footer-p">
-                                    <i class="bi bi-envelope"></i> &nbsp;
-                                </p>
-                                <p class="footer-p text-start">
-                                    Shoot me email here
-                                </p>
-                            </div>
-                            <div class="d-flex gap-3 align-items-center">
-                                <p class="footer-p">
-                                    <i class="bi bi-telephone-fill"></i> &nbsp;
-                                </p>
-                                <p class="footer-p text-start">
-                                    +91:93153-27442/+91:93102-60066
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-light footer-margin2">
-                            <h3 class="footer-h text-decoration-underline"><b>Offline Course</b></h3>
-                            <p class="footer-p"><a href="e_acconting.html" class="nav-link">E-Accounting</a></p>
-                            <p class="footer-p"><a href="web-development.html" class="nav-link">Web Development</a></p>
-                            <p class="footer-p"><a href="graphic.html" class="nav-link">Graphic Designing</a></p>
-                            <p class="footer-p"><a href="animation.html" class="nav-link">Animation & Editing</a></p>
-                            <p class="footer-p"><a href="ui-ux.html" class="nav-link">UI/UX Designing</a></p>
-                            <h3 class="footer-h footer-online-course text-decoration-underline"><b>Online Course</b>
-                            </h3>
-                            <p class="footer-p">Prime video</p>
-                        </div>
-                        <div class="col-5 col-sm-6 col-md-6 col-lg-3 text-light footer-margin">
-                            <h3 class="footer-h text-decoration-underline"><b>Other links</b></h3>
-                            <p class="footer-p"><a href="#" class="nav-link">Student Project</a></p>
-                            <p class="footer-p"><a href="#" class="nav-link">Diploma verification</a></p>
-                            <p class="footer-p"><a href="about-us.html" class="nav-link">About us</a></p>
-                            <p class="footer-p"><a href="contact-us.html" class="nav-link">Contact us</a></p>
-                            <p class="footer-p"><a href="#" class="nav-link">FAQ’s</a></p>
-                            <p class="footer-p"><a href="#" class="nav-link">Site map</a></p>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-2 text-light footer-margin">
-                            <h3 class="footer-h text-center text-decoration-underline"><b>Follow Us</b></h3>
-                            <div class="row">
-                                <a class="col-4" href="https://wa.me/message/DE353ZK3VEC5M1">
-                                    <div class="p-0">
-                                        <img src="assest/home-assets/footer-icon/whatsapp (2).webp"
-                                            class="footer-icon-size" alt="whatsapp" />
-                                    </div>
-                                </a>
-                                <a class="col-4" href="https://www.youtube.com/@unitedtechera8947">
-                                    <div class="p-0">
-                                        <img src="assest/home-assets/footer-icon/youtube.webp" class="footer-icon-size"
-                                            alt="youtube" />
-                                    </div>
-                                </a>
-                                <a class="col-4" href="https://www.instagram.com/united_tech_era/">
-                                    <div class="p-0">
-                                        <img src="assest/home-assets/footer-icon/instagram.webp"
-                                            class="footer-icon-size" alt="instagram" />
-                                    </div>
-                                </a>
-                                <a class="col-4" href="https://in.pinterest.com/unitedtechera/">
-                                    <div class="p-0">
-                                        <img src="assest/home-assets/footer-icon/pintrest.webp" class="footer-icon-size"
-                                            alt="pintrest" />
-                                    </div>
-                                </a>
-                                <a class="col-4" href="https://www.facebook.com/theunitedinstitute">
-                                    <div class="p-0">
-                                        <img src="assest/home-assets/footer-icon/facebook (2).webp"
-                                            class="footer-icon-size" alt="facebook" />
-                                    </div>
-                                </a>
-                                <a class="col-4" href="#">
-                                    <div class="p-0">
-                                        <img src="assest/home-assets/footer-icon/map.webp" class="footer-icon-size"
-                                            alt="map" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <hr class="text-light mt-5" />
-                        <h3 class="text-light text-center mt-5 "><b>Interview Topics</b></h3>
-                        <div class="text-light mt-5 mb-5">
-                            <h4 class="interview-footer-h">E-accounting Interview questions</h4>
-                            <p class="interview-footer">
-                                Tally ERP | TDS Return |Journal Entries | Bank Reconciling | Ledger posting | Final
-                                accounting | Balance sheet | Payroll accounting | Voucher Types | MIS Report | Income
-                                Tax
-                                etc.
-                            </p>
-                            <h4 class="interview-footer-h">Web Development Interview questions</h4>
-                            <p class="interview-footer">
-                                HTML tags | CSS selectors | Flex box | Grid | Java script basics | DOM Manipulation |
-                                ES6 features | Responsive Design | Media Quires | Bootstrap | jQuery | API Integration |
-                                Express.js | Authentication etc.
-                            </p>
-                            <h4 class="interview-footer-h">Animation & video editing Interview questions</h4>
-                            <p class="interview-footer">
-                                Key framing | Motion Graphics | Frame rate | Timeline editing | Green screen |
-                                Rotoscoping | color Grading | Transition | UFX Basic |2D animation | 3D animation |
-                                Story boarding | Masking | Composting etc.
-                            </p>
-                            <h4 class="interview-footer-h">Graphic designing Interview questions</h4>
-                            <p class="interview-footer">
-                                Color theory | Typography | Layout design | Branding | Logo design | Contrast & Balance
-                                | Visual Hierarchy | Grid system | White space |PrinDigital | File formats | raster vs
-                                vector | Design trends
-                            </p>
-                            <h4 class="interview-footer-h">UI\UX designing Interview questions</h4>
-                            <p class="interview-footer">
-                                UI basic | UX fundamental | design Tools | Testing & Feedback | design thinking |
-                                real-world Application
-                            </p>
-                        </div>
-                        <hr class="text-light" />
-                        <div class="w-100 map-margin">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.8032968806756!2d77.06626317495575!3d28.605677285300697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bab51d2f95f%3A0x249ea8a688a8cd7e!2sUNITED%20TECH%20ERA%20-%20Best%20Computer%20Institute%2C%20E%20Accounting%2C%20Web%20Development%2C%20Excel%2C%20Tally.Erp9%2C%20Graphic%20Designing%20%26%20Animation!5e0!3m2!1sen!2sin!4v1745565214415!5m2!1sen!2sin"
-                                class="map" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        <div class="text-light flex-wrap d-flex justify-content-center align-items-centergap-3">
-                            <p class="p-2">All rights reserved | This website is </p>
-                            <p class="bg-dark p-2 rounded-2">
-                                <span class="made-orange">Made</span> In <span class="india-green">India</span> ❤️
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- FOOTER END -->
-
-
-    <!-- bootstrap -->
-    <script src="html_assest/web-page-animation.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
-    <script src="html_assest/navbar.js"></script>
-
-
-</body>
-
-</html>
